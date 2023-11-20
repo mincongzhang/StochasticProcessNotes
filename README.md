@@ -1,5 +1,12 @@
 # MIT OpenCourse - Stochastic Processes Notes
 
+[Stochastic Processes I](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_I.md)
+
+[Stochastic Processes I](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_II.md)
+
+[Ito Calculus](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/ItoCalculus.md)
+
+
 Video: https://www.youtube.com/watch?v=TuTmC8aOQJE
 
 Notes: https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/pages/lecture-notes/
