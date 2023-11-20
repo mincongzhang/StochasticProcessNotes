@@ -1,10 +1,10 @@
 # MIT OpenCourse - Stochastic Processes Notes
 
-[Stochastic Processes I](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_I.md)
+[Stochastic Processes I Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_I.md)
 
-[Stochastic Processes I](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_II.md)
+[Stochastic Processes II Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_process_II.md)
 
-[Ito Calculus](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/ItoCalculus.md)
+[Ito Calculus Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/ItoCalculus.md)
 
 
 Video: https://www.youtube.com/watch?v=TuTmC8aOQJE
