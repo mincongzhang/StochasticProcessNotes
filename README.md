@@ -2,6 +2,9 @@
 
 [Stochastic Processes I Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_processes_I.md)
 
+[Stochastic Processes I Video](https://www.youtube.com/watch?v=TuTmC8aOQJE)
+
+
 [Stochastic Processes II Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/stochastic_processes_II.md)
 
 [Ito Calculus Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/ItoCalculus.md)
