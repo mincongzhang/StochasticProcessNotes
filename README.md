@@ -13,6 +13,8 @@
 
 [Ito Calculus Notes](https://github.com/mincongzhang/StochasticProcessNotes/blob/main/ItoCalculus.md)
 
+[Ito Calculus Video](https://www.youtube.com/watch?v=Z5yRMMVUC5w)
+
 
 Video: https://www.youtube.com/watch?v=TuTmC8aOQJE
 
