@@ -1,3 +1,6 @@
+### Material
+https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote5/
+
 ## Stochastic process
 ### Definition
 
