@@ -14,6 +14,13 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 ### 另一种定义
 在一系列空间路径上的概率分布(Probability distribution over a space of paths).
 
+### 一系列有趣的问题
+
+1. 我们可以关注随机过程变量的依赖性. 比如过去股票的价格如何影响未来的股票价格?
+2. 我们可以关注随机过程变量在一长段时间中的平均值. 比如一个运行的机器中暂停的比例. lues. For example, what is the fraction of time that a machine is idle?
+3. We are interested in boundary events. For example, what is the probability that within a given hour all circuits of some telephone system become simultaneously busy?
+
+
 ## 简单随机游走
 ### 定义 
 
