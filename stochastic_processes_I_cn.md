@@ -34,13 +34,13 @@ $$Y_i: i.i.d 随机变量$$
 i.i.d: independent and identically distributed (独立同分布)
 ```
 
-$$Y_i = 1 \( prob \  50 \\% \)$$
+使得 $Y_i$ 有50%的概率 等于 1 和 -1.
 
-$$Y_i = -1 \( prob \  50 \\% \)$$
+让 $X_0 = 0$, 并且对每一个 $k$,
 
-For each $t$, $$X_t = \sum_{i=1}^{t} Y_i, X_0 = 0 $$
+$$X_k = \sum_{i=1}^{k} Y_i, X_0 = 0 $$
 
-And these $X_0, X_1, X_2, X_3, ...$ is called a one-dimensional simple random walk
+那么我们可以把这些 $X_0, X_1, X_2, X_3, ...$ 称为一维简单随机游走(one-dimensional simple random walk)
 
 
 
