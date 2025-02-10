@@ -53,7 +53,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 补充:
 
-方差计算公式: $\sigma ^2 = \frac { \sum (x_i - \mu) }{N}$
+方差计算公式: $\sigma ^2 = \frac { \sum (x_i - \mu) ^ 2 }{N}$
 
 
 ### Properties
