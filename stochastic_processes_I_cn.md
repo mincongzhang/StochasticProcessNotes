@@ -36,9 +36,9 @@ i.i.d: independent and identically distributed (独立同分布)
 
 使得 $Y_i$ 有50%的概率 等于 1 和 -1.
 
-让 $X_0 = 0$, 并且对每一个 $k$,
+让 $X_0 = 0$, 并且对每一个 $k$, 我们有
 
-$$X_k = \sum_{i=1}^{k} Y_i, X_0 = 0 $$
+$$X_k = \sum_{i=1}^{k} Y_i$$
 
 那么我们可以把这些 $X_0, X_1, X_2, X_3, ...$ 称为一维简单随机游走(one-dimensional simple random walk)
 
