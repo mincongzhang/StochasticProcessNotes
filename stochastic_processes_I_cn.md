@@ -42,9 +42,10 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 那么我们可以把这些 $X_0, X_1, X_2, X_3, ...$ 称为 __一维简单随机游走__ (one-dimensional simple random walk). 这之后我们就把它简称为 __随机游走__ (random walk).
 
+如果我们用上中心极限定理(central limit theorem, CLT), 对于一个足够大的 $n$, $X_n$的均值(mean)是0, 方差(variance)是 $n$, 标准差(standard deviation)是 $\sqrt{n}$. 
 
+略作修改, 对于一个足够大的 $n$, $\frac{1}{\sqrt{n}} X_n$的收敛为正态分布(normal distribution), 均值(mean)是0, 方差(variance)是1, 标准差(standard deviation)是1. 
 
-If we apply central limit theorem, the variance will be $t$, standard deviation will be $\sqrt{t}$ 
 
 ```
 在概率论中，中心极限定理 (CLT) 确认，在许多情况下，对于独立并同样分布的随机变量，即使原始变量本身不是正态分布，标准化样本均值的抽样分布也趋向于标准正态分布. 
