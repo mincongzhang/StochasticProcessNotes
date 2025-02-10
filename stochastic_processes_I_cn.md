@@ -17,7 +17,11 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 ## 简单随机游走
 ### 定义 
 
-$$Y_i: i.i.d \ random \ variables$$
+$$Y_i: i.i.d 随机变量$$
+
+```
+i.i.d: independent and identically distributed (独立同分布)
+```
 
 $$Y_i = 1 \( prob \  50 \\% \)$$
 
@@ -27,9 +31,7 @@ For each $t$, $$X_t = \sum_{i=1}^{t} Y_i, X_0 = 0 $$
 
 And these $X_0, X_1, X_2, X_3, ...$ is called a one-dimensional simple random walk
 
-```
-i.i.d: independent and identically distributed (独立同分布)
-```
+
 
 If we apply central limit theorem, the variance will be $t$, standard deviation will be $\sqrt{t}$ 
 
