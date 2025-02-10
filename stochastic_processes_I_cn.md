@@ -16,9 +16,11 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 ### 一系列有趣的问题
 
+通过学习随机过程我们就可以讨论下面这些有趣的问题:
+
 1. 我们可以关注随机过程变量的依赖性. 比如过去股票的价格如何影响未来的股票价格?
 2. 我们可以关注随机过程变量在一长段时间中的平均值. 比如一个运行的机器中途闲置的比例(更现代化的例子, 一台24小时运行的电脑/服务器闲置的比例).
-3. We are interested in boundary events. For example, what is the probability that within a given hour all circuits of some telephone system become simultaneously busy?
+3. 我们可以关注边界事件. 比如在特定的一个小时内电话系统里所有的电话线都忙的可能性是多少?
 
 
 ## 简单随机游走
