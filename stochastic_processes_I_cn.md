@@ -40,7 +40,7 @@ i.i.d: independent and identically distributed (独立同分布)
 
 $$X_k = \sum_{i=1}^{k} Y_i$$
 
-那么我们可以把这些 $X_0, X_1, X_2, X_3, ...$ 称为一维简单随机游走(one-dimensional simple random walk)
+那么我们可以把这些 $X_0, X_1, X_2, X_3, ...$ 称为 __一维简单随机游走__ (one-dimensional simple random walk). 这之后我们就把它简称为 __随机游走__ (random walk).
 
 
 
