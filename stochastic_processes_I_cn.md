@@ -26,6 +26,8 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 ## 简单随机游走
 ### 定义 
 
+我们定义一个独立同分布的随机变量:
+
 $$Y_i: i.i.d 随机变量$$
 
 ```
