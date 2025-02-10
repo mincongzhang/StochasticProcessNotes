@@ -4,7 +4,7 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 ## 随机过程
 ### 定义
 
-随机过程指的是一系列按时间排序的随机变量(A collection of random variables indexed by time)
+随机过程指的是一系列按时间排序的随机变量(A collection of random variables indexed by time).
 
 
 离散随机过程(Discrete-time stochastic process)可表示为: $X_0, X_1, X_2, X_3, ...$
@@ -12,10 +12,10 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 连续随机过程(Continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$
 
 ### 另一种定义
-在一系列空间路径上的概率分布(Probability distribution over a space of paths)
+在一系列空间路径上的概率分布(Probability distribution over a space of paths).
 
-## Simple random walk
-### Definition 
+## 简单随机游走
+### 定义 
 
 $$Y_i: i.i.d \ random \ variables$$
 
