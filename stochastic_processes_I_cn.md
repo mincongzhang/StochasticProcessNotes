@@ -1,17 +1,18 @@
-### Material
+### 材料
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote5/
 
-## Stochastic process
-### Definition
+## 随机过程
+### 定义
 
-A collection of random variables indexed by time
+随机过程指的是一系列按时间排序的随机变量(A collection of random variables indexed by time)
 
-Discrete-time stochastic process: $X_0, X_1, X_2, X_3, ...$
 
-Continuous-time stochastic process: $\\{ X_t \\} _{t \ge 0}$
+离散随机过程可表示为: $X_0, X_1, X_2, X_3, ...$
 
-### Alternative definition
-Probability distribution over a space of paths
+连续随机过程可表示为: $\\{ X_t \\} _{t \ge 0}$
+
+### 另一种定义
+在一系列空间路径上的概率分布(Probability distribution over a space of paths)
 
 ## Simple random walk
 ### Definition 
