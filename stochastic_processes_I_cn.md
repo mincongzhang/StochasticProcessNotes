@@ -55,7 +55,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 ### 性质
 1. $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
-2. 独立增量: $0 t_0 \le t_1 \le ... \le t_k $, then $X_{t_{i+1}} - X_{t_{i}}$ are mutually independent
+2. 独立增量: 对所有 $0 = t_0 \le t_1 \le ... \le t_k $, 随机变量(random variable) $X_{t_{i+1}} - X_{t_{i}}$ 是相互独立的(mutually independent)
 
 3. Stationary: for all $h \ge 1, t \le 0$, the distribution of $X_{t+h} - X_t$ is the same as the distribution of $X_h$
 
