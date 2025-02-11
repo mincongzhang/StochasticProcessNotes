@@ -125,11 +125,12 @@ $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
 $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
-我们可以注意到, 对所有的 $i \in S$, 
+可以注意到, 
 
-$$\sum_{i \in S} p_{ij} = 1$$
+$$\sum_{i \in S} p_{ij} = 1, \forall i \in S$$
 
-All the elements of a Markov chain model can be encoded in a transition probability matrix
+马尔可夫链模型里的所有元素都可以被写进转移概率矩阵里:
+
 
 ![image](https://github.com/mincongzhang/Quant100/assets/5571030/7ef7bbcd-28c2-4d6b-9baf-858e3ce2c661)
 
