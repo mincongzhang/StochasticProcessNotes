@@ -1,7 +1,7 @@
 ### 材料
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote5/
 
-## 随机过程
+## 随机过程 (Stochastic process)
 ### 定义
 
 随机过程指的是一系列按时间排序的随机变量(A collection of random variables indexed by time).
@@ -23,7 +23,7 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 3. 我们可以关注边界事件. 比如在特定的一个小时内电话系统里所有的电话线都忙的可能性是多少?
 
 
-## 简单随机游走
+## 简单随机游走 (Simple random walk)
 ### 定义 
 
 我们定义一个独立同分布的随机变量:
@@ -99,8 +99,8 @@ $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 
 $$f(0) = \frac{B}{A+B}$$
 
-## Markov chain
-### Definition:
+## 马尔科夫链 (Markov chain)
+### 定义
 
 Simple random walk, effect of the past on the future is summarized only by the current state, rather than the whole history. 
 
