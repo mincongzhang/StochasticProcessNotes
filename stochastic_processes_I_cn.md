@@ -87,7 +87,7 @@ $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 3. 我们有边界条件: $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$
 
 从边界条件开始考虑 $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$, 因为我们不想触碰到这个边界, 所以我们从这个边界往上考虑, 假设 $f(-B+1) = \alpha$, 那么我们有:
-1. $f(-B+1) = \frac{1}{2}f(-B+1+1) + \frac{1}{2}f(-B+1-1) = \frac{1}{2}f(-B+2) + \frac{1}{2}f(-B)  =\frac{1}{2}f(-B+2) + 0 = \frac{1}{2}f(-B+2) = \alpha$
+1. $f(-B+1) = \frac{1}{2}f(-B+1+1) + \frac{1}{2}f(-B+1-1) = \frac{1}{2}f(-B+2) + \frac{1}{2}f(-B)  =\frac{1}{2}f(-B+2) + 0 = \frac{1}{2}f(-B+2) = \alpha \Rightarrow f(-B+2) = 2 \alpha$
 2. $f(-B+2) = \frac{1}{2}f(-B+2+1) + \frac{1}{2}f(-B+2-1) = \frac{1}{2}f(-B+3) + \frac{1}{2}f(-B+1)  =\frac{1}{2}f(-B+3) + \frac{1}{2}\alpha = 2 \alpha$
 3. $f(-B+3) = 3 \alpha$
 4. ...
