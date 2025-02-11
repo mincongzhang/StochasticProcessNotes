@@ -129,7 +129,7 @@ $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
 $$\sum_{i \in S} p_{ij} = 1, \forall i \in S$$
 
-马尔可夫链模型里的所有元素都可以被写进转移概率矩阵里:
+马尔可夫链模型里的所有元素都可以被写进转移概率矩阵(transition probability matrix)里:
 
 $$
 A = \begin{pmatrix} 
@@ -143,15 +143,16 @@ $$
 其中每一列的元素之和都是1. 
 
 
-### Example 1
-Machine can be either working or broken on a day:
+### 例子1
 
-1. if it's working, next day break down prob 0.01, continue working prob 0.99
-2. if it breaks down, will get repaired, next day break down prob 0.2, continue working prob 0.8
+一个机器一天可以正常运转也有可能坏掉: 
 
-We can model this by a Markov chain with 2 states: 1) working 2) broken down
+1. 如果当天它正常运转, 那么第二天坏掉的概率是0.01, 继续正常运转的概率是0.99
+2. 如果当天它坏掉了, 它会被修好, 那么第二天坏掉的概率是0.2, 继续正常运转的概率是0.8
 
-Transition probability matrix:
+我们可以用马尔可夫链建模, 其中包含两个状态: 1)正常运转 2)坏掉
+
+转移概率矩阵(transition probability matrix):
 
 $$
 \begin{bmatrix}
@@ -160,10 +161,8 @@ $$
 \end{bmatrix}
 $$
 
-![image](https://github.com/mincongzhang/Quant100/assets/5571030/4a0eeaba-697e-452e-82a6-a340fe96d47d)
-
-### Example 2
-Transition probability for simple random walk:
+### 例子2
+简单随机游走的转移概率(Transition probability for simple random walk):
 
 A simple random walk is an example of a Markov chain. But since the sample space is infinite there is no transition probability matrix. Let's try another way:
 
