@@ -45,7 +45,7 @@ If we apply central limit theorem, the variance will be $t$, standard deviation 
 ### Properties
 1. $E \( X_k \) = 0$
 
-2. Independent increment: $0 t_0 \le t_1 \le ... \le t_k $, then $X_{t_{i+1}} - X_{t_{i}}$ are mutually independent
+2. Independent increment: $0 = t_0 \le t_1 \le ... \le t_k $, then $X_{t_{i+1}} - X_{t_{i}}$ are mutually independent
 
 3. Stationary: for all $h \ge 1, t \le 0$, the distribution of $X_{t+h} - X_t$ is the same as the distribution of $X_h$
 
