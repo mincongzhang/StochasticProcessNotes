@@ -61,9 +61,11 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 只要增量 $Y_i$ 是相同且独立的(identical and independent), 并且均值为0, 那么这些性质就一直能成立. 
 
-### 例子
+### 例子1: 投硬币
 
-Coin tose game: head you win $1, tail you lose $1. If each coin toss is independent, then the balance of the gambler has the distribution of the simple random walk. 
+投硬币游戏: 赌徒连续投一枚均匀的硬币, 如果投到正面赚$1, 如果投到反面亏$1. 如果每次投硬币都是独立的, 那么赌徒盈亏的额度就服从简单随机游走分布. 
+
+### 例子2: 随机游走
 
 For 2 positive integers A and B, what's the probability that the random walk reaches A before it reaches -B? 
 
