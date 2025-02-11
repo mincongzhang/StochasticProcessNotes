@@ -107,15 +107,17 @@ $$f(0) = \frac{B}{A+B}$$
 
 我们也可以说:
 
-$X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1, ..., X_k$. 拥有这样性质的随机过程我们称之为马尔可夫链(Markov chain)
+$X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1, ..., X_k$. 拥有这样性质的随机过程我们称之为马尔可夫链(Markov chain).
 
 再正式一点, 对于 $X_0, X_1, ...$ 这么一个离散时间的随机过程(discrete-time stochastic process), 其中每一个 $X_i$ 取值于某一个离散集合(discrete set) $S$ (这和简单随机游走不同). 这个集合 $S$ 可称为 __状态空间__ (state space).
 
 如果以下成立, 我们可以说随机过程具有马尔可夫性质(Markov property):
+
+对所有的 $n \le 0$ 和 $i \in S$, 满足
+
 $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
-对所有的 $n \le 0$ 和 $i \in S$
-
+### 
 Let's look into the Markov chain more:
 
 A stochastic process with the Markov property is called a Markov chain. Note that a finite Markov chain can be described in terms of the transition probabilities.
