@@ -99,7 +99,7 @@ $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 
 $$f(0) = \frac{B}{A+B}$$
 
-## 马尔科夫链 (Markov chain)
+## 马尔可夫链 (Markov chain)
 ### 定义
 
 Simple random walk, effect of the past on the future is summarized only by the current state, rather than the whole history. 
