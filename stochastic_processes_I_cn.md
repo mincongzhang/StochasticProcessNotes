@@ -131,10 +131,17 @@ $$\sum_{i \in S} p_{ij} = 1, \forall i \in S$$
 
 马尔可夫链模型里的所有元素都可以被写进转移概率矩阵里:
 
+$$
+A = \begin{pmatrix} 
+p_{11} & p_{21} & \dots & p_{m1} \\
+p_{12} & p_{22} & \dots & p_{m2} \\
+\vdots & \vdots & \ddots & \vdots \\
+p_{1m} & p_{2m} & \dots & p_{mm}
+\end{pmatrix}
+$$
 
-![image](https://github.com/mincongzhang/Quant100/assets/5571030/7ef7bbcd-28c2-4d6b-9baf-858e3ce2c661)
+其中每一列的元素之和都是1. 
 
-Where the sum of each column is equal to 1
 
 ### Example 1
 Machine can be either working or broken on a day:
@@ -145,6 +152,7 @@ Machine can be either working or broken on a day:
 We can model this by a Markov chain with 2 states: 1) working 2) broken down
 
 Transition probability matrix:
+
 
 ![image](https://github.com/mincongzhang/Quant100/assets/5571030/4a0eeaba-697e-452e-82a6-a340fe96d47d)
 
