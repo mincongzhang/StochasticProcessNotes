@@ -153,10 +153,12 @@ We can model this by a Markov chain with 2 states: 1) working 2) broken down
 
 Transition probability matrix:
 
+$$
 \begin{bmatrix}
 0.99 & 0.8 \\
 0.01 & 0.2 
 \end{bmatrix}
+$$
 
 ![image](https://github.com/mincongzhang/Quant100/assets/5571030/4a0eeaba-697e-452e-82a6-a340fe96d47d)
 
