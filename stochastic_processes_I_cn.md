@@ -103,11 +103,11 @@ $$f(0) = \frac{B}{A+B}$$
 
 ### 定义
 
-简单随机游走(simple random walk)的一个重要性质是只有当前状态(current state)才能影响未来, 在当前状态以前的历史状态不对未来状态产生影响. 
+简单随机游走(simple random walk)的一个重要性质是只有当前状态(current state)才能影响未来(future state), 在当前状态以前的历史状态不对未来状态产生影响. 
 
-Or:
+我们也可以说:
 
-The distribution of $X_{k+1}$ depended only on $X_k$, not on the whole set of $X_0, X_1, ..., X_k$, A stochastic process with such property is called a Markov chain
+$X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1, ..., X_k$. 拥有这样性质的随机过程我们称之为马尔可夫链(Markov chain)
 
 More formally, let $X_0, X_1, ...$ be a discrete-time stochastic process where each $X_i$ takes value in some discrete set S (this is not the case in the simple random walk). The set S is called the __state space__.
 
