@@ -53,7 +53,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 
 ### 性质
-1. $E \( X_k \) = 0$, for all $k$, $\mathbb{E}$
+1. $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
 2. Independent increment: $0 t_0 \le t_1 \le ... \le t_k $, then $X_{t_{i+1}} - X_{t_{i}}$ are mutually independent
 
