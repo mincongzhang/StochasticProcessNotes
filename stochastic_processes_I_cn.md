@@ -82,17 +82,16 @@ $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 
 来看看我们已有的条件:
 
-1. Consider the outcome of the first coin toss, we have the recursive formula: $f(k) = \frac{1}{2}f(k+1) + \frac{1}{2}f(k-1)$
+1. 从上一个投硬币的例子我们可以总结出这个递归公式(因为是独立增量并且上下游走概率都为50%): $f(k) = \frac{1}{2}f(k+1) + \frac{1}{2}f(k-1)$
 2. 我们有边界条件: $f(A) = P \(X_{\tau} = A | X_0 = A \) = 1$ 
 3. 我们有边界条件: $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$
 
-If we let $f(-B+1) = \alpha$, then we have:
+从边界条件开始考虑 $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$, 因为我们不想触碰到这个边界, 所以我们可以往这个边界上方试试, 假设 $f(-B+1) = \alpha$, 那么我们有:
 1. $f(-B+1) = \frac{1}{2}f(-B+1+1) + \frac{1}{2}f(-B+1-1) = \frac{1}{2}f(-B+2) + \frac{1}{2}f(-B)  =\frac{1}{2}f(-B+2) + 0 = \frac{1}{2}f(-B+2) = \alpha$
-2. $f(-B+2) = 2 \alpha$
-3. $f(-B+2) = \frac{1}{2}f(-B+2+1) + \frac{1}{2}f(-B+2-1) = \frac{1}{2}f(-B+3) + \frac{1}{2}f(-B+1)  =\frac{1}{2}f(-B+3) + \frac{1}{2}\alpha = 2 \alpha$
-4. $f(-B+3) = 3 \alpha$
-5. ...
-6. $f(-B+r) = \alpha r$, for all $r \le A+B$
+2. $f(-B+2) = \frac{1}{2}f(-B+2+1) + \frac{1}{2}f(-B+2-1) = \frac{1}{2}f(-B+3) + \frac{1}{2}f(-B+1)  =\frac{1}{2}f(-B+3) + \frac{1}{2}\alpha = 2 \alpha$
+3. $f(-B+3) = 3 \alpha$
+4. ...
+5. $f(-B+r) = \alpha r$, for all $r \le A+B$
 
 Also we have $f(A) = f(-B+A+B) = \alpha (A+B) = 1$, we can get $\alpha = \frac{1}{A+B}$
 
