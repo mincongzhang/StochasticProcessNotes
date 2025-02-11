@@ -168,6 +168,14 @@ $$
 
 我们把 $r_{ij} \( n \) = P \( X_n = j | X_0 = i \)$ 表示为n阶(n-th step)转移概率. 这些概率满足递推关系(recurrence relation):
 
+对所有的 $n \gt 1$, 
+
+$$r_{ij} (n) = \sum_{k=1}^{m} r_{ik} (n - 1) p_{kj}$$
+
+其中 $r_{ij} (1) = p_{ij}$
+
+
+
 $$r_{ij} \( n \) = \sum_{k=1}^{m} r_{ik} \( n - 1 \) p_{kj} \ \ for \ n \gt 1, \ where \  r_{ij} \( 1 \) = p_{ij}  $$
 
 怎么理解呢? 我们可以看:
