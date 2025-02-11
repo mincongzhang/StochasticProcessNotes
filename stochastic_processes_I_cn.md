@@ -53,6 +53,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 
 ### 性质
+
 1. 期望(Expectation): $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
 2. 独立增量(Independent increment): 对所有 $0 = t_0 \le t_1 \le ... \le t_k $, 随机变量(random variable) $X_{t_{i+1}} - X_{t_{i}}$ 是相互独立的(mutually independent).
@@ -67,7 +68,10 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 ### 例子2: 股票价格
 
-随机游走可以(没那么精确地)给股票价格建模. 比如我们想知道股票涨到某个价格后之后再跌回到某个价格的概率是多少. 这个问题可以这么描述: 对于两个正整数(positive integers)A和B, 一个随机变量随机游走到A之后再到-B的概率是多少? 
+随机游走可以(没那么精确地)给股票价格建模. 比如我们想知道股票在跌到 $-B$价格前, 涨到 $A$价格的概率是多少. 
+
+
+这个问题可以这么描述: 对于两个正整数(positive integers)A和B, 一个随机变量随机游走到A之后再到-B的概率是多少? 
 
 Let $\tau$ be the first time at which the random walk reaches either A or -B. Then $X_{\tau} = A \ or \ -B$. Define
 
