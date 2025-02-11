@@ -72,19 +72,19 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 我们也可以这么描述: 对于两个正整数(positive integers)A和B, 一个随机变量随机游走触碰到 $-B$之前, 游走到 $A$的概率是多少? 
 
-假设 $\tau$ 是第一次随机游走到 $A$或者 $-B$的时刻(这也就是两个边界). 那么我们有 $X_{\tau} = A \ or \ -B$. 
+假设 $\tau$是第一次随机游走到 $A$或者 $-B$的时刻(这也就是两个边界). 那么我们有 $X_{\tau} = A \ or \ -B$. 
 
 定义:
 
 $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 
-And we want to compute $f(0)$.
+我们要计算 $f(0)$. 也就是设定条件初始0时刻 $X_0$的值为0, $\tau$时刻 $X_{\tau}$的值为 $A$的概率. 
 
-Let's see what we have:
+来看看我们已有的条件:
 
 1. Consider the outcome of the first coin toss, we have the recursive formula: $f(k) = \frac{1}{2}f(k+1) + \frac{1}{2}f(k-1)$
-2. we have the boundary condition: $f(A) = P \(X_{\tau} = A | X_0 = A \) = 1$ 
-3. we have the boundary condition: $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$
+2. 我们有边界条件: $f(A) = P \(X_{\tau} = A | X_0 = A \) = 1$ 
+3. 我们有边界条件: $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$
 
 If we let $f(-B+1) = \alpha$, then we have:
 1. $f(-B+1) = \frac{1}{2}f(-B+1+1) + \frac{1}{2}f(-B+1-1) = \frac{1}{2}f(-B+2) + \frac{1}{2}f(-B)  =\frac{1}{2}f(-B+2) + 0 = \frac{1}{2}f(-B+2) = \alpha$
