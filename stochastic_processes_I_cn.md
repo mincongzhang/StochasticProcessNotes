@@ -117,10 +117,11 @@ $X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1,
 
 $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
-### 
-Let's look into the Markov chain more:
+### 深入马尔可夫链
 
-A stochastic process with the Markov property is called a Markov chain. Note that a finite Markov chain can be described in terms of the transition probabilities.
+拥有马尔可夫性质的随机过程可被称为马尔可夫链. 
+
+值得注意的是, 一个有限的(finite)马尔可夫链可以用转移概率来描述: 
 
 $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
