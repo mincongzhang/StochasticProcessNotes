@@ -65,9 +65,9 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 投硬币游戏: 赌徒连续投一枚均匀的硬币, 如果投到正面赚$1, 如果投到反面亏$1. 如果每次投硬币都是独立的, 那么赌徒盈亏的额度就服从简单随机游走分布. 
 
-### 例子2: 随机游走
+### 例子2: 股票价格
 
-For 2 positive integers A and B, what's the probability that the random walk reaches A before it reaches -B? 
+随机游走可以(没那么精确地)给股票价格建模. 比如我们想知道股票涨到某个价格后之后再跌回到某个价格的概率是多少. 这个问题可以这么描述: 对于两个正整数(positive integers)A和B, 一个随机变量随机游走到A之后再到-B的概率是多少? 
 
 Let $\tau$ be the first time at which the random walk reaches either A or -B. Then $X_{\tau} = A \ or \ -B$. Define
 
