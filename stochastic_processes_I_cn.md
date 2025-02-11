@@ -164,9 +164,9 @@ $$
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
-A simple random walk is an example of a Markov chain. But since the sample space is infinite there is no transition probability matrix. Let's try another way:
+一个简单随机游走也是马尔可夫链. 但是因为简单随机游走的样本空间(sample space)是无限的, 所以我们没法写出转移概率矩阵. 那我们试试另一种方法:
 
-Let $r_{ij} \( n \) = P \( X_n = j | X_0 = i \)$ be the n-th step transition probabilities. These probabilities satisfy the recurrence relation:
+我们把 $r_{ij} \( n \) = P \( X_n = j | X_0 = i \)$ 表示为n阶(n-th step)转移概率. 这些概率满足递推关系(recurrence relation):
 
 $$r_{ij} \( n \) = \sum_{k=1}^{m} r_{ik} \( n - 1 \) p_{kj} \ \ for \ n \gt 1, \ where \  r_{ij} \( 1 \) = p_{ij}  $$
 
