@@ -175,12 +175,13 @@ $$r_{ij} (n) = \sum_{k=1}^{m} r_{ik} (n - 1) p_{kj}$$
 其中 $r_{ij} (1) = p_{ij}$
 
 
-怎么理解呢? 我们可以从第2个状态倒推到第1个状态理解一下:
+怎么理解呢? 首先第1个状态是$r_{ij} (1) = p_{ij}$, 我们可以从第2个状态倒推到第1个状态:
 $$r_{ij} \( 2 \) = \sum_{k=1}^{m} r_{ik} \( 1 \) p_{kj} = \sum_{k=1}^{m} p_{ik} p_{kj} $$
 
-其实就是 $i$ 到 $j$ 中途所有可能的路径概率的总和.
+可以发现, 这其实就是 $i$ 到 $j$ 中途所有可能的路径概率的总和.
 
-Hence the n-step transition probability matrix can easily be shown to be:
+所以, n阶(n-step)转移概率矩阵可以写程
+
 $$A^n$$
 
 ### Example 3
