@@ -91,11 +91,11 @@ $$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
 2. $f(-B+2) = \frac{1}{2}f(-B+2+1) + \frac{1}{2}f(-B+2-1) = \frac{1}{2}f(-B+3) + \frac{1}{2}f(-B+1)  =\frac{1}{2}f(-B+3) + \frac{1}{2}\alpha = 2 \alpha$
 3. $f(-B+3) = 3 \alpha$
 4. ...
-5. $f(-B+r) = \alpha r$, for all $r \le A+B$
+5. $f(-B+r) = \alpha r$, 对所有的 $r \le A+B$
 
-Also we have $f(A) = f(-B+A+B) = \alpha (A+B) = 1$, we can get $\alpha = \frac{1}{A+B}$
+我们也有 $f(A) = f(-B+A+B) = \alpha (A+B) = 1$, 可以算得 $\alpha = \frac{1}{A+B}$
 
-Finally we can get $f(0) = f(-B+B) = \alpha B = \frac{B}{A+B}$, i.e.
+最后我们可以得到 $f(0) = f(-B+B) = \alpha B = \frac{B}{A+B}$, i.e.
 
 $$f(0) = \frac{B}{A+B}$$
 
