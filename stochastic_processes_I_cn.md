@@ -53,11 +53,11 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 
 ### 性质
-1. $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
+1. 期望(Expectation): $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
 2. 独立增量(Independent increment): 对所有 $0 = t_0 \le t_1 \le ... \le t_k $, 随机变量(random variable) $X_{t_{i+1}} - X_{t_{i}}$ 是相互独立的(mutually independent).
 
-3. 平稳性(Stationary): for all $h \ge 1, t \le 0$, the distribution of $X_{t+h} - X_t$ is the same as the distribution of $X_h$
+3. 平稳性(Stationary): 对所有 $h \ge 1, t \le 0$, $X_{t+h} - X_t$ 的分布和 $X_h$ 的分布一样. 
 
 ### Example
 
