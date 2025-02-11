@@ -59,7 +59,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 3. 平稳性(Stationary): 对所有 $h \ge 1, t \le 0$, $X_{t+h} - X_t$ 的分布和 $X_h$ 的分布一样. 
 
-### Example
+### 例子
 
 Coin tose game: head you win $1, tail you lose $1. If each coin toss is independent, then the balance of the gambler has the distribution of the simple random walk. 
 
