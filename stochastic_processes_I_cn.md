@@ -184,6 +184,19 @@ $$r_{ij} \( 2 \) = \sum_{k=1}^{m} r_{ik} \( 1 \) p_{kj} = \sum_{k=1}^{m} p_{ik} 
 
 $$A^n$$
 
+回到例子1里的矩阵, 机器运作两天后的概率矩阵应该是:
+
+$$
+\begin{bmatrix}
+0.99 & 0.8 \\
+0.01 & 0.2 
+\end{bmatrix} ^ 2 = 
+\begin{bmatrix}
+0.9881 & 0.952 \\
+0.0119 & 0.048 
+\end{bmatrix}
+$$
+
 ### Example 3
 #### Stationary distribution 静止分布
 A stationary distribution of a Markov chain is a probability distribution over the state space $S$ (where $P \( X_0 = j \) = \pi_j$) such that 
