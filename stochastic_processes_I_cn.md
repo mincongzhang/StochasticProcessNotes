@@ -224,14 +224,23 @@ $$\pi_i = \frac{1}{n}$$
 
 $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
-但如果我们有无限的状态空间(infinite state spaces)这个定理就不成立. 
+但如果我们考虑无限的状态空间(infinite state spaces)这个定理就不成立. 
 
 
 ## 鞅(Martingale)
 
-### Definition:
+### 定义
 
-A discrete-time stochastic process $\{ X_0, X_1, ... \}$ is a martingale if 
+如果以下成立:
+
+$$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
+
+其中:
+
+$F_t = \{ X_0, ..., X_t \}$ 
+
+那么一个离散时间随机过程 $\{ X_0, X_1, ... \}$ 可被看作是一个鞅(martingale).
+
 $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 where $F_t = \{ X_0, ..., X_t \}$  (hence we are conditioning on the initial segment of the process)
