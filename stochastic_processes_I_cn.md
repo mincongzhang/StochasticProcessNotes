@@ -206,7 +206,7 @@ $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
 注意 $P (X_0 = j) = \pi_j$ 其实就是前面例子里 $r_{ij} (n) = P ( X_n = j | X_0 = i )$ 去掉了条件概率, 所以静止分布的意思就是到达 $j$ 状态的所有可能性之和(注意是不带路径的).
 
-Let $S = Z_n$ (integer number, 整数) and $X_0 = 0$ . Consider the Markov chain $X_0, X_1, X_2, ...$ such that $X_{n+1} = X_n + 1$ with probability 0.5 and $X_{n+1} = X_n - 1$ with probability 0.5. 
+定义一个状态空间 $S = Z_n$ 为整数集合(integer numbers) 并且 $X_0 = 0$. 在定义一个马尔可夫链 $X_0, X_1, X_2, ...$ 并且 $X_{n+1} = X_n + 1$ with probability 0.5 and $X_{n+1} = X_n - 1$ with probability 0.5. 
 
 Then the stationary distribution of this Markov chain is:
 
