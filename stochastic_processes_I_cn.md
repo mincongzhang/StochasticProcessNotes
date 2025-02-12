@@ -197,13 +197,16 @@ $$
 \end{bmatrix}
 $$
 
-### Example 3
-#### Stationary distribution 静止分布
+### 例子3
+#### 静止分布(Stationary distribution)
+马尔可夫链的静止分布是在, 
 A stationary distribution of a Markov chain is a probability distribution over the state space $S$ (where $P \( X_0 = j \) = \pi_j$) such that 
 
 $$\pi_{j} \( n \) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ \( \forall j \in S \)  $$
 
-注意 $P \( X_0 = j \) = \pi_j$ 其实就是去掉了条件概率, 所以静止分布的意思就是到达 $j$ 状态的所有可能性之和.
+
+
+注意 $P \( X_0 = j \) = \pi_j$ 其实就是$r_{ij} \( n \) = P \( X_n = j | X_0 = i \)$ 去掉了条件概率, 所以静止分布的意思就是到达 $j$ 状态的所有可能性之和.
 
 Let $S = \mathbb{Z}_n$ (integer number, 整数) and $X_0 = 0$ . Consider the Markov chain $X_0, X_1, X_2, ...$ such that $X_{n+1} = X_n + 1$ with probability 0.5 and $X_{n+1} = X_n - 1$ with probability 0.5. 
 
