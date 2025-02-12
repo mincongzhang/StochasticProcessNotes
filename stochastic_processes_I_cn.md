@@ -198,8 +198,11 @@ $$
 $$
 
 ### 例子3
-#### 静止分布(Stationary distribution)
-马尔可夫链的静止分布是在, 
+#### 静止分布 (Stationary distribution)
+马尔可夫链的静止分布是在状态空间(state space) $S$ 上的概率分布, 其中 $P ( X_0 = j ) = \pi_j$, 使得: 
+
+$$\pi_{j} \( n \) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ \( \forall j \in S \)  $$
+
 A stationary distribution of a Markov chain is a probability distribution over the state space $S$ (where $P \( X_0 = j \) = \pi_j$) such that 
 
 $$\pi_{j} \( n \) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ \( \forall j \in S \)  $$
