@@ -208,7 +208,7 @@ $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
 定义一个整数集合(integer numbers)的状态空间 $S = Z_n$ 并且 $X_0 = 0$. 再定义一个马尔可夫链 $X_0, X_1, X_2, ...$ 并且有50%的概率 $X_{n+1} = X_n + 1$ 以及50%的概率 $X_{n+1} = X_n - 1$.
 
-那么对所有的$i$, 这个马尔可夫链的静止分布(stationary distribution)是:
+那么对所有的 $i$, 这个马尔可夫链的静止分布(stationary distribution)是:
 
 $$\pi_i = \frac{1}{n}$$
 
