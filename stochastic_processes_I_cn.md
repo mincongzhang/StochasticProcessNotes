@@ -216,9 +216,9 @@ $$\pi_i = \frac{1}{n}$$
 
 因为每一个状态的概率都相等, 所以第n步的每一个状态的静止分布就是 $\frac{1}{n}$
 
-### Theorem
+#### 定理
 
-Note that the vector $\( \pi_1, \pi_2, ..., \pi_m \)$ is an eigenvector of A with eigen value 1. Hence the following therom can be deduced from the Perron-Frobenius theorem.
+注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigen vector), 它的特征值(eigen value)是1. Hence the following therom can be deduced from the Perron-Frobenius theorem.
 
 If $p_{ij} \gt 0$ for all $i,j \in S$, then there exists a unique stationary distribution of the ststem. Moreover, 
 
