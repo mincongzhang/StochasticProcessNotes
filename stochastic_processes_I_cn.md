@@ -218,7 +218,7 @@ $$\pi_i = \frac{1}{n}$$
 
 #### 定理
 
-注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigen vector), 它的特征值(eigen value)是1. Hence the following therom can be deduced from the Perron-Frobenius theorem.
+注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigen vector), 它的特征值(eigen value)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
 
 If $p_{ij} \gt 0$ for all $i,j \in S$, then there exists a unique stationary distribution of the ststem. Moreover, 
 
