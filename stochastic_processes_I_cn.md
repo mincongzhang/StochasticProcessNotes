@@ -224,7 +224,7 @@ $$\pi_i = \frac{1}{n}$$
 
 $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
-但如果我们有无限的状态空间infinite state spaces)这个定理就不成立. 
+但如果我们有无限的状态空间(infinite state spaces)这个定理就不成立. 
 
 
 ## 鞅(Martingale)
