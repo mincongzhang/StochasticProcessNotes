@@ -295,9 +295,10 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence),  $\tau$ 是一个时停并且满足 $\tau \le T$, 其中 $T$ 是一个常数(constant). 那么 $\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ]$
 
-Suppose that $\{ X_0, X_1, ... \}$ is a martingale sequence and $\tau$ is a stopping time such that $\tau \le T$ for some constant $T$, Then $\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$
+也就是即使我们试图止盈止损, 我们期望上也赚不到钱. 
 
-Proof:
+
+证明: 
 
 Note that
 
