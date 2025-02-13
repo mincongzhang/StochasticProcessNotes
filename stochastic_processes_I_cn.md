@@ -269,17 +269,26 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 ## 鞅停止定理/可选停时定理 (Optional stopping theorem)
 
-我们通过以下定理再次说明如果一个赌博过程是鞅, 那说明这是一个公平的赌博. 
+我们通过以下定理再次说明如果一个赌博过程是鞅, 那说明这是一个公平的赌博, 也就是从期望上来说你不赚不亏. 
 
 那么在一个鞅的赌博过程中, 不管你试图用什么策略, 想法设法用什么高级策略试图赚钱或者试图亏钱, 长期来说你的收益期望都是固定的, 不会亏钱也不会赚钱. 
 
 ### 定义
 
+那我们来试图设计一个策略从鞅赌博过程中赚钱, 我们可以定义以下概念:
+
 停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时(stopping time). 
 
 ### 例子
+
+通过停时这个概念, 我们设计以下策略: 
+
 1. 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 设 $\tau$ 为第一次赌徒收益达到100美元的时刻. 那么 $\tau$ 就是一个停时(stopping time).
-2. 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时(stopping time). (因为它获取了未来的信息才知道前面那个收益是峰值)
+
+看起来这样能赚钱. 
+
+
+3. 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时(stopping time). (因为它获取了未来的信息才知道前面那个收益是峰值)
 
 ### 定理: Doob可选抽样定理, 弱化形式 (Doob's optional stopping time theorem, weak form)
 
