@@ -242,13 +242,9 @@ $F_t = \{ X_0, ..., X_t \}$
 
 那么一个离散时间随机过程 $\{ X_0, X_1, ... \}$ 可被看作是一个鞅(martingale).
 
-$$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
+可以看出 $X_t = \mathbb{E} \[ X_{t+1} | F_t \]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 
 
-where $F_t = \{ X_0, ..., X_t \}$  (hence we are conditioning on the initial segment of the process)
-
-This says that our expected gain in the process is zero at all times.  We can also view this definition as a Mathematical formalization of a game of chance being fair. 
-
-也就是未来状态的期望等于现在状态, 并且期望的收益是0
+这说明未来状态的期望等于现在状态, 并且期望收益(expected gain)永远是0. 如果用鞅给一个赌博游戏建模, 我们可以说这个赌博是公平(fair)的. 也就是说在大量多次赌局后参与者的收益是不亏不赚. 如果在大量多次赌局后参与者的期望是负的那说明这个赌博对参与者是不公平的, 如果期望是正的那这个赌博对庄家是不公平的.  
 
 ### Proposition
 
