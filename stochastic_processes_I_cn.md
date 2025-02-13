@@ -1,3 +1,4 @@
+# MIT随机过程笔记[1] 从随机游走到鞅
 ### 材料
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote5/
 
