@@ -267,12 +267,13 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 ## 鞅停止定理/可选停时定理 (Optional stopping theorem)
 ### 定义
 
-停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时 (stopping time). 
+停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时(stopping time). 
 
 ### 例子
 1. 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 设 $\tau$ 为第一次赌徒收益达到100美元的时刻. 那么 $\tau$ 就是一个停时(stopping time).
 2. 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时(stopping time). (因为它获取了未来的信息才知道前面那个收益是峰值)
 
+### 定理: Doob's optional stopping time theorem, weak form
 ### Theorem: Doob's optional stopping time theorem, weak form
 Suppose that $\{ X_0, X_1, ... \}$ is a martingale sequence and $\tau$ is a stopping time such that $\tau \le T$ for some constant $T$, Then $\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$
 
