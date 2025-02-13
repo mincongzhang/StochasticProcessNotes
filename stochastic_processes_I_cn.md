@@ -359,5 +359,4 @@ $$150P-50 = 0$$
 
 $$P = \frac{1}{3}$$
 
-For two positive integers $a$ and $b$, consider the following strategy for the coin toss game. A player stops at the first time the balance equals either to $a$ or $-b$. Let this time be $\tau$ . What is the probability distribution of $X_\tau$?
-(i.e. what are the probabilities that $X_\tau = a$ and $X_\tau = b$?)
+推导到一般形式, 我们有两个正整数 $a$ 和 $b$, 我们盈利达到 $a$ 或者亏损达到 $b$ 的时候就停止赌博. 设停时为 $\tau$ . 求 $X_\tau$ 的概率分布? 也就是求 $X_\tau = a$ 的概率和 $X_\tau = b$ 的概率. 
