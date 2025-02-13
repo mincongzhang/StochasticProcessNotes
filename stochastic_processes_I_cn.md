@@ -53,7 +53,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 补充: 方差计算公式: $\sigma ^2 = \frac { \sum (x_i - \mu) ^ 2 }{N}$
 
 
-### 性质
+### 命题(Proposition)
 
 1. 期望(Expectation): $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
@@ -244,15 +244,15 @@ $F_t = \{ X_0, ..., X_t \}$
 
 可以看出 $X_t = \mathbb{E} \[ X_{t+1} | F_t \]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 
 
-这说明未来状态的期望等于现在状态, 并且期望收益(expected gain)永远是0. 如果一个赌博游戏可以看作是一个鞅过程, 说明这个赌博是公平(fair)的, 也就是说在大量多次赌局后参与者的收益是不亏不赚的. 但如果在大量多次赌局后参与者收益的期望是负的, 那说明这个赌博对参与者是不公平的, 如果期望是正的那这个赌博对庄家是不公平的.  
+这说明期望收益(expected gain)永远是0. 如果一个赌博游戏可以看作是一个鞅过程, 说明这个赌博是公平(fair)的, 也就是说在大量多次赌局后参与者的收益是不亏不赚的. 但如果在大量多次赌局后参与者收益的期望是负的, 那说明这个赌博对参与者是不公平的, 如果期望是正的那这个赌博对庄家是不公平的.  
 
-### Proposition
+### 命题(Proposition)
 
-For all $t \ge s$, we have $X_s = \mathbb{E} \[ X_{t} | F_s \]$
+可以通过 $t+1$ 推导到一般情况, 对所有的 $t \ge s$, 我们有
 
-this easily follows from induction. 
+$$X_s = \mathbb{E} \[ X_{t} | F_s \]$$
 
-未来任何一个时刻的状态的期望都等于现在的状态
+这说明未来任何一个时刻的状态的期望都等于现在的状态.
 
 ### Example
 
