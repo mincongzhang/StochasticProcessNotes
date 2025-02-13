@@ -334,26 +334,19 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 从中我们可以学到的是如果一个赌博过程完全符合鞅过程(公平赌局), 那么不可能有赢的策略. 最后的盈利的期望都是0. 另一方面, 如果我们发现一个赌博过程不完全符合鞅过程, 如果赌赢的期望大于0.5, 那么不管这个优势有多么小, 在多次长时间博弈的过程中, 收益永远都是正的. 现实案例就是高频交易, 只要高频交易盈利的期望是正的, 那么只要少量多次, 那么永远都能盈利. 
 
-### 练习
+### 练习1
+
+再回到我们的例子:
+
+- 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 如果赌徒的策略是第一次收益达到100美元就停止赌博. 这样根据定义我们有期望 $\mathbb{E} \[ X_{\tau} \] = 100$. 这和我们的
+
 
 In the coin toss game, consider the following strategy. The gambler stops playing the first time at which the balance becomes $100. 
 
 Note that by definition, we have $\mathbb{E} \[ X_{\tau} \] = 100$. Does this contradict the optional stopping theorem?
 
 
-chatgpt answer:
-
-```
-The optional stopping theorem, also known as the stopping time theorem, is a mathematical result that applies to certain types of stochastic processes. It states that under certain conditions, if a gambler follows a strategy that stops the game at a particular stopping time, the expected value of the gambler's final wealth is the same regardless of when they stop.
-
-In the case of the coin toss game, where the gambler stops playing once their balance reaches $100, the optional stopping theorem does not apply. The theorem assumes that the stopping time is chosen independently of the outcomes of the game. However, in this strategy, the stopping time is directly tied to the outcome of the game (the balance reaching $100).
-
-The optional stopping theorem is typically applicable to processes that have certain properties, such as being a martingale or a Markov process. In the coin toss game, where the outcome of each toss is independent of previous tosses, the game does not possess these properties.
-
-Therefore, the strategy of stopping the game when the balance reaches $100 does not contradict the optional stopping theorem because the theorem does not apply to this particular scenario.
-```
-
-### Exercise
+### 练习2
 
 For two positive integers $a$ and $b$, consider the following strategy for the coin toss game. A player stops at the first time the balance equals either to $a$ or $-b$. Let this time be $\tau$ . What is the probability distribution of $X_\tau$?
 (i.e. what are the probabilities that $X_\tau = a$ and $X_\tau = b$?)
