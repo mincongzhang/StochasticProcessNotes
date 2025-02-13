@@ -271,7 +271,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 ### 例子
 1. 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 设 $\tau$ 为第一次赌徒收益达到100美元的时刻. 那么 $\tau$ 就是一个停时(stopping time).
-2. 同样的赌徒同样的赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时(stopping time). (因为它获取了未来的信息才知道前面那个收益是峰值)
+2. 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时(stopping time). (因为它获取了未来的信息才知道前面那个收益是峰值)
 
 ### Theorem: Doob's optional stopping time theorem, weak form
 Suppose that $\{ X_0, X_1, ... \}$ is a martingale sequence and $\tau$ is a stopping time such that $\tau \le T$ for some constant $T$, Then $\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$
