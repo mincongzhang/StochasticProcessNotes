@@ -258,12 +258,11 @@ $$X_s = \mathbb{E} \[ X_{t} | F_s \]$$
 
 1. 随机游走就是一个鞅(Random walk is a martingale).
 2. 轮盘赌博玩家的收益不是一个鞅, 因为期望收益是负的: $\mathbb{E} [ X_{k+1} | F_k ] < X_k$
-3. 
-- Let $Y_1, Y_2, ...$ be i.i.d random variables such that $Y_i = 2$ with probability $\frac{1}{3}$ and $Y_i = \frac{1}{2}$ with probability $\frac{2}{3}$. (so expectation is 1). Let $X_0 = 0$, and 
+3. 设 $Y_1, Y_2, ...$ 为独立同分布(i.i.d)的随机变量, 并且有 $\frac{1}{3}$ 的概率  $Y_i = 2$, $\frac{2}{3}$ 的概率 $Y_i = \frac{1}{2}$ (也就是说 $Y_i$ 的期望等于1). 设 $X_0 = 0$, 我们有
 
 $$X_k = \prod_{i=1}^{k} Y_i$$
 
-- Then $\{ X_0, X_1, ... \}$ forms a martingale.
+那么 $\{ X_0, X_1, ... \}$ 就是一个鞅(martingale).
 
 ## Optional stopping theorem
 ### Definition
