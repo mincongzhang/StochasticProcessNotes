@@ -293,7 +293,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 以上的策略能赚到钱吗? 
 
-假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence),  $\tau$ 是一个时停并且满足 $\tau \le T$, 其中 $T$ 是一个常数(constant). 那么 $\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ]$
+假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence),  $\tau$ 是一个时停并且满足 $\tau \le T$, 其中 $T$ 是一个常数(constant), 也就是说这个赌博不能无限玩下去. 那么 $\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ]$
 
 也就是即使我们试图止盈止损, 我们期望上也赚不到钱. 
 
@@ -304,9 +304,8 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } $$
 
-其中
+其中 $1_{ \\{ \tau \ge i + 1 \\} }$ 是一个指示函数(indicator function), 意思是 $1_{true} = 1, 1_{false} = 0$. 并且我们还有 $\tau \le T$. 
 
-$$1_{ \\{ \tau \ge i + 1 \\} }$$
 
 is a indicator function, means $1_{true} = 1, 1_{false} = 0$
 
