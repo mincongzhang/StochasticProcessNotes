@@ -284,7 +284,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 通过停时这个概念, 我们设计以下策略: 
 
 - 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 设 $\tau$ 为第一次赌徒收益达到100美元的时刻. 那么 $\tau$ 就是一个停时(stopping time).
-- 或者我们在达到100美元或者-50美元的时候停止游戏. 也就是设置了止盈止损. 这么一个时刻 $\tau$ 是一个停时. 
+- 或者我们在达到100美元或者-50美元的时候停止赌博. 也就是设置了止盈止损. 这么一个时刻 $\tau$ 是一个停时. 
 
 - 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时. 因为你要在 $\tau$ 时刻停止, 那么你必须依赖于 $\tau + 1$ 的信息, 也就是它获取了未来的信息才知道前面那个收益是峰值. 所以 $\tau$ 不是一个停时.
 - 同样的赌徒/赌局: 如果设定 $\tau -1$ 是第一个峰值(first peak, local maximum), 但是 $\tau$ 是第一个峰值后下降的时刻, 这种情况下的 $\tau$ 是一个停时.
@@ -344,6 +344,16 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 
 ### 练习2
+
+我们再增加止盈止损策略, 我们在达到100美元或者-50美元的时候停止赌博. 这样可以赚钱吗? 这个问题可以看作 $X_\tau = 100$ 或者  $X_\tau = -50$ 的概率是多少?
+
+根据之前推导的: 
+
+$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
+
+我们假设达到100美元结束的概率是 $P$, 那么达到-50美元结束的概率是 $1-P$. 我们有
+
+
 
 For two positive integers $a$ and $b$, consider the following strategy for the coin toss game. A player stops at the first time the balance equals either to $a$ or $-b$. Let this time be $\tau$ . What is the probability distribution of $X_\tau$?
 (i.e. what are the probabilities that $X_\tau = a$ and $X_\tau = b$?)
