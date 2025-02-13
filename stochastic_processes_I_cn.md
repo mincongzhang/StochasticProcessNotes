@@ -270,7 +270,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时 (stopping time). 
 
 ### 例子
-1. 在投硬币游戏里, 如果一个赌徒每一局都赌 \$1. 设 $\tau$ 为第一次赌徒收益达到 \$100 的时刻. 那么 $\tau$ 就是一个停时(stopping time).
+1. 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 设 $\tau$ 为第一次赌徒收益达到100美元的时刻. 那么 $\tau$ 就是一个停时(stopping time).
 2. Same gambler: Let $\tau$ be the time of the first peak(local maximum) of the banalce of the gambler. Then $\tau$ is not a stopping time.
 
 ### Theorem: Doob's optional stopping time theorem, weak form
