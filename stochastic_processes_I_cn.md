@@ -293,7 +293,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 以上的策略能赚到钱吗? 
 
-假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence), 并且 $\tau$ 是一个时停, 
+假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence),  $\tau$ 是一个时停并且满足 $\tau \le T$, 其中 $T$ 是一个常数(constant). 那么 $\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ]$
 
 Suppose that $\{ X_0, X_1, ... \}$ is a martingale sequence and $\tau$ is a stopping time such that $\tau \le T$ for some constant $T$, Then $\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$
 
