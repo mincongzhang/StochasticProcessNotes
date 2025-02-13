@@ -347,13 +347,17 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 我们再增加止盈止损策略, 我们在达到100美元或者-50美元的时候停止赌博. 这样可以赚钱吗? 这个问题可以看作 $X_\tau = 100$ 或者  $X_\tau = -50$ 的概率是多少?
 
-根据之前推导的: 
+我们初始盈利期望是0, 根据之前推导的: 
 
-$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
+$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] = 0$$
 
 我们假设达到100美元结束的概率是 $P$, 那么达到-50美元结束的概率是 $1-P$. 我们有
 
+$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] = 0 = P \times 100 + (1-P) \times (-50)$$
 
+$$150P-50 = 0$$
+
+$$P = \frac{1}{3}$$
 
 For two positive integers $a$ and $b$, consider the following strategy for the coin toss game. A player stops at the first time the balance equals either to $a$ or $-b$. Let this time be $\tau$ . What is the probability distribution of $X_\tau$?
 (i.e. what are the probabilities that $X_\tau = a$ and $X_\tau = b$?)
