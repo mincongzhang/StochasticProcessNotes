@@ -327,13 +327,14 @@ $$
 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 
-参考: 全期望定理(Law of total expectation): $\mathbb{E} \[ X \] = \mathbb{E} \[ \mathbb{E} \[ X|Y \] \]$ 类似于全概率定理(law of total probability)
+参考: 全期望定理(Law of total expectation): $\mathbb{E} \[ X \] = \mathbb{E} \[ \mathbb{E} \[ X|Y \] \]$ ,类似于全概率定理(law of total probability)
 
 
-The condition can be further weakened (see R.Durrett,Probability:Theory and Examples,3rd edition.) The lesson to lean is that "a mortal being has no winning strategy (when the game is fair)". On the other hand, if one has some advantage over an opponent in some game, then no matter how small that advantage is, he/she will win in the long run. 
+并且条件还可以更进一步的弱化(further weakened). 参考这本教材 <R.Durrett, Probability: Theory and Examples, 3rd edition.> 
 
+从中我们可以学到的是如果一个赌博过程完全符合鞅过程(公平赌局), 那么不可能有赢的策略. 最后的盈利的期望都是0. 另一方面, 如果我们发现一个赌博过程不完全符合鞅过程, 如果赌赢的期望大于0.5, 那么不管这个优势有多么小, 在多次长时间博弈的过程中, 收益永远都是正的. 现实案例就是高频交易, 只要高频交易盈利的期望是正的, 那么只要少量多次, 那么永远都能盈利. 
 
-### Exercise
+### 练习
 
 In the coin toss game, consider the following strategy. The gambler stops playing the first time at which the balance becomes $100. 
 
