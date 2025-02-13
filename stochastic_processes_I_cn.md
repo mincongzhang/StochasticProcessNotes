@@ -306,10 +306,9 @@ $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i
 
 其中 $1_{ \\{ \tau \ge i + 1 \\} }$ 是一个指示函数(indicator function), 意思是 $1_{true} = 1, 1_{false} = 0$. 并且我们还有 $\tau \le T$. 
 
+上面函数描述的就是从 $0$ 时刻的本金加上下一时刻的收益/亏损, 一直到 $\tau$ 时刻停止的总收益. 
 
-is a indicator function, means $1_{true} = 1, 1_{false} = 0$
-
-And we used the fact $\tau \le T$. 
+因为总时间 $T$ 是一个常数, 
 
 Since $T$ is a constant, by linear of expectation we have
 
