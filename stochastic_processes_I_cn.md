@@ -254,10 +254,10 @@ $$X_s = \mathbb{E} \[ X_{t} | F_s \]$$
 
 这说明未来任何一个时刻的状态的期望都等于现在的状态.
 
-### Example
+### 例子
 
-1. Random walk is a martingale
-2. The balance of a rouleete player is not a martingale, we always have $X_k > \mathbb{E} \[ X_{k+1} | F_k \]$  为啥? 期望总是在亏钱?
+1. 随机游走就是一个鞅(Random walk is a martingale).
+2. 俄罗斯轮盘赌博玩家的收益不是一个鞅, 因为. The balance of a rouleete player is not a martingale, we always have $X_k > \mathbb{E} \[ X_{k+1} | F_k \]$  为啥? 期望总是在亏钱?
 
 - Let $Y_1, $Y_2, ...$ be i.i.d random variables such that $Y_i = 2$ with probability $\frac{1}{3}$ and $Y_i = \frac{1}{2}$ with probability $\frac{2}{3}$. (so expectation is 1). Let $X_0 = 0$, and 
 
