@@ -300,11 +300,11 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 证明: 
 
-Note that
+注意到
 
 $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } $$
 
-Where 
+其中
 
 $$1_{ \\{ \tau \ge i + 1 \\} }$$
 
