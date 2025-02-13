@@ -312,7 +312,7 @@ $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i
 
 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] + \sum_{i=0}^{T-1} \mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } \] $$
 
-The main observation is that  $\tau \ge i+1$ is determined by $X_0, X_1, ...X_i$ . Hence
+观察到 $\tau \ge i+1$ 是由 $X_0, X_1, ...X_i$ 决定的. 所以: 
 
 $$
 \begin{aligned}
@@ -322,11 +322,13 @@ $$
 \end{aligned}
 $$
 
-Hence
+所以
 
 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
-(check Law of total expectation where $\mathbb{E} \[ X \] = \mathbb{E} \[ \mathbb{E} \[ X|Y \] \]$ , similar to law of total probability)
+
+参考: 全期望定理(Law of total expectation): $\mathbb{E} \[ X \] = \mathbb{E} \[ \mathbb{E} \[ X|Y \] \]$ 类似于全概率定理(law of total probability)
+
 
 The condition can be further weakened (see R.Durrett,Probability:Theory and Examples,3rd edition.) The lesson to lean is that "a mortal being has no winning strategy (when the game is fair)". On the other hand, if one has some advantage over an opponent in some game, then no matter how small that advantage is, he/she will win in the long run. 
 
