@@ -268,6 +268,9 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 那么 $\{ X_0, X_1, ... \}$ 就是一个鞅(martingale).
 
 ## 鞅停止定理/可选停时定理 (Optional stopping theorem)
+
+我们通过以下定理再次说明如果一个赌博过程是鞅, 那说明这是一个公平的赌博. 
+
 ### 定义
 
 停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时(stopping time). 
