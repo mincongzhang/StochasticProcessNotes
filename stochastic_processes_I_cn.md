@@ -308,9 +308,7 @@ $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i
 
 上面函数描述的就是从 $0$ 时刻的本金加上下一时刻的收益/亏损, 一直到 $\tau$ 时刻停止的总收益. 
 
-因为总时间 $T$ 是一个常数, 
-
-Since $T$ is a constant, by linear of expectation we have
+因为总时间 $T$ 是一个常数,通过期望的线性传导性质(linearity of expectation), 我们可以得到:
 
 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] + \sum_{i=0}^{T-1} \mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } \] $$
 
