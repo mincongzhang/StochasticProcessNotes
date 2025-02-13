@@ -289,7 +289,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 - 同样的赌徒/赌局: 设 $\tau$ 为第一次赌徒收益达到第一个峰值(first peak, local maximum). 那么 $\tau$ 就不是一个停时. 因为你要在 $\tau$ 时刻停止, 那么你必须依赖于 $\tau + 1$ 的信息, 也就是它获取了未来的信息才知道前面那个收益是峰值. 所以 $\tau$ 不是一个停时.
 - 同样的赌徒/赌局: 如果设定 $\tau -1$ 是第一个峰值(first peak, local maximum), 但是 $\tau$ 是第一个峰值后下降的时刻, 这种情况下的 $\tau$ 是一个停时.
 
-### 定理: Doob可选抽样定理, 弱化形式 (Doob's optional stopping time theorem, weak form)
+### 定理: Doob可选停时定理, 弱化形式 (Doob's optional stopping time theorem, weak form)
 
 以上的策略能赚到钱吗? 
 
@@ -338,12 +338,9 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 再回到我们的例子:
 
-- 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 如果赌徒的策略是第一次收益达到100美元就停止赌博. 这样根据定义我们有期望 $\mathbb{E} \[ X_{\tau} \] = 100$. 这和我们的
+- 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 如果赌徒的策略是第一次收益达到100美元就停止赌博. 这样根据定义我们的期望是 $\mathbb{E} \[ X_{\tau} \] = 100$. 这和我们的可选停时定理(optional stopping theorem)岂不是冲突了? 如何反驳?
 
 
-In the coin toss game, consider the following strategy. The gambler stops playing the first time at which the balance becomes $100. 
-
-Note that by definition, we have $\mathbb{E} \[ X_{\tau} \] = 100$. Does this contradict the optional stopping theorem?
 
 
 ### 练习2
