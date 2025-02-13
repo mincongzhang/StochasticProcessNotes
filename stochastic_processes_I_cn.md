@@ -291,6 +291,9 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 ### 定理: Doob可选抽样定理, 弱化形式 (Doob's optional stopping time theorem, weak form)
 
+以上的策略能赚到钱吗? 
+
+假设 ${ X_0, X_1, ... }$ 是鞅序列 (martingale sequence), 并且 $\tau$ 是一个时停, 
 
 Suppose that $\{ X_0, X_1, ... \}$ is a martingale sequence and $\tau$ is a stopping time such that $\tau \le T$ for some constant $T$, Then $\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$
 
