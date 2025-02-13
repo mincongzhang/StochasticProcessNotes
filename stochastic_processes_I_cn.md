@@ -264,10 +264,10 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 那么 $\{ X_0, X_1, ... \}$ 就是一个鞅(martingale).
 
-## 鞅停止定理/可选抽样定理 (Optional stopping theorem)
+## 鞅停止定理/可选停时定理 (Optional stopping theorem)
 ### 定义
-(Stopping time) Given a stochastic process $\{ X_0, X_1, ... \}$, a non-negative integer-valued random variable $\tau$ is called a stopping time if for every integer $k \ge 0$,
-the event $\tau \le k$ depends only on the events  $\{ X_0, X_1, ..., X_k \}$
+
+停时: 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时 (stopping time). 
 
 感觉就是马尔可夫破产问题, 一旦到某条线(并且之前不曾到达过), 破产或者收手离场. 
 
