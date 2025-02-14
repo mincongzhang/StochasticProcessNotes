@@ -1,4 +1,7 @@
 ## Continuous-time stochastic process
+
+https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
+
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
 A stochastic process $X$ is then a map from the universe $\Omega$ to the space of real functions defined over $\[0, \infty)$
