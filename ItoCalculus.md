@@ -1,4 +1,5 @@
 # Ito's Calculus
+https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote18/
 
 In the previous lecture, we have observed that a sample Brownian path is nowhere differentiable with probability 1. In other words, the differentiation 
 
