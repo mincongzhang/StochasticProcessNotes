@@ -175,6 +175,8 @@ $$
 
 有了这个转移矩阵, 我们就可以问, 在连续运转365天或者3650天, 直到连续运转n天后这个机器坏掉的概率分布是怎么样的? 也就是有多大概率中途坏掉, 有多大概率一直不坏? 
 
+TODO: https://youtu.be/TuTmC8aOQJE?t=2957
+
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
@@ -239,6 +241,8 @@ $$\pi_i = \frac{1}{n}$$
 $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
 但如果我们考虑无限的状态空间(infinite state spaces)这个定理就不成立. 
+
+TODO: https://youtu.be/TuTmC8aOQJE?t=3250
 
 
 ## 鞅(Martingale)
