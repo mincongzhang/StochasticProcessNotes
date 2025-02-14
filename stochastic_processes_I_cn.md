@@ -166,12 +166,14 @@ $$
 
 转移概率矩阵(transition probability matrix):
 
-$$
+$$ A = 
 \begin{bmatrix}
 0.99 & 0.8 \\
 0.01 & 0.2 
 \end{bmatrix}
 $$
+
+有了这个转移矩阵, 我们就可以问, 在连续运转365天或者3650天, 直到连续运转n天后这个机器坏掉的概率分布是怎么样的? 也就是有多大概率中途坏掉, 有多大概率一直不坏? 
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
