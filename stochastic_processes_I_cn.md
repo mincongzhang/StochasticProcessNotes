@@ -86,7 +86,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 2. 独立增量(Independent increment): 对所有 $0 = t_0 \le t_1 \le ... \le t_k $, 随机变量(random variable) $X_{t_{i+1}} - X_{t_{i}}$ 是相互独立的(mutually independent).
 
-3. 平稳性(Stationary): 对所有 $h \ge 1, t \ge 0$, $X_{t+h} - X_t$ 的分布和 $X_h$ 的分布一样. 也就是不管你怎么选取起始点( $0$ 或者任意 $t$ ), 分布(distribution)都是一样的. 
+3. 平稳性(Stationary): 对所有 $h \ge 1, t \ge 0$, $X_{t+h} - X_t$ 的分布和 $X_h$ 的分布一样. 也就是不管你怎么选取起始点( $0$ 或者任意 $t$ ), 只要段落(interval)长短一致(都是 $h$), 那么这两段的分布(distribution)都是一样的. 而且如果这两段不重叠(do not overlap), 那么他们还互相独立(independent).
 
 只要增量 $Y_i$ 是相同且独立的(identical and independent), 并且均值为0, 那么这些性质就一直能成立. 
 
