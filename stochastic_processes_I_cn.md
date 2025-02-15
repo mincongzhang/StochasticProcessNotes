@@ -377,7 +377,14 @@ $$P = \frac{1}{3}$$
 
 推导到一般形式, 我们有两个正整数 $a$ 和 $b$, 我们盈利达到 $a$ 或者亏损达到 $b$ 的时候就停止赌博. 设停时为 $\tau$ . 求 $X_\tau$ 的概率分布? 也就是求 $X_\tau = a$ 的概率和 $X_\tau = b$ 的概率. 
 
+
 $$P \times a + (1-P) \times (-b) = 0$$
 $$(a+b)P - b = 0$$
 $$ P = \frac{b}{a+b}$$
 
+
+## TODO
+额外补充:
+输赢
+
+https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1%E6%82%96%E8%AE%BA
