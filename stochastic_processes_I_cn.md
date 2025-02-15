@@ -65,6 +65,12 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 略作修改, 对于一个足够大的 $n$, $\frac{1}{\sqrt{n}} X_n$的收敛为正态分布(normal distribution), 均值(mean)是0, 方差(variance)是1, 标准差(standard deviation)是1. 
 
 
+也就是说, 虽然这是随机游走, 但是根据中心极限定理, 随机游走的路径依然是在0这个中间点上下的, 并且上下幅度不会很大, 也就保持在正态分布的范围内. 把随机游走每一条可能的路径画成图的话大概是下面这样:
+
+![image](https://github.com/user-attachments/assets/ff549bdd-ea0f-4d80-a416-5bef9fcaa79e)
+
+
+
 补充: 中心极限定理(central limit theorem, CLT): 在概率论中，中心极限定理确认，在许多情况下，对于独立并同样分布的随机变量，即使原始变量本身不是正态分布，标准化样本均值的抽样分布也趋向于标准正态分布. 
 
 补充: 方差计算公式: $\sigma ^2 = \frac { \sum (x_i - \mu) ^ 2 }{N}$
