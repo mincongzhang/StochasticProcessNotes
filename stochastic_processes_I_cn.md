@@ -133,6 +133,8 @@ $$f(0) = \frac{B}{A+B}$$
 
 ## 马尔可夫链 (Markov chain)
 
+TODO: 这里继续往下看: https://youtu.be/TuTmC8aOQJE?t=1978
+
 ### 定义
 
 简单随机游走(simple random walk)的一个重要性质是只有当前状态(current state)才能影响未来(future state), 在当前状态以前的历史状态不对未来状态产生影响. 
