@@ -67,7 +67,11 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 也就是说, 虽然这是随机游走, 但是根据中心极限定理, 随机游走的路径依然是在0这个中间点上下的, 并且上下幅度不会很大, 也就保持在正态分布的范围内. 把随机游走每一条可能的路径画成图的话大概是下面这样:
 
-![image](https://github.com/user-attachments/assets/ff549bdd-ea0f-4d80-a416-5bef9fcaa79e)
+
+![image](https://github.com/user-attachments/assets/933cdb61-849e-4baa-a806-9a2f87049dc5)
+
+参考: https://www.kaisataipale.net/blog/2015/12/15/random-walks-in-python/
+
 
 
 
