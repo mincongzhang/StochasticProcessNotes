@@ -24,7 +24,7 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$
 
 ### 另一种定义
-如果我们想更便于计算, 我们可以这样定义随机过程: 在一系列空间路径上的概率分布(Probability distribution over a space of paths).
+如果我们想更便于计算, 我们可以说: 随机过程是一系列空间路径上的概率分布(Probability distribution over a space of paths).
 
 ### 一系列有趣的问题
 
