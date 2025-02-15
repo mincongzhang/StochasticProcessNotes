@@ -152,9 +152,7 @@ $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
 ### 深入马尔可夫链
 
-拥有马尔可夫性质的随机过程可被称为马尔可夫链. 
-
-值得注意的是, 一个有限的(finite)马尔可夫链可以用转移概率来描述: 
+我们可以用转移概率(transition probabilities)来描述一个有限的(finite)马尔可夫链: 
 
 $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
@@ -162,7 +160,7 @@ $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
 $$\sum_{i \in S} p_{ij} = 1, \forall i \in S$$
 
-马尔可夫链模型里的所有元素都可以被写进转移概率矩阵(transition probability matrix)里:
+那么我们可以把马尔可夫链里的所有元素都写进转移概率矩阵(transition probability matrix)里:
 
 $$
 A = \begin{pmatrix} 
