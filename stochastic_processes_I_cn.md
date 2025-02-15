@@ -384,7 +384,11 @@ $$ P = \frac{b}{a+b}$$
 
 
 ## TODO
-额外补充:
-输赢
+Total Expectation: Inf
+
+The gain is inf, so it's all about how you'd like to pay. And it's more like a discussion, it has no right answer.
 
 https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1%E6%82%96%E8%AE%BA
+
+数学期望大于零的游戏一定能赚钱吗 - 陈墨瞳nono的文章 - 知乎
+https://zhuanlan.zhihu.com/p/579732711
