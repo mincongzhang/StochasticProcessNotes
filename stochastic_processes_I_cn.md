@@ -26,6 +26,11 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 ### 另一种定义
 如果我们想更便于计算, 我们可以说: 随机过程是一系列空间路径上的概率分布(Probability distribution over a space of paths).
 
+### 例子
+
+1. 函数 $f(t) = t$ 是一个确定的过程(a deterministic process), 它不是随机过程(stochastic process)
+2. 函数 有50%的概率 $f(t) = t$ 50%的概率 $f(t) = -t$, 是一个随机过程(stochastic process)
+
 ### 一系列有趣的问题
 
 通过学习随机过程我们就可以讨论下面这些有趣的问题:
