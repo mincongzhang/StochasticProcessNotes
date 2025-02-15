@@ -133,19 +133,16 @@ $$f(0) = \frac{B}{A+B}$$
 
 ## 马尔可夫链 (Markov chain)
 
-TODO: 这里继续往下看: https://youtu.be/TuTmC8aOQJE?t=1978
 
 ### 定义
 
-简单随机游走(simple random walk)的一个重要性质是只有当前状态(current state)才能影响未来(future state), 在当前状态以前的历史状态不对未来状态产生影响. 
+如果一个简单随机游走(simple random walk)拥有这么一个重要性质, 这个性质是是只有当前状态(current state)才能影响未来(future state), 在当前状态以前的历史状态不对未来状态产生影响. 我们也可以说: $X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1, ..., X_k$. 
 
-我们也可以说:
+我们把拥有这样性质的随机过程称为马尔可夫链(Markov chain).
 
-$X_{k+1}$ 的分布只依赖于 $X_k$, 而和这之前的集合无关 $X_0, X_1, ..., X_k$. 拥有这样性质的随机过程我们称之为马尔可夫链(Markov chain).
+再正式一点:
 
-再正式一点, 对于 $X_0, X_1, ...$ 这么一个离散时间的随机过程(discrete-time stochastic process), 其中每一个 $X_i$ 取值于某一个离散集合(discrete set) $S$ (这和简单随机游走不同). 这个集合 $S$ 可称为 __状态空间__ (state space).
-
-如果以下成立, 我们可以说随机过程具有马尔可夫性质(Markov property):
+对于 $X_0, X_1, ...$ 这么一个离散时间的随机过程(discrete-time stochastic process), 其中每一个 $X_i$ 取值于某一个离散集合(discrete set) $S$ (这和简单随机游走不同). 这个集合 $S$ 可称为 __状态空间__ (state space). 如果以下成立, 我们可以说随机过程具有马尔可夫性质(Markov property):
 
 对所有的 $n \le 0$ 和 $i \in S$, 满足
 
