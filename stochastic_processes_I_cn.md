@@ -80,7 +80,7 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 补充: 方差计算公式: $\sigma ^2 = \frac { \sum (x_i - \mu) ^ 2 }{N}$
 
 
-### 命题(Proposition)
+### 性质
 
 1. 期望(Expectation): $\mathbb{E} [X_k] = 0$, 对所有 $k$, 期望都是0.
 
