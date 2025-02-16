@@ -257,7 +257,11 @@ q
 \end{bmatrix}
 $$
 
-那我们可以看出 $[p \ q] ^ T$ 是矩阵 $A$ 的特征向量(eigenvector)
+那我们可以矩阵 $A$ 的特征向量(eigenvector)是 $[p \ q] ^ T$, 特征值(eigenvalue)是 $p+q=1$.
+
+TODO: https://youtu.be/TuTmC8aOQJE?t=2975
+
+Perron-Frobenius定理
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
