@@ -257,6 +257,11 @@ q
 \end{bmatrix}
 $$
 
+那我们可以看出 $\begin{bmatrix}
+p \\
+q
+\end{bmatrix}$ 是矩阵 $A$ 的特征向量(eigenvector)
+
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
