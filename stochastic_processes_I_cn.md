@@ -245,6 +245,18 @@ A^{3651}
 \end{bmatrix}
 $$
 
+$$
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} \approx
+A
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix}
+$$
+
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
