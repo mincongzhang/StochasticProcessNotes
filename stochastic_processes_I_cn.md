@@ -158,7 +158,7 @@ $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
 ### 深入马尔可夫链
 
-我们可以用转移概率(transition probabilities)来描述一个有限的(finite)马尔可夫链: 
+我们可以用转移概率(transition probabilities)来描述一个有限的(finite)马尔可夫链 下面表示的是从 $i$ 状态到 $j$ 的转移概率:
 
 $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
