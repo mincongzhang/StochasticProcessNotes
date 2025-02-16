@@ -257,11 +257,15 @@ q
 \end{bmatrix}
 $$
 
-那我们可以矩阵 $A$ 的特征向量(eigenvector)是 $[p \ q] ^ T$, 特征值(eigenvalue)是 $p+q=1$.
+可以发现矩阵 $A$ 的特征向量(eigenvector)是 $[p \ q] ^ T$, 特征值(eigenvalue)是1.
 
-TODO: https://youtu.be/TuTmC8aOQJE?t=2975
+### Perron-Frobenius定理
 
-Perron-Frobenius定理
+我们看矩阵 $A$, 所有的元素都是正数, 那么存在有一个最大的特征值(eigen value), 这个特征值是正实数(positive and real), 并且存在一个特征向量(eigen vector), 向量中所有数都是正数, 也就是我们的 $[p \ q] ^ T$
+
+根据Perron-Frobenius定理, 
+
+对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system).
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
