@@ -257,6 +257,17 @@ round (9) [[0.98765432 0.01234568]]
 round (10) [[0.98765432 0.01234568]]
 ```
 
+```
+import numpy as np
+matrix = np.matrix([[0.99, 0.8],
+                    [0.01, 0.2]], dtype=float)
+vector = np.matrix([[1],[0]], dtype=float)
+print("round (0)", vector)
+for i in range(10):
+    vector = matrix * vector
+    print(f"round ({i+1})", vector)
+```
+
 参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
 
 直觉告诉我们当 $n$ 足够大, 比如 $A^{3650}$ 和 $A^{3651}$ 的结果应该是差不多的, 也就是趋于平稳了, 那我们就可以假设
