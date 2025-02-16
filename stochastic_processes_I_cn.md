@@ -185,10 +185,10 @@ $$
 
 $$
 A^2 = \begin{pmatrix} 
-p_{11} & p_{21} & \dots & p_{m1} \\
-p_{12} & p_{22} & \dots & p_{m2} \\
+p_{11} & p_{12} & \dots & p_{1m} \\
+p_{21} & p_{22} & \dots & p_{2m} \\
 \vdots & \vdots & \ddots & \vdots \\
-p_{1m} & p_{2m} & \dots & p_{mm}
+p_{m1} & p_{m2} & \dots & p_{mm}
 \end{pmatrix}^2
 $$
 
