@@ -164,7 +164,7 @@ $$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
 
 可以注意到, 
 
-$$\sum_{i \in S} p_{ij} = 1, \forall i \in S$$
+$$\sum_{j \in S} p_{ij} = 1, \forall i \in S$$
 
 那么我们可以把马尔可夫链里的所有元素都写进转移概率矩阵(transition probability matrix)里:
 
