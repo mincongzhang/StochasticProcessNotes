@@ -236,7 +236,7 @@ import numpy as np
 matrix = np.matrix([[0.99, 0.01],
                     [0.8, 0.2]], dtype=float)
 vector = np.matrix([[1,0]], dtype=float)
-print("round: 0", vector)
+print("round (0)", vector)
 for i in range(10):
     vector = vector * matrix
     print(f"round ({i+1})", vector)
@@ -244,7 +244,7 @@ for i in range(10):
 
 
 ```    
-round: 0 [[1. 0.]]
+round (0) [[1. 0.]]
 round (1) [[0.99 0.01]]
 round (2) [[0.9881 0.0119]]
 round (3) [[0.987739 0.012261]]
