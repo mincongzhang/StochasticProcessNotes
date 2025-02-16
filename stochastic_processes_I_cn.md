@@ -231,6 +231,17 @@ $$
 
 其中 $p$ 是10年后机器还工作的概率, $q$ 是10年后机器坏掉的概率. 
 
+```
+import numpy as np
+matrix = np.matrix([[0.99, 0.01],
+                    [0.8, 0.2]], dtype=float)
+vector = np.matrix([[1,0]], dtype=float)
+print("round: 0", vector)
+for i in range(10):
+    vector = vector * matrix
+    print(f"round ({i+1})", vector)
+```
+
 直觉告诉我们当 $n$ 足够大, 比如 $A^{3650}$ 和 $A^{3651}$ 的结果应该是差不多的, 也就是趋于平稳了, 那我们就可以假设
 
 $$ A^{3650} 
