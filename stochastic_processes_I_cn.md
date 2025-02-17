@@ -466,7 +466,7 @@ $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
 $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
-但如果我们考虑无限的状态空间(infinite state spaces)这个定理就不成立. 
+(注意这个定理只针对有限的状态空间(finite state spaces), 这个定理对无限的状态空间(infinite state spaces)不成立)
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
