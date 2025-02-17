@@ -450,7 +450,7 @@ $$
 
 $$A\vec{v} = \lambda\vec{v}$$
 
-最后我们终于可以回答开头提出的假设, 这样的 $[p \ q] ^ T$ 或者 $\vec{v}$ 就是我们的平稳分布(Stationary distribution).
+最后我们终于可以证明开头提出的假设, 这样的 $[p \ q] ^ T$ 或者 $\vec{v}$ 就是我们的平稳分布(Stationary distribution).
 
 
 ### 静止分布 (Stationary distribution) 定义总结
