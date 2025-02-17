@@ -468,9 +468,9 @@ $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
 (注意这个定理只针对有限的状态空间(finite state spaces), 这个定理对无限的状态空间(infinite state spaces)不成立)
 
-#### 例子
+#### 静止分布例子
 
-再来一个例子: 
+搞明白之后我们再来一个例子收尾: 
 
 选取一个整数集合(integer numbers)的状态空间 $S = Z_n$ 并且 $X_0 = 0$. 再选取一个马尔可夫链 $X_0, X_1, X_2, ...$ 其中有50%的概率 $X_{n+1} = X_n + 1$ 以及50%的概率 $X_{n+1} = X_n - 1$.
 
