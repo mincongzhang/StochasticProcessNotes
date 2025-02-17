@@ -524,6 +524,11 @@ $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 参考: 算法与数学之美
 
+![image](https://github.com/user-attachments/assets/4ee8fa3f-7f09-4e1e-b93f-347fc7cbd296)
+
+![image](https://github.com/user-attachments/assets/e4634ed9-f825-4583-9c20-31133be9511b)
+
+
 ### 命题(Proposition)
 
 可以通过 $t+1$ 推导到一般情况, 对所有的 $t \ge s$, 我们有
