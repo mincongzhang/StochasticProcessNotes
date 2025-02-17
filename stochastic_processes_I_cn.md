@@ -374,9 +374,9 @@ $$A\vec{v} = \lambda\vec{v}$$
 
 ### Perron-Frobenius定理
 
-我们看矩阵 $A$, 所有的元素都是正数, 那么存在有一个最大的特征值(eigen value), 这个特征值是正实数(positive and real), 并且存在一个特征向量(eigen vector), 向量中所有数都是正数, 也就是我们的 $[p \ q] ^ T$
+根据Perron-Frobenius定理, 矩阵 $A$所有的元素都是正数, 那么存在一个特征向量(eigenvector)$\vec{v} = [v1 \ v2] ^ T, v1>0, v2>0$, 也就是我们的 $[p \ q] ^ T$, 并且存在一个最大的特征值(eigenvalue) $\lambda>0$, 使得
 
-根据Perron-Frobenius定理, 
+$$A\vec{v} = \lambda\vec{v}$$
 
 对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system).
 
