@@ -230,6 +230,8 @@ p & q
 \end{bmatrix}
 $$
 
+试着算一下其实10天以后就收敛了:
+
 ```
 import numpy as np
 matrix = np.matrix([[0.99, 0.01],
@@ -240,6 +242,30 @@ for i in range(10):
     vector = vector * matrix
     print(f"round ({i+1})", vector)
 ```
+
+```
+round (0) [[1. 0.]]
+round (1) [[0.99 0.01]]
+round (2) [[0.9881 0.0119]]
+round (3) [[0.987739 0.012261]]
+round (4) [[0.98767041 0.01232959]]
+round (5) [[0.98765738 0.01234262]]
+round (6) [[0.9876549 0.0123451]]
+round (7) [[0.98765443 0.01234557]]
+round (8) [[0.98765434 0.01234566]]
+round (9) [[0.98765432 0.01234568]]
+round (10) [[0.98765432 0.01234568]]
+```
+
+$$
+\begin{bmatrix}
+p & q
+\end{bmatrix} =
+\begin{bmatrix}
+0.98765432 & 0.01234568
+\end{bmatrix}
+
+$$
 
 
 
