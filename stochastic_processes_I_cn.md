@@ -371,7 +371,7 @@ $$
 
 $$A\vec{v} = \lambda\vec{v}$$
 
-可以发现矩阵 $A$ 的特征向量(eigenvector)是 $[p \ q] ^ T$, 特征值(eigenvalue)是1.
+可以发现矩阵 $A$ 的特征向量是 $\vec{v} = [p \ q] ^ T$, 特征值是 $\lambda=1$.
 
 ### Perron-Frobenius定理
 
