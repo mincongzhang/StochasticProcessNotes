@@ -374,7 +374,7 @@ $$A\vec{v} = \lambda\vec{v}$$
 
 可以观察到矩阵 $A$ 的特征向量是 $\vec{v} = [p \ q] ^ T$, 特征值 __看起来__ 是 $\lambda=1$, 但因为是约等于我们没法断定. 下面我们试图证明. 
 
-### Perron-Frobenius定理
+### 通过Perron-Frobenius定理来看平稳分布
 
 Perron–Frobenius定理: 如果一个正实数方阵的元素都是正数, 那么它具有唯一的实数特征值, 并且特征向量的值都是正数.
 
@@ -453,10 +453,10 @@ $$A\vec{v} = \lambda\vec{v}$$
 最后我们终于可以证明开头提出的假设, 这样的 $[p \ q] ^ T$ 或者 $\vec{v}$ 就是我们的平稳分布(Stationary distribution).
 
 
-### 静止分布 (Stationary distribution) 定义总结
-通过上面例子我们再次给静止分布的定义做一个总结:
+### 平稳分布 (Stationary distribution) 定义总结
+通过上面例子我们再次给平稳分布的定义做一个总结:
 
-马尔可夫链的静止分布是在状态空间(state space) $S$ 上的概率分布, 其中 $P ( X_0 = j ) = \pi_j$, 使得: 
+马尔可夫链的平稳分布是在状态空间(state space) $S$ 上的概率分布, 其中 $P ( X_0 = j ) = \pi_j$, 使得: 
 
 $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
@@ -468,17 +468,17 @@ $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
 (注意这个定理只针对有限的状态空间(finite state spaces), 这个定理对无限的状态空间(infinite state spaces)不成立)
 
-#### 静止分布例子
+#### 平稳分布例子
 
 搞明白之后我们再来一个例子收尾: 
 
 选取一个整数集合(integer numbers)的状态空间 $S = Z_n$ 并且 $X_0 = 0$. 再选取一个马尔可夫链 $X_0, X_1, X_2, ...$ 其中有50%的概率 $X_{n+1} = X_n + 1$ 以及50%的概率 $X_{n+1} = X_n - 1$.
 
-那么对所有的 $i$, 这个马尔可夫链的静止分布(stationary distribution)是:
+那么对所有的 $i$, 这个马尔可夫链的平稳分布(stationary distribution)是:
 
 $$\pi_i = \frac{1}{n}$$
 
-因为每一个状态的概率都相等, 所以第n步的每一个状态的静止分布就是 $\frac{1}{n}$
+因为每一个状态的概率都相等, 所以第n步的每一个状态的平稳分布就是 $\frac{1}{n}$
 
 ## 鞅(Martingale)
 
