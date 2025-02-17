@@ -264,7 +264,6 @@ p & q
 \begin{bmatrix}
 0.98765432 & 0.01234568
 \end{bmatrix}
-
 $$
 
 
