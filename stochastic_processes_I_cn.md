@@ -468,34 +468,9 @@ $$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
 
 (注意这个定理只针对有限的状态空间(finite state spaces), 这个定理对无限的状态空间(infinite state spaces)不成立)
 
-### 例子2
-简单随机游走的转移概率(Transition probability for simple random walk):
-
-一个简单随机游走也是马尔可夫链. 但是因为简单随机游走的样本空间(sample space)是无限的, 所以我们没法写出转移概率矩阵. 那我们试试另一种方法:
-
-我们把 $r_{ij} \( n \) = P \( X_n = j | X_0 = i \)$ 表示为n阶(n-th step)转移概率. 这些概率满足递推关系(recurrence relation):
-
-对所有的 $n \gt 1$, 
-
-$$r_{ij} (n) = \sum_{k=1}^{m} r_{ik} (n - 1) p_{kj}$$
-
-其中 $r_{ij} (1) = p_{ij}$
-
-
-怎么理解呢? 首先第1个状态是 $r_{ij} (1) = p_{ij}$, 我们可以从第2个状态倒推回第1个状态:
-$$r_{ij} \( 2 \) = \sum_{k=1}^{m} r_{ik} \( 1 \) p_{kj} = \sum_{k=1}^{m} p_{ik} p_{kj} $$
-
-可以发现, 这其实就是 $i$ 到 $j$ 中途所有可能的路径概率的总和. 类比就是有很多分叉的小路, 能达到目的地的所有随机游走路径的概率总和. 
-
-所以, n阶(n-step)转移概率矩阵可以写成该矩阵的n次方: 
-
-$$A^n$$
-
-
-### 例子3
-#### 定义: 静止分布 (Stationary distribution)
-
 #### 例子
+
+再来一个例子: 
 
 选取一个整数集合(integer numbers)的状态空间 $S = Z_n$ 并且 $X_0 = 0$. 再选取一个马尔可夫链 $X_0, X_1, X_2, ...$ 其中有50%的概率 $X_{n+1} = X_n + 1$ 以及50%的概率 $X_{n+1} = X_n - 1$.
 
@@ -504,19 +479,6 @@ $$A^n$$
 $$\pi_i = \frac{1}{n}$$
 
 因为每一个状态的概率都相等, 所以第n步的每一个状态的静止分布就是 $\frac{1}{n}$
-
-#### 定理
-
-注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigen vector), 它的特征值(eigen value)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
-
-对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system). 进一步:  
-
-$$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
-
-但如果我们考虑无限的状态空间(infinite state spaces)这个定理就不成立. 
-
-TODO: https://youtu.be/TuTmC8aOQJE?t=3250
-
 
 ## 鞅(Martingale)
 
