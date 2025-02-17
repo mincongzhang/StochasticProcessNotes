@@ -222,11 +222,11 @@ $$
 
 $$ 
 \begin{bmatrix}
-1 0 
+1 & 0 
 \end{bmatrix} 
 A^{3650}  = 
 \begin{bmatrix}
-p q
+p & q
 \end{bmatrix}
 $$
 
