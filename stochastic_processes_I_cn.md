@@ -2,7 +2,7 @@
 TODO: 全期望定理那里视频里是怎么说的?
 
 # MIT随机过程笔记[1]:从随机游走到鞅
-### 前言
+## 前言
 
 MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰易懂的. 我参考了他们的教学视频和教案整理翻译成中文发在这里. 
 
@@ -11,6 +11,16 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 视频: https://www.youtube.com/watch?v=TuTmC8aOQJE
 
 教案: https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote5/
+
+## 结构
+
+TODO:
+
+- 随机游走
+- 马尔科夫链
+- 马尔可夫链的平稳分布
+- 鞅是什么
+- 在鞅过程中没法套利
 
 ## 随机过程 (Stochastic process)
 ### 定义
