@@ -218,6 +218,32 @@ $$
 
 试问在连续运转10年后(3650天)这个机器坏掉的概率分布是怎么样的? 也就是有多大概率中途坏掉, 有多大概率一直不坏? 
 
+我们可以这么写:
+
+$$ 
+\begin{bmatrix}
+1 0 
+\end{bmatrix} 
+A^{3650}  = 
+\begin{bmatrix}
+p q
+\end{bmatrix}
+$$
+
+```
+import numpy as np
+matrix = np.matrix([[0.99, 0.01],
+                    [0.8, 0.2]], dtype=float)
+vector = np.matrix([[1,0]], dtype=float)
+print("round (0)", vector)
+for i in range(10):
+    vector = vector * matrix
+    print(f"round ({i+1})", vector)
+```
+
+
+
+
 $$ A^{3650} 
 \begin{bmatrix}
 1 \\
@@ -262,10 +288,10 @@ import numpy as np
 matrix = np.matrix([[0.99, 0.8],
                     [0.01, 0.2]], dtype=float)
 vector = np.matrix([[1],[0]], dtype=float)
-print("round (0)", vector)
+print("round (0)", vector[0], vector[1])
 for i in range(10):
     vector = matrix * vector
-    print(f"round ({i+1})", vector)
+    print(f"round ({i+1})", vector[0], vector[1])
 ```
 
 参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
