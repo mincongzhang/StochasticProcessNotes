@@ -155,7 +155,7 @@ $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 赌徒的盈亏是一个随机游走的过程, 它也是一个马尔科夫链. 因为赌徒未来的盈亏只取决于当下的盈亏, 比如当前状态赌徒的盈亏是100或者-100, 那么未来的盈亏只会和当前的状态有关, 和赌徒的历史盈亏无关. 
 
 
-### 深入马尔可夫链
+## 深入马尔可夫链
 
 我们可以用转移概率(transition probabilities)来描述一个状态有限的(finite set of states)马尔可夫链. 下面表示的是从 $i$ 状态到 $j$ 状态的转移概率:
 
@@ -453,6 +453,15 @@ $$A\vec{v} = \lambda\vec{v}$$
 最后我们终于可以回答开头提出的假设, 这样的 $[p \ q] ^ T$ 或者 $\vec{v}$ 就是我们的平稳分布(Stationary distribution).
 
 
+### 静止分布 (Stationary distribution) 定义总结
+通过上面例子我们再次给静止分布的定义做一个总结:
+
+马尔可夫链的静止分布是在状态空间(state space) $S$ 上的概率分布, 其中 $P ( X_0 = j ) = \pi_j$, 使得: 
+
+$$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
+
+
+
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
@@ -476,27 +485,9 @@ $$r_{ij} \( 2 \) = \sum_{k=1}^{m} r_{ik} \( 1 \) p_{kj} = \sum_{k=1}^{m} p_{ik} 
 
 $$A^n$$
 
-回到例子1里的矩阵, 机器运作两天后的概率矩阵应该是:
-
-$$
-\begin{bmatrix}
-0.99 & 0.8 \\
-0.01 & 0.2 
-\end{bmatrix} ^ 2 = 
-\begin{bmatrix}
-0.9881 & 0.952 \\
-0.0119 & 0.048 
-\end{bmatrix}
-$$
 
 ### 例子3
 #### 定义: 静止分布 (Stationary distribution)
-马尔可夫链的静止分布是在状态空间(state space) $S$ 上的概率分布, 其中 $P ( X_0 = j ) = \pi_j$, 使得: 
-
-$$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
-
-
-注意 $P (X_0 = j) = \pi_j$ 其实就是前面例子里 $r_{ij} (n) = P ( X_n = j | X_0 = i )$ 去掉了条件概率, 所以静止分布的意思就是到达 $j$ 状态的所有可能性之和(注意是不带路径的).
 
 #### 例子
 
