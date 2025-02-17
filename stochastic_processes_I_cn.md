@@ -498,11 +498,7 @@ $$\pi_i = \frac{1}{n}$$
 
 $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
-其中:
-
-$F_t = \{ X_0, ..., X_t \}$ 
-
-那么一个离散时间随机过程 $\{ X_0, X_1, ... \}$ 可被看作是一个鞅(martingale).
+其中, $F_t = \{ X_0, ..., X_t \}$. 那么一个离散时间随机过程 $\{ X_0, X_1, ... \}$ 可被看作是一个鞅(martingale).
 
 可以看出 $X_t = \mathbb{E} \[ X_{t+1} | F_t \]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 
 
