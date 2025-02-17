@@ -237,10 +237,9 @@ import numpy as np
 matrix = np.matrix([[0.99, 0.01],
                     [0.8, 0.2]], dtype=float)
 vector = np.matrix([[1,0]], dtype=float)
-print("round (0)", vector)
-for i in range(10):
+for i in range(11):
+    print(f"round ({i}) {vector}")
     vector = vector * matrix
-    print(f"round ({i+1})", vector)
 ```
 
 ```
@@ -266,8 +265,16 @@ p & q
 \end{bmatrix}
 $$
 
+为了后面方便讨论我们转置(transpose)一下 $A$:
 
+$$ A = 
+\begin{bmatrix}
+0.99 & 0.8 \\
+0.01 & 0.2 
+\end{bmatrix}
+$$
 
+这样我们就可以写成:
 
 $$ A^{3650} 
 \begin{bmatrix}
@@ -280,43 +287,30 @@ q
 \end{bmatrix}
 $$
 
-
-```
-import numpy as np
-matrix = np.matrix([[0.99, 0.01],
-                    [0.8, 0.2]], dtype=float)
-vector = np.matrix([[1,0]], dtype=float)
-print("round (0)", vector)
-for i in range(10):
-    vector = vector * matrix
-    print(f"round ({i+1})", vector)
-```
-
-
-```    
-round (0) [[1. 0.]]
-round (1) [[0.99 0.01]]
-round (2) [[0.9881 0.0119]]
-round (3) [[0.987739 0.012261]]
-round (4) [[0.98767041 0.01232959]]
-round (5) [[0.98765738 0.01234262]]
-round (6) [[0.9876549 0.0123451]]
-round (7) [[0.98765443 0.01234557]]
-round (8) [[0.98765434 0.01234566]]
-round (9) [[0.98765432 0.01234568]]
-round (10) [[0.98765432 0.01234568]]
-```
-
 ```
 import numpy as np
 matrix = np.matrix([[0.99, 0.8],
                     [0.01, 0.2]], dtype=float)
 vector = np.matrix([[1],[0]], dtype=float)
-print("round (0)", vector[0], vector[1])
-for i in range(10):
+for i in range(11):
+    print(f"round ({i}) {vector[0]} {vector[1]}")
     vector = matrix * vector
-    print(f"round ({i+1})", vector[0], vector[1])
 ```
+
+```    
+round (0) [[1.]] [[0.]]
+round (1) [[0.99]] [[0.01]]
+round (2) [[0.9881]] [[0.0119]]
+round (3) [[0.987739]] [[0.012261]]
+round (4) [[0.98767041]] [[0.01232959]]
+round (5) [[0.98765738]] [[0.01234262]]
+round (6) [[0.9876549]] [[0.0123451]]
+round (7) [[0.98765443]] [[0.01234557]]
+round (8) [[0.98765434]] [[0.01234566]]
+round (9) [[0.98765432]] [[0.01234568]]
+round (10) [[0.98765432]] [[0.01234568]]
+```
+
 
 参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
 
