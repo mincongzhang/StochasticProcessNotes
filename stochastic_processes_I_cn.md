@@ -370,7 +370,7 @@ $$
 
 $$A\vec{v} = \lambda\vec{v}$$
 
-可以发现矩阵 $A$ 的特征向量是 $\vec{v} = [p \ q] ^ T$, 特征值是 $\lambda=1$.
+可以观察到矩阵 $A$ 的特征向量是 $\vec{v} = [p \ q] ^ T$, 特征值 __看起来__ 是 $\lambda=1$. 下面我们试图证明. 
 
 ### Perron-Frobenius定理
 
@@ -396,6 +396,35 @@ $$
 把上下坐标加起来(sum the coordinates):
 
 $$0.99 v_1 + 0.8 v_2 + 0.01 v_1 + 0.2 v_2 = v_1 + v_2 = \lambda (v_1 + v_2)$$
+
+$$\lambda = 1$$
+
+于此上面例子观察到的 $\lambda = 1$, 我们通过Perron–Frobenius定理也证明出它确实就是1:
+
+$$
+A
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} \approx
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} 
+$$
+
+$$
+A
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} = 
+\lambda
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} 
+$$
 
 $$\lambda = 1$$
 
