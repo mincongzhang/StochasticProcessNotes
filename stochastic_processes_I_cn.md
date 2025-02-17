@@ -470,7 +470,7 @@ $$A\vec{v} = \lambda\vec{v}$$
 
 $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
-注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigen vector), 它的特征值(eigen value)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
+注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigenvector), 它的特征值(eigenvalue)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
 
 对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system). 进一步:  
 
