@@ -232,6 +232,8 @@ $$
 
 其中 $p$ 是10年后机器还工作的概率, $q$ 是10年后机器坏掉的概率. 试着算一下其实10天以后就收敛了:
 
+参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
+
 ```
 import numpy as np
 matrix = np.matrix([[0.99, 0.01],
@@ -255,8 +257,6 @@ round (8) [[0.98765434 0.01234566]]
 round (9) [[0.98765432 0.01234568]]
 round (10) [[0.98765432 0.01234568]]
 ```
-
-参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
 
 $$
 \begin{bmatrix}
