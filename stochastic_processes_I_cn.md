@@ -450,6 +450,8 @@ $$
 
 $$A\vec{v} = \lambda\vec{v}$$
 
+最后我们终于可以回答开头提出的假设, 这样的 $[p \ q] ^ T$ 或者 $\vec{v}$ 就是我们的平稳分布(Stationary distribution).
+
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
