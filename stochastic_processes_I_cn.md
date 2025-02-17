@@ -388,10 +388,16 @@ $$
 0.01 v_1 + 0.2 v_2
 \end{bmatrix} = 
 \lambda \begin{bmatrix}
-v1 \\
-v2 
+v_1 \\
+v_2 
 \end{bmatrix}
 $$
+
+把上下坐标加起来(sum the coordinates):
+
+$$0.99 v_1 + 0.8 v_2 + 0.01 v_1 + 0.2 v_2 = v_1 + v_2 = \lambda (v_1 + v_2)$$
+
+$$\lambda = 1$$
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
