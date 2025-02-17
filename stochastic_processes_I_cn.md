@@ -328,6 +328,21 @@ A^{3651}
 \end{bmatrix}
 $$
 
+并且我们有:
+
+$$ A^{3650} 
+\begin{bmatrix}
+1 \\
+0 
+\end{bmatrix} = 
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix}
+$$
+
+于是:
+
 $$
 \begin{bmatrix}
 p \\
