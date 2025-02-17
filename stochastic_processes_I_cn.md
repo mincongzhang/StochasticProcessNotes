@@ -508,6 +508,22 @@ $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 可以看出 $X_t = \mathbb{E} \[ X_{t+1} | F_t \]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 这说明期望收益(expected gain)永远是0. 
 
+
+### 马鞅 (Martingale)
+额外补充:
+
+说了半天估计读者还是不知道鞅是什么东西, 我个人觉得不管是英文还是中文这个词鞅(Martingale)的选择都比较糟糕. 总之可以搜搜马鞅试图理解一下吧.
+
+![image](https://github.com/user-attachments/assets/261925e5-4380-4e2c-8758-6375dc5cd08a)
+
+参考: http://musashimitakejinja.jp/homotsu_multilingual/cn/kinpukurin_cn.html
+
+![image](https://github.com/user-attachments/assets/5c0d9c00-03be-4913-aa55-6a43beaf531b)
+
+参考: https://www.sohu.com/a/165161557_701814
+
+参考: 算法与数学之美
+
 ### 命题(Proposition)
 
 可以通过 $t+1$ 推导到一般情况, 对所有的 $t \ge s$, 我们有
