@@ -520,11 +520,7 @@ $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 ![image](https://github.com/user-attachments/assets/5c0d9c00-03be-4913-aa55-6a43beaf531b)
 
-参考: https://www.sohu.com/a/165161557_701814
-
 参考: 算法与数学之美
-
-![image](https://github.com/user-attachments/assets/4ee8fa3f-7f09-4e1e-b93f-347fc7cbd296)
 
 ![image](https://github.com/user-attachments/assets/e4634ed9-f825-4583-9c20-31133be9511b)
 
