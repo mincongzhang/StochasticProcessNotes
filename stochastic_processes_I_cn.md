@@ -378,11 +378,20 @@ Perron–Frobenius定理: 如果一个正实数方阵的元素都是正数, 那�
 
 (Perron–Frobenius theorem, asserts that a real square matrix with positive entries has a unique eigenvalue of largest magnitude and that eigenvalue is real. The corresponding eigenvector can be chosen to have strictly positive components.)
 
-矩阵 $A$ 是方阵(square matrix)并且所有的元素都是正数, 根据Perron-Frobenius定理, 那么存在一个特征向量(eigenvector) $\vec{v} = [v1 \ v2] ^ T, v1>0, v2>0$, 也就是我们的 $[p \ q] ^ T$, 并且存在唯一的一个最大特征值(eigenvalue) $\lambda>0$:
+矩阵 $A$ 是方阵(square matrix)并且所有的元素都是正数, 根据Perron-Frobenius定理, 那么存在一个特征向量(eigenvector) $\vec{v} = [v1 \ v2] ^ T, v1>0, v2>0$, 也就是我们的 $[p \ q] ^ T$, 并且存在唯一的一个最大特征值(eigenvalue) $\lambda>0$, 使得:
 
 $$A\vec{v} = \lambda\vec{v}$$
 
-对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system).
+$$
+\begin{bmatrix}
+0.99 v1 + 0.8 v2 \\
+0.01 v1 + 0.2 v2
+\end{bmatrix} = 
+\begin{bmatrix}
+v1 \\
+v2 
+\end{bmatrix}
+$$
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
