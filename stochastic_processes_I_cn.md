@@ -430,6 +430,18 @@ $$
 
 $$\lambda = 1$$
 
+总结一下, 在我们这样的马尔科夫链里(转移概率矩阵所有元素都是正数), Perron-Frobenius定理保证特征值 $\lambda = 1$, 并且:
+
+A
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} = 
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} 
+
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
 
