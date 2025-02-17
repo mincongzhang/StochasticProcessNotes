@@ -256,6 +256,8 @@ round (9) [[0.98765432 0.01234568]]
 round (10) [[0.98765432 0.01234568]]
 ```
 
+参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
+
 $$
 \begin{bmatrix}
 p & q
@@ -311,8 +313,6 @@ round (9) [[0.98765432]] [[0.01234568]]
 round (10) [[0.98765432]] [[0.01234568]]
 ```
 
-
-参考: https://weirping.github.io/blog/Stationary-Distribution-Markov-chain.html
 
 直觉告诉我们当 $n$ 足够大, 比如 $A^{3650}$ 和 $A^{3651}$ 的结果应该是差不多的, 也就是趋于平稳了, 那我们就可以假设
 
