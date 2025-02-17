@@ -387,7 +387,7 @@ $$
 0.99 v_1 + 0.8 v_2 \\
 0.01 v_1 + 0.2 v_2
 \end{bmatrix} = 
-\begin{bmatrix}
+\lambda \begin{bmatrix}
 v1 \\
 v2 
 \end{bmatrix}
