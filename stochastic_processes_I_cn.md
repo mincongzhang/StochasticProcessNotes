@@ -355,6 +355,22 @@ q
 \end{bmatrix}
 $$
 
+$$
+A
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} \approx
+\begin{bmatrix}
+p \\
+q
+\end{bmatrix} 
+$$
+
+回顾特征向量(eigenvector)和特征值(eigenvalue)的概念:
+
+$$A\vec{v} = \lambda\vec{v}$$
+
 可以发现矩阵 $A$ 的特征向量(eigenvector)是 $[p \ q] ^ T$, 特征值(eigenvalue)是1.
 
 ### Perron-Frobenius定理
