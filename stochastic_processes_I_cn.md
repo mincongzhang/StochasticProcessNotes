@@ -197,7 +197,7 @@ $$
 
 ### 平稳分布(Stationary distribution)
 
-在经过n步转移矩阵之后, 我们猜想的概率分布会收敛并趋于平稳. 由此我们引入平稳分布(Stationary distribution)的概念, 后面会给出证明. 
+在经过n步转移矩阵之后, 我们猜想概率分布会收敛并趋于平稳. 由此我们引入平稳分布(Stationary distribution)的概念, 后面会给出证明. 
 
 通过下面例子看看n步转移矩阵之后的分布:
 
