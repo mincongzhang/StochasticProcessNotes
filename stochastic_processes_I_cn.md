@@ -430,7 +430,9 @@ $$
 
 $$\lambda = 1$$
 
-总结一下, 在我们这样的马尔科夫链里(转移概率矩阵所有元素都是正数), Perron-Frobenius定理保证特征值 $\lambda = 1$, 并且:
+总结一下, 在我们这样的马尔科夫链里(转移概率矩阵所有元素都是正数), Perron-Frobenius定理保证特征值 $\lambda = 1$, 那么我们有:
+
+在例子中:
 
 $$
 A
@@ -443,6 +445,11 @@ p \\
 q
 \end{bmatrix} 
 $$
+
+一般化:
+
+$$A\vec{v} = \lambda\vec{v}$$
+
 
 ### 例子2
 简单随机游走的转移概率(Transition probability for simple random walk):
