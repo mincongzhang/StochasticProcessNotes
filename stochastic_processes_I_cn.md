@@ -585,7 +585,7 @@ $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i
 
 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] + \sum_{i=0}^{T-1} \mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } \] $$
 
-观察到 $\tau \ge i+1$ 是由 $X_0, X_1, ...X_i$ 决定的, $F_i = \{ X_0, ..., X_i \}$. 所以: 
+观察到 $\tau \ge i+1$ 是由 $X_0, X_1, ...X_i$ 决定的, 并且 $F_i = \{ X_0, ..., X_i \}$. 所以: 
 
 $$
 \begin{aligned}
