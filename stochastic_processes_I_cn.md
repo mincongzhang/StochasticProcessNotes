@@ -34,9 +34,9 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 
 ### 例子
 
-1. 函数 $f(t) = t$ 是一个确定的过程(a deterministic process), 它不是随机过程(stochastic process)
-2. 函数 $f(t)$ 对所有的 $t$, 有50%的概率 $f(t) = t$ 50%的概率 $f(t) = -t$, 是一个随机过程(stochastic process). 
-3. 函数 $f(t)$ 对每一个 $t$, 有50%的概率 $f(t) = t$ 50%的概率 $f(t) = -t$, 是一个随机过程(stochastic process)
+1. 函数 $f(t) = t$ 是一个确定的过程(a deterministic process), 它不是随机过程.
+2. 函数 $f(t)$ 对所有的 $t$, 有50%的概率 $f(t) = t$ 50%的概率 $f(t) = -t$, 是一个随机过程. 
+3. 函数 $f(t)$ 对每一个 $t$, 有50%的概率 $f(t) = t$ 50%的概率 $f(t) = -t$, 是一个随机过程.
 
 ### 一系列有趣的问题
 
