@@ -511,15 +511,9 @@ $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 说了半天估计读者还是不知道鞅是什么东西, 我个人觉得不管是英文还是中文这个词鞅(Martingale)都非常抽象. 总之可以搜搜马鞅试图理解一下吧.
 
-![image](https://github.com/user-attachments/assets/261925e5-4380-4e2c-8758-6375dc5cd08a)
-
-参考: http://musashimitakejinja.jp/homotsu_multilingual/cn/kinpukurin_cn.html
-
 ![image](https://github.com/user-attachments/assets/5c0d9c00-03be-4913-aa55-6a43beaf531b)
 
 参考: 算法与数学之美
-
-![image](https://github.com/user-attachments/assets/e4634ed9-f825-4583-9c20-31133be9511b)
 
 
 ### 性质
