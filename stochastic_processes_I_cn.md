@@ -544,7 +544,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 我们来试图设计一个策略从鞅赌博过程中赚钱, 在那之前我们定义以下概念:
 
-停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时(stopping time). 
+停时(Stopping time): 给定一个随机过程 $\{ X_0, X_1, ... \}$, 和一个非零正整数随机变量(a non-negative integer-valued random variable) $\tau$. 对每个整数 $k \ge 0$, 事件(the event) $\tau \le k$ 只依赖于事件(events)  $\{ X_0, X_1, ..., X_k \}$. 那么我们称 $\tau$ 为停时(stopping time). 
 
 ### 例子
 
