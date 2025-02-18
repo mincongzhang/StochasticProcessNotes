@@ -112,17 +112,17 @@ $$X_k = \sum_{i=1}^{k} Y_i$$
 
 定义:
 
-$$f(k) = P \(X_{\tau} = A | X_0 = k \)$$
+$$f(k) = P (X_{\tau} = A | X_0 = k )$$
 
 我们要计算 $f(0)$. 也就是设定条件初始0时刻 $X_0$的值为0, $\tau$时刻 $X_{\tau}$的值为 $A$的概率. 
 
 来看看我们已有的条件:
 
 1. 从上一个投硬币的例子我们可以总结出这个递归公式(因为是独立增量并且上下游走概率都为50%): $f(k) = \frac{1}{2}f(k+1) + \frac{1}{2}f(k-1)$
-2. 我们有边界条件: $f(A) = P \(X_{\tau} = A | X_0 = A \) = 1$ 
-3. 我们有边界条件: $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$
+2. 我们有边界条件: $f(A) = P (X_{\tau} = A | X_0 = A ) = 1$ 
+3. 我们有边界条件: $f(-B) = P (X_{\tau} = A | X_0 = B ) = 0$
 
-从边界条件开始考虑 $f(-B) = P \(X_{\tau} = A | X_0 = B \) = 0$, 因为我们不想触碰到这个边界, 所以我们从这个边界往上考虑, 假设 $f(-B+1) = \alpha$, 那么我们有:
+从边界条件开始考虑 $f(-B) = P (X_{\tau} = A | X_0 = B ) = 0$, 因为我们不想触碰到这个边界, 所以我们从这个边界往上考虑, 假设 $f(-B+1) = \alpha$, 那么我们有:
 1. $f(-B+1) = \frac{1}{2}f(-B+1+1) + \frac{1}{2}f(-B+1-1) = \frac{1}{2}f(-B+2) + \frac{1}{2}f(-B)  =\frac{1}{2}f(-B+2) + 0 = \frac{1}{2}f(-B+2) = \alpha \Rightarrow f(-B+2) = 2 \alpha$
 2. $f(-B+2) = \frac{1}{2}f(-B+2+1) + \frac{1}{2}f(-B+2-1) = \frac{1}{2}f(-B+3) + \frac{1}{2}f(-B+1)  =\frac{1}{2}f(-B+3) + \frac{1}{2}\alpha = 2 \alpha$
 3. $f(-B+3) = 3 \alpha$
@@ -151,7 +151,7 @@ $$f(0) = \frac{B}{A+B}$$
 
 对于 $X_0, X_1, ...$ 这么一个离散时间的随机过程(discrete-time stochastic process), 其中每一个 $X_i$ 取值于某一个离散集合(discrete set) $S$ . 我们把这个集合 $S$ 称为 __状态空间__ (state space). 对所有的 $n \le 0$ 和 $i \in S$, 满足
 
-$$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
+$$P ( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 ) = P ( X_{n+1} = i | X_n )$$
 
 我们可以说这个随机过程具有马尔可夫性质(Markov property). 我们把拥有马尔可夫性质的随机过程称为马尔可夫链. 
 
@@ -166,7 +166,7 @@ $$P \( X_{n+1} = i | X_n, X_{n-1}, ..., X_0 \) = P \( X_{n+1} = i | X_n \)$$
 
 我们可以用转移概率(transition probabilities)来描述一个状态有限的(finite set of states)马尔可夫链. 下面表示的是从 $i$ 状态到 $j$ 状态的转移概率:
 
-$$p_{ij} = P \( X_{n+1} = j | X_n = i \) \ \ i,j \in S$$
+$$p_{ij} = P ( X_{n+1} = j | X_n = i ) \ \ i,j \in S$$
 
 可以注意到, 所有 $j$ 状态概率之和是1, 也就是说明这已经包含了所有可能的状态:
 
@@ -467,11 +467,11 @@ $$A\vec{v} = \lambda\vec{v}$$
 
 $$\pi_{j} (n) = \sum_{k=1}^{m} \pi_{k} p_{kj} \ ( \forall j \in S )$$
 
-注意到这个向量(vector) $\( \pi_1, \pi_2, ..., \pi_m \)$ 是 $A$ 的特征向量(eigenvector), 它的特征值(eigenvalue)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
+注意到这个向量(vector) $( \pi_1, \pi_2, ..., \pi_m )$ 是 $A$ 的特征向量(eigenvector), 它的特征值(eigenvalue)是1. 所以通过Perron-Frobenius定理我们可以推导出以下定理.
 
 对所有的 $i,j \in S$, 如果 $p_{ij} \gt 0$, 那么就存在一个单一的平稳分布(a unique stationary distribution of the system). 进一步:  
 
-$$\lim_{n \to \infty} r_{ij} \( n \) = \pi_j, \forall i,j \in S $$
+$$\lim_{n \to \infty} r_{ij} ( n ) = \pi_j, \forall i,j \in S $$
 
 (注意这个定理只针对有限的状态空间(finite state spaces), 这个定理对无限的状态空间(infinite state spaces)不成立)
 
@@ -499,11 +499,11 @@ $$\pi_i = \frac{1}{n}$$
 
 下面是正式定义, 如果以下成立:
 
-$$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
+$$X_t = \mathbb{E} [ X_{t+1} | F_t ]$$
 
 其中, $F_t = \{ X_0, ..., X_t \}$. 那么一个离散时间随机过程 $\{ X_0, X_1, ... \}$ 可被看作是一个鞅(martingale).
 
-可以看出 $X_t = \mathbb{E} \[ X_{t+1} | F_t \]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 这说明期望收益(expected gain)永远是0. 
+可以看出 $X_t = \mathbb{E} [ X_{t+1} | F_t ]$ 是依赖于初始条件 $F_t = \{ X_0, ..., X_t \}$ 的(conditioning on the initial segment of the process). 这说明期望收益(expected gain)永远是0. 
 
 
 ### 马鞅 (Martingale)
@@ -520,7 +520,7 @@ $$X_t = \mathbb{E} \[ X_{t+1} | F_t \]$$
 
 可以通过 $t+1$ 推导到一般情况, 对所有的 $t \ge s$, 我们有
 
-$$X_s = \mathbb{E} \[ X_{t} | F_s \]$$
+$$X_s = \mathbb{E} [ X_{t} | F_s ]$$
 
 这说明未来任何一个时刻的状态的期望都等于现在的状态.
 
@@ -569,7 +569,7 @@ $$X_k = \prod_{i=1}^{k} Y_i$$
 
 注意到
 
-$$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } $$
+$$X_{\tau} = X_0 + \sum_{i=0}^{T-1} ( X_{i+1} - X_i ) \cdot 1_{ \\{ \tau \ge i + 1 \\} } $$
 
 其中 $1_{ \\{ \tau \ge i + 1 \\} }$ 是一个指示函数(indicator function), 意思当条件满足/不满足的时候我们有 $1_{ \\{ true \\} } = 1, 1_{ \\{ false \\} } = 0$. 并且我们还有 $\tau \le T$. 
 
@@ -577,24 +577,24 @@ $$X_{\tau} = X_0 + \sum_{i=0}^{T-1} \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i
 
 因为总时间 $T$ 是一个常数,通过期望的线性传导性质(linearity of expectation), 我们可以得到:
 
-$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] + \sum_{i=0}^{T-1} \mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } \] $$
+$$\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ] + \sum_{i=0}^{T-1} \mathbb{E} [ ( X_{i+1} - X_i ) \cdot 1_{ \\{ \tau \ge i + 1 \\} } ] $$
 
 观察到 $\tau \ge i+1$ 是由 $X_0, X_1, ...X_i$ 决定的, 并且 $F_i = \{ X_0, ..., X_i \}$. 所以: 
 
 $$
 \begin{aligned}
-\mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } \] &= \mathbb{E} \[ \mathbb{E} \[ \( X_{i+1} - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} } | Fi \] \] \\
-                                                                        &= \mathbb{E} \[ \mathbb{E} \[ \( X_{i+1} | Fi \] - X_i \) \cdot 1_{ \\{ \tau \ge i + 1 \\} }  \] \\
-                                                                        &= \mathbb{E} \[ 0 \cdot 1_{ \\{ \tau \ge i + 1 \\} }  \] = 0 
+\mathbb{E} [ ( X_{i+1} - X_i ) \cdot 1_{ \\{ \tau \ge i + 1 \\} } ] &= \mathbb{E} [ \mathbb{E} [ ( X_{i+1} - X_i ) \cdot 1_{ \\{ \tau \ge i + 1 \\} } | Fi ] ] \\
+                                                                        &= \mathbb{E} [ \mathbb{E} [ ( X_{i+1} | Fi ] - X_i ) \cdot 1_{ \\{ \tau \ge i + 1 \\} }  ] \\
+                                                                        &= \mathbb{E} [ 0 \cdot 1_{ \\{ \tau \ge i + 1 \\} }  ] = 0 
 \end{aligned}
 $$
 
 所以
 
-$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
+$$\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ]$$
 
 
-参考: 全期望定理(Law of total expectation): $\mathbb{E} \[ X \] = \mathbb{E} \[ \mathbb{E} \[ X|Y \] \]$ ,类似于全概率定理(law of total probability)
+参考: 全期望定理(Law of total expectation): $\mathbb{E} [ X ] = \mathbb{E} [ \mathbb{E} [ X|Y ] ]$ ,类似于全概率定理(law of total probability)
 
 
 并且条件还可以更进一步的弱化(further weakened). 参考这本教材 <R.Durrett, Probability: Theory and Examples, 3rd edition.> 
@@ -605,11 +605,11 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 再回到我们的例子:
 
-- 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 如果赌徒的策略是第一次收益达到100美元就停止赌博. 这样根据定义我们的期望是 $\mathbb{E} \[ X_{\tau} \] = 100$. 这和我们的可选停时定理(optional stopping theorem)岂不是冲突了? 如何反驳?
+- 在投硬币游戏里, 如果一个赌徒每一局都赌1美元. 如果赌徒的策略是第一次收益达到100美元就停止赌博. 这样根据定义我们的期望是 $\mathbb{E} [ X_{\tau} ] = 100$. 这和我们的可选停时定理(optional stopping theorem)岂不是冲突了? 如何反驳?
 
 首先题干里没有提及限制条件 $\tau \le T$, 如果没有边界的话那么盈亏期望确实可能就是100. 
 
-但如果我们加上了限制条件 $\tau \le T$, 这就回到了 $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] = 0$$
+但如果我们加上了限制条件 $\tau \le T$, 这就回到了 $$\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ] = 0$$
 
 
 ### 练习2
@@ -618,11 +618,11 @@ $$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \]$$
 
 我们初始盈亏期望是0, 根据之前推导的: 
 
-$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] = 0$$
+$$\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ] = 0$$
 
 我们假设达到100美元结束的概率是 $P$, 那么达到-50美元结束的概率是 $1-P$. 我们有
 
-$$\mathbb{E} \[ X_{\tau} \] = \mathbb{E} \[ X_0 \] = 0 = P \times 100 + (1-P) \times (-50)$$
+$$\mathbb{E} [ X_{\tau} ] = \mathbb{E} [ X_0 ] = 0 = P \times 100 + (1-P) \times (-50)$$
 
 $$150P-50 = 0$$
 
