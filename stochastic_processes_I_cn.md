@@ -649,7 +649,11 @@ $$P = \frac{b}{a+b}$$
 
 其中 $b$ 是你的本金, $a$ 是赌场的本金, 我们可以认为 $a \gg b$, 这样的话你赢的概率趋近于0. 所以这游戏不玩也罢. 
 
+### 额外补充
 
+还有一个圣彼得堡悖论, 讨论的是期望无限大的赌博游戏. 有兴趣可以看看:
+
+https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1%E6%82%96%E8%AE%BA
 
 ## 马尔可夫链和鞅对比((Markov Chain vs Martingale)
 
