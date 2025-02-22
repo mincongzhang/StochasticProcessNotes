@@ -15,6 +15,15 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 补充: 离概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转一阵后坏掉和继续运转的的概率, 多轮赌博后盈亏多少的概率的意思. 
 
+
+
+### 例子
+
+
+
+$A^n$
+
+
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
 A stochastic process $X$ is then a map from the universe $\Omega$ to the space of real functions defined over $\[0, \infty)$
