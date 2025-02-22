@@ -6,10 +6,10 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 
 ## 回顾马尔可夫链和鞅
-```
-Markov Chains
-Martingales
-```
+
+上篇我们讨论了马尔可夫链(Markov chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: $X_0, X_1, X_2, X_3, ...$. 
+
+连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$
 
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
