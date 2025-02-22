@@ -11,6 +11,8 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
 
+和离散随机过程相比, 连续随机过程的第一个难点是怎么描述概率分布
+
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
 A stochastic process $X$ is then a map from the universe $\Omega$ to the space of real functions defined over $\[0, \infty)$
