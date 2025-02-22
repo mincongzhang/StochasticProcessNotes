@@ -5,11 +5,11 @@ https://www.youtube.com/watch?v=PPl-7_RL0Ko
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
 
 
-## 回顾马尔可夫链和鞅
+## 回顾
 
 上篇我们讨论了马尔可夫链(Markov chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: $X_0, X_1, X_2, X_3, ...$. 
 
-连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$
+接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
 
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
