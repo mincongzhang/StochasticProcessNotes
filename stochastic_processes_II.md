@@ -1,5 +1,7 @@
 ## Continuous-time stochastic process
 
+https://www.youtube.com/watch?v=PPl-7_RL0Ko
+
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
 
 ### Definition
