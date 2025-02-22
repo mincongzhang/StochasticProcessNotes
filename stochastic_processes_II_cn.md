@@ -11,10 +11,11 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
 
+## 连续随机过程难点1
+
 和离散随机过程相比, 连续随机过程的第一个难点是如何描述概率分布(probability distribution)?
 
 补充: 离概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转一阵后坏掉和继续运转的的概率, 多轮赌博后盈亏多少的概率的意思. 
-
 
 
 ### 例子
