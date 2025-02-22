@@ -7,11 +7,13 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 ## 回顾
 
-上篇我们讨论了马尔可夫链(Markov chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: $X_0, X_1, X_2, X_3, ...$ . 
+上篇我们讨论了马尔可夫链(Markov Chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: $X_0, X_1, X_2, X_3, ...$ . 
 
 接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
 
-和离散随机过程相比, 连续随机过程的第一个难点是怎么描述概率分布
+和离散随机过程相比, 连续随机过程的第一个难点是如何描述概率分布(probability distribution)?
+
+概率分布的意思是: 坏掉工作的记录, 盈亏
 
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
