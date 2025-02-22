@@ -13,7 +13,7 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 和离散随机过程相比, 连续随机过程的第一个难点是如何描述概率分布(probability distribution)?
 
-概率分布的意思是: 坏掉工作的记录, 盈亏
+补充: 离概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转一阵后坏掉和继续运转的的概率, 赌博盈亏多少的意思. 
 
 ### Definition
 To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
