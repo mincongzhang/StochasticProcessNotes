@@ -26,29 +26,11 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 解决方案是用概率密度函数(probability density function): $P(\omega) = ?$
 
+## 布朗运动(Brownian motion)
 
-### Definition
-To formally define a stochastic process, there needs to be an underlying probability space $\( \Omega ,P \)$.
-A stochastic process $X$ is then a map from the universe $\Omega$ to the space of real functions defined over $\[0, \infty)$
+布朗运动也叫维纳过程(Wiener process). 
 
-Hence the probability of the stochastic process taking a particular path in some set A can be computed by computing the probability $P\( X^{-1} \( A \) \)$
-
-![image](https://github.com/mincongzhang/Quant100Public/assets/5571030/15d606f6-8b14-427d-8d8d-a5d788bc2ef1)
-
-补充解释:
-- $X$ 是上图所有路径的概率分布
-- $\omega$ 是其中一条可能的路径
-- 集合A这部分的意思是对于符合这个条件的一条可能的路径: $X \( \omega \) \in A$
-- $P\( X^{-1} \( A \) \)$ 是反函数的概率, 其中 $X^{-1} \( A \) = \\{ \omega | X\( \omega \) \in A \\}$
-
-When there is a single stochastic process, it is more convenient to just consider $\Omega$ as the space of all possible paths. The $P$ directly describes the probability distribution of the stochastic process. 
-
-We use the letter $\omega$ to denote an element of $\Omega$, or one possible path of the process. 
-
-## Standard Brownian motion
-Brownian motion is also refered to as the Wiener process. 
-
-### Theorem
+### 定理
 There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
 
 1. $B \(0\) = 0$
