@@ -17,7 +17,7 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 补充: 概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转365天后坏掉和继续运转的的概率, 100轮赌博后盈亏多少的概率的意思. 
 
-在离散随机过程中, 我们可以计算
+在离散随机过程中, 我们可以计算从t到t+1变化的概率
 
 ![image](https://github.com/user-attachments/assets/cc0b70bd-6270-475e-8c5a-9e354b8baa19)
 
