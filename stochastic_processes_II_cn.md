@@ -21,7 +21,10 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 ![image](https://github.com/user-attachments/assets/72646ec3-ac39-469e-b828-52606902624f)
 
-但是在连续随机过程中, 没有t和t+1时刻, 那我们也没法描述两个时间段变化的概率, 真想做的话那我们要做无穷多次计算拿到所有的可能性, 这是不可能的. 
+但是在连续随机过程中, 没有t和t+1时刻, 那我们也没法描述两个时间段变化的概率, 如果把所有时间区间都算完需要做无穷多次计算. 
+
+解决方案是用概率密度函数(probability density function): $P(\omega) = ?$
+
 
 ### 例子
 
