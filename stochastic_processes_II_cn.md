@@ -11,17 +11,17 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
 
-## 连续随机过程难点1
+## 连续随机过程难点: 如何描述概率分布(how to describe the probability distribution)
 
 和离散随机过程相比, 连续随机过程的第一个难点是如何描述概率分布(probability distribution).
 
-补充: 概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转365天后坏掉和继续运转的的概率, 100轮赌博后盈亏多少的概率的意思. 
+补充: 概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转365天后坏掉和继续运转的的概率, 100轮赌博后盈亏多少的概率的意思. 又或者说是所有随机路径到终点不同位置的概率汇总. 
 
-在离散随机过程中, 我们可以计算从t到t+1变化的概率
+在离散随机过程中, 我们可以计算从t到t+1时刻改变多少的概率, 计算出每个时刻改变多少的概率, 最后合并起来, 我们就能得到概率分布. 
 
-![image](https://github.com/user-attachments/assets/cc0b70bd-6270-475e-8c5a-9e354b8baa19)
+![image](https://github.com/user-attachments/assets/72646ec3-ac39-469e-b828-52606902624f)
 
-
+但是在连续随机过程中, 没有t和t+1时刻, 那我们也没法描述两个时间段变化的概率, 真想做的话那我们要做无穷多次计算拿到所有的可能性, 这是不可能的. 
 
 ### 例子
 
