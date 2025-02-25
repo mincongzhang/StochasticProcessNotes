@@ -17,20 +17,14 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 补充: 概率分布的意思是: 在离散随机过程中, 比如一台机器连续运转365天后坏掉和继续运转的的概率, 100轮赌博后盈亏多少的概率的意思. 又或者说是所有随机路径到终点不同位置的概率汇总. 
 
-在离散随机过程中, 我们可以计算从t到t+1时刻改变多少的概率, 计算出每个时刻改变多少的概率, 最后合并起来, 我们就能得到概率分布. 
+在离散随机过程中, 我们可以计算从t到t+1时刻改变多少的概率(上一篇说的矩阵 $A$), 把每个时间变化的概率都合并起来 ($A^n$), 我们就能得到概率分布. 
 
-![image](https://github.com/user-attachments/assets/72646ec3-ac39-469e-b828-52606902624f)
+![image](https://github.com/user-attachments/assets/5e0aa76b-8dcf-4183-b89a-f7eeeceefca0)
+
 
 但是在连续随机过程中, 没有t和t+1时刻, 那我们也没法描述两个时间段变化的概率, 如果把所有时间区间都算完需要做无穷多次计算. 
 
 解决方案是用概率密度函数(probability density function): $P(\omega) = ?$
-
-
-### 例子
-
-
-
-$A^n$
 
 
 ### Definition
