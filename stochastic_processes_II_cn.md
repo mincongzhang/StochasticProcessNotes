@@ -31,6 +31,9 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 布朗运动也叫维纳过程(Wiener process). 
 
 ### 定理
+
+https://youtu.be/PPl-7_RL0Ko?t=469
+
 There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
 
 1. $B \(0\) = 0$
