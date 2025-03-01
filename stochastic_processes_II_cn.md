@@ -23,8 +23,8 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 $$
 \begin{aligned}
-X_{t+1} - X_{t} &= 1 \ (P=0.5) \\
-                &= -1 \ (P=0.5) \\
+X_{t+1} - X_{t} &= 1 \quad &\text{(P=0.5)} \\
+                &= -1 \quad &\text{(P=0.5)} \\
 \end{aligned}
 $$
 
