@@ -19,7 +19,17 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 
 在离散随机过程中, 我们可以计算从t到t+1时刻改变多少的概率(上一篇说的矩阵 $A$), 把每个时间变化的概率都合并起来 ($A^n$), 我们就能得到概率分布. 
 
-![image](https://github.com/user-attachments/assets/5e0aa76b-8dcf-4183-b89a-f7eeeceefca0)
+比如一个简单随机游走(simple random walk):
+
+$$
+\begin{aligned}
+X_{t+1} - X_{t} &= 1 \ (P=0.5) \\
+                &= -1 \ (P=0.5) \\
+\end{aligned}
+$$
+
+![image](https://github.com/user-attachments/assets/ce0c71e2-73ac-47fd-ac2f-9fa5b37a3c74)
+
 
 
 但是在连续随机过程中, 没有t和t+1时刻, 那我们也没法描述两个时间段变化的概率, 如果把所有时间区间都算完需要做无穷多次计算. 
@@ -27,6 +37,8 @@ https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-f
 解决方案是用概率密度函数(probability density function), 我们可以用 $P(\omega)$ 来描述. 接下来我们就来看看怎么写出 $P(\omega)$.
 
 ## 布朗运动(Brownian motion)
+
+
 
 布朗运动也叫维纳过程(Wiener process). 
 
