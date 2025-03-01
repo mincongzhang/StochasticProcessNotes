@@ -39,11 +39,11 @@ $$
 
 ## 布朗运动(Brownian motion)
 
-布朗运动也叫维纳过程(Wiener process). 
-
 ### 定理
 
 https://youtu.be/PPl-7_RL0Ko?t=469
+
+布朗运动也叫维纳过程(Wiener process). 它的定义:
 
 There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
 
