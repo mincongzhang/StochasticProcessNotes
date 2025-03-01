@@ -39,11 +39,17 @@ $$
 
 ## 布朗运动(Brownian motion)
 
+
+布朗运动也叫维纳过程(Wiener process). 在给出复杂定义之前, 我们可以简单理解一下. 如果我们的简单随机游走取极限, 比如一个固定区间, 我们定义一个n步(n steps)随机游走过程, 把n扩展到无限大, 那么这个随机游走的结果就是布朗运动.
+
+
 ### 定理
 
 https://youtu.be/PPl-7_RL0Ko?t=469
 
-布朗运动也叫维纳过程(Wiener process). 它的定义:
+
+
+它的定义:
 
 There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
 
