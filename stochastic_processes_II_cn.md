@@ -62,6 +62,8 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 最后我们给出布朗运动最精确的的定义:
 
+存在一个从正实数到实数(就是时间轴$\le 0$, Y轴任意实数)映射的    概率分布  $\mathbb{R}_{\le 0} \rightarrow \mathbb{R}$
+
 There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
 
 1. $B \(0\) = 0$
