@@ -62,19 +62,20 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 最后我们给出布朗运动最精确的的定义:
 
-在这样 $\mathbb{R}_{\le 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数$\le 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
+在这样 $\mathbb{R}_{\ge 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数 $\ge 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
 
 1. $B \(0\) = 0$ (也就是初始值为0).
-2. 平稳性(stationary): 对所有 $0 \le s < t$, $B \( t \) - B \( s \)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
+2. 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
 3. 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_i \) - B \( s_i \)$ 是互相独立的 (mutually independent).
 
-We refere to a particular instance of a path chosen according to the Brownian motion as a __sample Brownian path__ .
+满足这样分布的随机过程即为布朗运动. 布朗运动中一条特定的路径我们称其为样本布朗路径(sample Brownian path).
+
+下面是一些布朗运动的特点:
+1. 经常穿过x轴
+2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
+3. 处处不可微 (nowhere differentiable)
 
 
-Here are some facts about the Brownian motion:
-1. Crosses the x-axis infinitely often
-2. Has a very close relation with the curve $x=y^2$ (it does not deviate from this curve too much)
-3. Is nowhere differentiable
 
 
 # 深入股票例子
