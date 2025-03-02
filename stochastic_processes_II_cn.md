@@ -64,11 +64,11 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 在这样 $\mathbb{R}_{\le 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数$\le 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
 
-1. $B \(0\) = 0$ (也就是初始值为0)
-2. 平稳性(stationary): for all $0 \le s < t$, the distribution of $B \( t \) - B \( s \)$ is the normal distribution with mean 0 and variance $t-s$
-3. Independent increment: the random variables $B \( t_i \) - B \( s_i \)$ are mutually independent if the intervals $\[ s_i, t_i \]$ are nonoverlapping
+1. $B \(0\) = 0$ (也就是初始值为0).
+2. 平稳性(stationary): 对所有 $0 \le s < t$, $B \( t \) - B \( s \)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
+3. 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_i \) - B \( s_i \)$ 是互相独立的 (mutually independent).
 
-We refere to a particular instance of a pth chosen according to the Brownian motion as a __sample Brownian path__ .
+We refere to a particular instance of a path chosen according to the Brownian motion as a __sample Brownian path__ .
 
 
 Here are some facts about the Brownian motion:
