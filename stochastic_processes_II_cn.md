@@ -51,6 +51,12 @@ $$
 
 $$Z \left( \frac{t}{n} \right) = Y_t$$
 
+并且我们线性扩展 $t=0,...,n$ 到非常大, 这时候 $Z$ 的路径的分布就会逐渐接近布朗运动. 通过中心极限定理(central limit theorem), 我们可以发现 $Z(1)$ 的分布会收敛到标准正态分布 $N(0,1)$ . 更加一般化来看, $Z(t)$ 会收敛到 $N(0,t)$. 
+
+补充解释：
+- 提到的 $\[ 0, 1 \]$ 其实也就是 $\frac{t}{n}$ 的取值范围
+- 总结上述也就是普通随意游走取极限得到的连续方程可以看作是标准布朗运动
+
 One way to think of standard Brownian motion is as a limit of simple random walks. To make this more precise, consider a simple random walk ${Y_0, Y_1, ...,}$ whose increments are of mean 0 and variance 1. 
 Let $Z$ be a piecewise linear function (分段函数) from $\[ 0, 1 \]$ to $\mathbb{R}$ defined as 
 
