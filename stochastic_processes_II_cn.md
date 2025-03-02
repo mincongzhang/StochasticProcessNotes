@@ -47,6 +47,24 @@ $$
 
 股票例子: 布朗运动也可以用来给股票建模, 虽然股票交易频率是有限制的, 但只要我们把时间拉长, 它就可以看作是布朗运动. 
 
+总结一下, 定义一个简单随机游走 ${Y_0, Y_1, ...,Y_n}$ 的均值(mean)为0, 方差(variance)为1. 定义 $Z$ 为一个实数 $\mathbb{R}$ 上 $\[ 0, 1 \]$ 的分段函数(piecewise linear function):
+
+$$Z \left( \frac{t}{n} \right) = Y_t$$
+
+One way to think of standard Brownian motion is as a limit of simple random walks. To make this more precise, consider a simple random walk ${Y_0, Y_1, ...,}$ whose increments are of mean 0 and variance 1. 
+Let $Z$ be a piecewise linear function (分段函数) from $\[ 0, 1 \]$ to $\mathbb{R}$ defined as 
+
+$$Z \left( \frac{t}{n} \right) = Y_t$$
+
+for $t=0,...,n$ and is linear at other points. As we take larger values of $n$, the distribution of the path $Z$ will get closer to that of the standard Brownian motion. 
+
+Indeed, we can check that the distribution of $Z \( 1 \)$ converges to the distribution of $N \( 0,1 \)$, by central limit theorem. More generally, the distribution of $Z \( t \)$ converges to $N \( 0,t \)$
+
+补充解释：
+- 提到的 $\[ 0, 1 \]$ 其实也就是 $\frac{t}{n}$ 的取值范围
+- 其实上述说的就是普通随意游走取极限得到的连续方程就可以看作是标准布朗运动
+
+
 ### 定理
 
 https://youtu.be/PPl-7_RL0Ko?t=469
@@ -56,8 +74,6 @@ https://youtu.be/PPl-7_RL0Ko?t=469
 定义
 
 正式定义.
-
-例子, 花粉运动
 
 
 
@@ -73,18 +89,6 @@ There exists a probability distribution over the set of continuous functions $B:
 
 We refere to a particular instance of a pth chosen according to the Brownian motion as a __sample Brownian path__ .
 
-One way to think of standard Brownian motion is as a limit of simple random walks. To make this more precise, consider a simple random walk ${Y_0, Y_1, ...,}$ whose increments are of mean 0 and variance 1. 
-Let $Z$ be a piecewise linear function (分段函数) from $\[ 0, 1 \]$ to $\mathbb{R}$ defined as 
-
-$$Z \left( \frac{t}{n} \right) = Y_t$$
-
-for $t=0,...,n$ and is linear at other points. As we take larger values of $n$, the distribution of the path $Z$ will get closer to that of the standard Brownian motion. 
-
-Indeed, we can check that the distribution of $Z \( 1 \)$ converges to the distribution of $N \( 0,1 \)$, by central limit theorem. More generally, the distribution of $Z \( t \)$ converges to $N \( 0,t \)$
-
-补充解释：
-- 提到的 $\[ 0, 1 \]$ 其实也就是 $\frac{t}{n}$ 的取值范围
-- 其实上述说的就是普通随意游走取极限得到的连续方程就可以看作是标准布朗运动
 
 Here are some facts about the Brownian motion:
 1. Crosses the x-axis infinitely often
