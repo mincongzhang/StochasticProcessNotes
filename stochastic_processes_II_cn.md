@@ -62,12 +62,10 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 最后我们给出布朗运动最精确的的定义:
 
-存在一个从正实数到实数(就是时间轴$\le 0$, Y轴任意实数)映射的    概率分布  $\mathbb{R}_{\le 0} \rightarrow \mathbb{R}$
+在这样 $\mathbb{R}_{\le 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数$\le 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
 
-There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
-
-1. $B \(0\) = 0$
-2. Stationary: for all $0 \le s < t$, the distribution of $B \( t \) - B \( s \)$ is the normal distribution with mean 0 and variance $t-s$
+1. $B \(0\) = 0$ (也就是初始值为0)
+2. 平稳性(stationary): for all $0 \le s < t$, the distribution of $B \( t \) - B \( s \)$ is the normal distribution with mean 0 and variance $t-s$
 3. Independent increment: the random variables $B \( t_i \) - B \( s_i \)$ are mutually independent if the intervals $\[ s_i, t_i \]$ are nonoverlapping
 
 We refere to a particular instance of a pth chosen according to the Brownian motion as a __sample Brownian path__ .
