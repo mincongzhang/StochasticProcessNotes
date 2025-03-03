@@ -75,30 +75,6 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
 3. 处处不可微 (nowhere differentiable)
 
-
-
-
-# 深入股票例子
-
-
-
-
-它的定义:
-
-There exists a probability distribution over the set of continuous functions $B: \mathbb{R} \rightarrow \mathbb{R}$ satisfying the following conditions:
-
-1. $B \(0\) = 0$
-2. Stationary: for all $0 \le s < t$, the distribution of $B \( t \) - B \( s \)$ is the normal distribution with mean 0 and variance $t-s$
-3. Independent increment: the random variables $B \( t_i \) - B \( s_i \)$ are mutually independent if the intervals $\[ s_i, t_i \]$ are nonoverlapping
-
-We refere to a particular instance of a pth chosen according to the Brownian motion as a __sample Brownian path__ .
-
-
-Here are some facts about the Brownian motion:
-1. Crosses the x-axis infinitely often
-2. Has a very close relation with the curve $x=y^2$ (it does not deviate from this curve too much)
-3. Is nowhere differentiable
-
 ### Proposition
 Define $M \( t \) = \max_{0 \le s \le t} B \( s \)$, and note that  $M \( t \)$ is well-defined since $B$ is continuous and $\[ 0, t \]$ is compact. 
 
