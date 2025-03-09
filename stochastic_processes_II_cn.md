@@ -80,7 +80,8 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
 
-### 例子
+### 例子: 用布朗运动给股票价格建模(Use Brownian motion as a model for stock price)
+
 
 股票日内分钟价例子
 
