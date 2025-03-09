@@ -80,7 +80,11 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
 
-### 例子: 用布朗运动给股票价格建模(Use Brownian motion as a model for stock price)
+### 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
+
+来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 并且股价符合布朗运动. 
+
+![image](https://github.com/user-attachments/assets/037dd9d1-1dbe-4fa8-8ad6-17740996f1f9)
 
 
 股票日内分钟价例子
