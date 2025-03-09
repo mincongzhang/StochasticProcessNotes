@@ -80,7 +80,11 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
 
-https://youtu.be/PPl-7_RL0Ko?t=1778
+### 例子
+
+股票日内分钟价例子
+
+https://youtu.be/PPl-7_RL0Ko?t=1856
 
 ### Proposition
 Define $M \( t \) = \max_{0 \le s \le t} B \( s \)$, and note that  $M \( t \)$ is well-defined since $B$ is continuous and $\[ 0, t \]$ is compact. 
