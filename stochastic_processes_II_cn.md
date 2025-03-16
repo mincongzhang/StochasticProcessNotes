@@ -91,12 +91,12 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 注意到时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广). 所以 $M(t)$ 是定义完好的(well defined).
 
-那么我们有理论如下, $\forall t \gt 0$ 和 $a \gt 0$:
+那么我们有理论如下, $\forall t \gt 0$ 和 $a \ge 0$:
 
 $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
+#### 证明
 
-https://youtu.be/PPl-7_RL0Ko?t=1856
 
 ### Proposition
 Define $M \( t \) = \max_{0 \le s \le t} B \( s \)$, and note that  $M \( t \)$ is well-defined since $B$ is continuous and $\[ 0, t \]$ is compact. 
