@@ -97,6 +97,22 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 #### 证明
 
+定义 $\tau_a$ 是一个停时(stopping time), 并且 $\tau_a = min_s \\{ s: B ( s ) = a \\}$, 意思就是随机过程第一次达到最小值 a 的时刻. 
+
+https://youtu.be/PPl-7_RL0Ko?t=2063
+
+
+Let $\tau_a = min_s \\{ s: B \( s \) = a \\}$ and note that $\tau_a$ is a stopping time. Note that for all $0 \le s < t$, we have
+
+$$P\( B \( t \) - B \( s \) > 0 \) = P\( B \( t \) - B \( s \) < 0 \) $$
+
+Hence we see that
+
+$$P\( B \( t \) - B \( \tau_a \) > 0 | \tau_a < t \) = P\( B \( t \) - B \( \tau_a \) < 0 | \tau_a < t \) $$
+
+Here we assumed that the distribution of $B \( t \) - B \( \tau_a \)$ is not affected by the fact that we conditioned on $\tau_a < t$. This is called the __Strong Markov Property__ of the Brownian motion
+
+
 
 ### Proposition
 Define $M \( t \) = \max_{0 \le s \le t} B \( s \)$, and note that  $M \( t \)$ is well-defined since $B$ is continuous and $\[ 0, t \]$ is compact. 
