@@ -87,9 +87,9 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 ![image](https://github.com/user-attachments/assets/037dd9d1-1dbe-4fa8-8ad6-17740996f1f9)
 
 
-我们想要做的是计算出日内最大值的概率分布
+我们想要做的是计算出日内最大值的概率分布， 也就是 $M \( t \) = \max_{0 \le s \le t} B \( s \)$.
 
-股票日内分钟价例子
+注意到时间范围 $\[ 0, t \]$ 是
 
 https://youtu.be/PPl-7_RL0Ko?t=1856
 
