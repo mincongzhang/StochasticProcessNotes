@@ -91,7 +91,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 注意到时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广). 所以 $M(t)$ 是定义完好的(well defined).
 
-那么我们有理论如下:
+那么我们有理论如下, $\forall t \gt 0$ 和 $a \gt 0$:
 
 $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
