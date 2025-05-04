@@ -82,7 +82,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 ### 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
 
-来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 
+来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
 ![image](https://github.com/user-attachments/assets/037dd9d1-1dbe-4fa8-8ad6-17740996f1f9)
 
