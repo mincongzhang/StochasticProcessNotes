@@ -102,7 +102,7 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 #### 证明
 
-定义 $\tau_a$ 是一个停时(stopping time), 并且 $\tau_a = min_s \\{ s: B ( s ) = a \\}$, 意思就是随机过程第一次达到 a 的时刻 (可能还有第二/三次达到a但是我们只记录第一次). 
+定义 $\tau_a$ 是一个停时(stopping time): $\tau_a = min_s \\{ s: B ( s ) = a \\}$, 意思就是随机过程第一次达到 a 的时刻 (可能还有第二/三次达到a但是我们只记录第一次). 
 
 https://youtu.be/PPl-7_RL0Ko?t=2063
 
