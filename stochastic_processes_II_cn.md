@@ -75,7 +75,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
 3. 处处不可微(nowhere differentiable). 因为所有的微积分都是基于求微分(differentiation), 处处不可微也意味着用微积分没法用了. 之后我们会说到的伊藤积分(Ito Calculus)可以解决这个问题. 
 
-如下图, 在 $t_0$ 时刻的概率分布符合 $N(0, t_0)$ (均值为0, 标准差为 $sqrt{t_0}$)的正态分布. 所以大部分值都会处于这个区间之内. 
+如下图, 在 $t_0$ 时刻的概率分布符合 $N(0, t_0)$ (均值为0, 标准差为 $\sqrt{t_0}$)的正态分布. 所以大部分值都会处于这个区间之内. 
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
