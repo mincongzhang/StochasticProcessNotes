@@ -90,7 +90,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 我们定义日内最大值的概率分布是 $M(t) = \max_{0 \le s \le t} B(s)$.
 
-注意到时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广). 所以 $M(t)$ 是定义完好的(well defined).
+注意到时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 其实也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
 
 那么我们有理论如下, $\forall t \gt 0$ 和 $a \ge 0$:
 
