@@ -106,11 +106,16 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 对于所有的 $0 \le s < t$, 我们有:
 
-$$P\( B \( t \) - B \( s \) > 0 \) = P\( B \( t \) - B \( s \) < 0 \) $$
+$$P(B (t) - B (s) > 0) = P(B (t) - B (s) < 0) $$
+
+直观一些:
+
+$$P(B (t) > B (s)) = P(B (t) < B (s)) $$
+
 
 那么:
 
-$$P\( B \( t \) - B \( \tau_a \) > 0 | \tau_a < t \) = P\( B \( t \) - B \( \tau_a \) < 0 | \tau_a < t \) $$
+$$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t)$$
 
 Here we assumed that the distribution of $B \( t \) - B \( \tau_a \)$ is not affected by the fact that we conditioned on $\tau_a < t$. This is called the __Strong Markov Property__ of the Brownian motion
 
