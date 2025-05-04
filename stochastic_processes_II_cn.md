@@ -117,6 +117,11 @@ $$P(B (t) > B (s)) = P(B (t) < B (s)) $$
 
 $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t)$$
 
+同样直观一些, 在 $\tau_a < t$的条件下:
+
+$$P(B (t) > B (\tau_a)) = P(B (t) < B (\tau_a)$$
+
+
 Here we assumed that the distribution of $B \( t \) - B \( \tau_a \)$ is not affected by the fact that we conditioned on $\tau_a < t$. This is called the __Strong Markov Property__ of the Brownian motion
 
 
