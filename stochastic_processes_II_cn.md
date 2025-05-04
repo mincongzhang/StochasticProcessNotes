@@ -104,14 +104,11 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 定义 $\tau_a$ 是一个停时(stopping time): $\tau_a = min_s \\{ s: B ( s ) = a \\}$, 意思就是随机过程第一次达到 a 的时刻 (可能还有第二/三次达到a但是我们只记录第一次). 
 
-https://youtu.be/PPl-7_RL0Ko?t=2063
-
-
-Let $\tau_a = min_s \\{ s: B \( s \) = a \\}$ and note that $\tau_a$ is a stopping time. Note that for all $0 \le s < t$, we have
+对于所有的 $0 \le s < t$, 我们有:
 
 $$P\( B \( t \) - B \( s \) > 0 \) = P\( B \( t \) - B \( s \) < 0 \) $$
 
-Hence we see that
+那么:
 
 $$P\( B \( t \) - B \( \tau_a \) > 0 | \tau_a < t \) = P\( B \( t \) - B \( \tau_a \) < 0 | \tau_a < t \) $$
 
