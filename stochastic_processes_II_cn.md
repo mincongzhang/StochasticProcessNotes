@@ -90,7 +90,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 我们就来算一下日内最大值的概率分布. 定义日内最大值的概率分布是 $M(t) = \max_{0 \le s \le t} B(s)$.
 
-注意到时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 其实也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
+额外补充: 时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 其实也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
 
 并且我们定义了一个基于布朗运动 $B(s)$ 的新的随机过程 $M(t)$, 也就是我们要算的日内最大值的概率分布. 
 
@@ -106,20 +106,20 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 对于所有的 $0 \le s < t$, 我们有:
 
-$$P(B (t) - B (s) > 0) = P(B (t) - B (s) < 0) $$
-
-直观一些:
-
 $$P(B (t) > B (s)) = P(B (t) < B (s)) $$
 
+也就是:
 
-那么:
+$$P(B (t) - B (s) > 0) = P(B (t) - B (s) < 0) $$
+
+那么在 $\tau_a < t$的条件下:
+
+$$P(B (t) > B (\tau_a)) = P(B (t) < B (\tau_a)$$
+
+也就是:
 
 $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t)$$
 
-同样直观一些, 在 $\tau_a < t$的条件下:
-
-$$P(B (t) > B (\tau_a)) = P(B (t) < B (\tau_a)$$
 
 
 Here we assumed that the distribution of $B \( t \) - B \( \tau_a \)$ is not affected by the fact that we conditioned on $\tau_a < t$. This is called the __Strong Markov Property__ of the Brownian motion
