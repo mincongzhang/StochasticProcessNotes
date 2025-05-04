@@ -90,7 +90,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 我们就来算一下日内最大值的概率分布. 定义日内最大值的概率分布是 $M(t) = \max_{0 \le s \le t} B(s)$.
 
-额外补充: 时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 其实也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
+额外补充: 时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
 
 并且我们定义了一个基于布朗运动 $B(s)$ 的新的随机过程 $M(t)$, 也就是我们要算的日内最大值的概率分布. 
 
@@ -122,31 +122,6 @@ $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t
 
 我们假设 $B ( t ) - B ( \tau_a )$ 的分布不被 $\tau_a < t$ 这个条件影响, 也就是说这个布朗运动具有 __强马尔可夫性质(Strong Markov Property)__
 
-
-### Proposition
-Define $M \( t \) = \max_{0 \le s \le t} B \( s \)$, and note that  $M \( t \)$ is well-defined since $B$ is continuous and $\[ 0, t \]$ is compact. 
-
-(意思就是 $M \( t \)$ 是这一段时间里的最大值)
-
-(compact: compact space, the closed interval $\[ 0, 1 \]$ would be compact)
-    
-$\Phi \( t \)$ is the cumulative distribution function of the normal random variable.
-
-The following holds:
-
-$$P \( M \( t \) \ge a \) = 2 P \( B \( t \) \ge a \) = 2 - 2 \Phi \( \frac {a}{\sqrt{t} } \)$$
-
-Proof:
-
-Let $\tau_a = min_s \\{ s: B \( s \) = a \\}$ and note that $\tau_a$ is a stopping time. Note that for all $0 \le s < t$, we have
-
-$$P\( B \( t \) - B \( s \) > 0 \) = P\( B \( t \) - B \( s \) < 0 \) $$
-
-Hence we see that
-
-$$P\( B \( t \) - B \( \tau_a \) > 0 | \tau_a < t \) = P\( B \( t \) - B \( \tau_a \) < 0 | \tau_a < t \) $$
-
-Here we assumed that the distribution of $B \( t \) - B \( \tau_a \)$ is not affected by the fact that we conditioned on $\tau_a < t$. This is called the __Strong Markov Property__ of the Brownian motion
 
 补充解释：
 
