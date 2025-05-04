@@ -84,7 +84,8 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
-![image](https://github.com/user-attachments/assets/037dd9d1-1dbe-4fa8-8ad6-17740996f1f9)
+![image](https://github.com/user-attachments/assets/4671c135-a9ff-4572-b4cb-fd654d1efee9)
+
 
 
 我们定义日内最大值的概率分布是 $M(t) = \max_{0 \le s \le t} B(s)$.
