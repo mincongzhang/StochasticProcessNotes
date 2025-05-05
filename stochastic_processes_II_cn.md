@@ -114,7 +114,7 @@ $$P(B (t) - B (s) > 0) = P(B (t) - B (s) < 0) $$
 
 那么在 $\tau_a < t$的条件下:
 
-$$P(B ($\tau_a) < B (t)) = P(B ($\tau_a) > B (t)) $$
+$$P(B (\tau_a) < B (t)) = P(B (\tau_a) > B (t)) $$
 
 也就是:
 
@@ -123,6 +123,9 @@ $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t
 我们假设 $B ( t ) - B ( \tau_a )$ 的分布不被 $\tau_a < t$ 这个条件影响, 也就是说这个布朗运动具有 __强马尔可夫性质(Strong Markov Property)__. 
 
 补充: 假设 $\tau_a$ 这个停时是"现在", $s<\tau_a$ 是"过去", $s>\tau_a$ 是"未来". 在已知"现在"的条件下，"将来"与"过去"无关的特性被称为强马尔可夫性. 拿日内股票价格变动来看, 假如我们现在是中午, 下午的股价变动和早上已知的股价变动没关系, 这种理想情况下的股价变动具有强马尔科夫性.
+
+![image](https://github.com/user-attachments/assets/77c8bfa8-fc07-4ff5-a4a3-55c08c9b8c70)
+
 
 This can be rewritten as 
 
