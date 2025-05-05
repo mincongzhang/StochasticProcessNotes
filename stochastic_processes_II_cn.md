@@ -147,10 +147,11 @@ https://youtu.be/PPl-7_RL0Ko?si=m0sh3NqR3Wgm6KNm&t=2362
 
 接下来我们看看 
 
-$$2 P \( B \( t \) \ge a \) = 2 - 2 \Phi \( \frac {a}{\sqrt{t} } \)$$
+$$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
+
 也就是 
 
-$$P \( B \( t \) \ge a \) = 1 - \Phi \( \frac {a}{\sqrt{t} } \)$$
+$$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
 
 其实也就是高斯分布中在 $a$ 右半边的面积或是积分, 下面我们推出左半边面积的公式, 之后用 $1$ 减去就可以得到右半边面积: 
 
