@@ -86,19 +86,17 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 ![image](https://github.com/user-attachments/assets/4671c135-a9ff-4572-b4cb-fd654d1efee9)
 
+我们就只算一下日内最大值的概率分布. 定义日内最大值的概率分布 $M(t) = \max_{0 \le s \le t} B(s)$. 可以发现 $M(t)$ 是一个新的基于布朗运动 $B(s)$ 的随机过程.
 
-
-我们就来算一下日内最大值的概率分布. 定义日内最大值的概率分布是 $M(t) = \max_{0 \le s \le t} B(s)$.
-
-额外补充(可忽略): 时间范围 $\[ 0, t \]$ 是紧致的(compact, 其中紧空间compact space是有界闭集合的推广, 也就是闭合的). 所以 $M(t)$ 是定义完好的(well defined).
-
-并且我们定义了一个基于布朗运动 $B(s)$ 的新的随机过程 $M(t)$, 也就是我们要算的日内最大值的概率分布. 
-
-那么我们有理论如下, $\forall t \gt 0$ 和 $a \ge 0$:
+我们有结论如下, $\forall t \gt 0$ 和 $a \ge 0$:
 
 $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
-直观上看, 这个结论说的是日内最大值达到a的概率分布是布朗运动达到a的概率分布的两倍. 为什么呢? 
+这个结论说的是日内最大值达到a的概率分布是布朗运动达到a的概率分布的两倍. 为什么呢? 
+
+我们先画图臆测一下, 假设我们已经到 $\tau_a$ 了并且在当前时刻是最大值, 但是之后还是遵循布朗运动可上可下. 又因为是布朗运动所以往上走和往下走的概率一样, 那我们就去掉往上走的可能性, 算两遍往下走就好了. 
+
+![image](https://github.com/user-attachments/assets/381a35c9-40bd-49a1-975c-b2c01cd82a74)
 
 #### 证明
 
@@ -119,8 +117,6 @@ $$P(B (\tau_a) > B (t)) = P(B (\tau_a) < B (t))$$
 也就是:
 
 $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t)$$
-
-![image](https://github.com/user-attachments/assets/381a35c9-40bd-49a1-975c-b2c01cd82a74)
 
 
 我们假设 $B ( t ) - B ( \tau_a )$ 的分布不被 $\tau_a < t$ 这个条件影响, 也就是说这个布朗运动具有 __强马尔可夫性质(Strong Markov Property)__. 
