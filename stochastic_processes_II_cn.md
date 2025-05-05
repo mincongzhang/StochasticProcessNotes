@@ -189,6 +189,9 @@ $$P \( B \( t \) \le a \) = \Phi \( \frac {a}{\sqrt{t} } \)$$
 $$P \( B \( t \) \ge a \) = 1 - \Phi \( \frac {a}{\sqrt{t} } \)$$
 
 ### Proposition
+
+https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
+
 The above proposition can help us prove the following result
 
 For each $t \ge 0$, the Brownian motion is almost surely not differentiable at $t$
