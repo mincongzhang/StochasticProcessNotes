@@ -125,14 +125,13 @@ $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t
 $$
 \begin{aligned}
 P(M(t) \ge a) &= P(\tau_a < t) \\
-              &= P(B (t) \ge a | \tau_a < t) + P(B (t) \le a | \tau_a < t) \\
-              &= 2 P(B (t) \ge a | \tau_a < t) 
+              &= P(B (t) - B (\tau_a) > 0 | \tau_a < t) + P(B (t) - B (\tau_a) < 0 | \tau_a < t) \\
+              &= 2 P(B (t) - B (\tau_a) > 0 | \tau_a < t) 
+              &= 2 P(B (t) > a | \tau_a < t)
+              &= 2 P(B (t) > a)
 \end{aligned}
 $$
 
-Our claim follows
-
-$$P\( M_t \ge a \) = 2 P\( B \( t \) > a \) $$
 
 补充: 这个例子里我们假设 $B ( t ) - B ( \tau_a )$ 的分布不被 $\tau_a < t$ 这个条件影响, 也就是说这个布朗运动具有 __强马尔可夫性质(Strong Markov Property)__. 
 
