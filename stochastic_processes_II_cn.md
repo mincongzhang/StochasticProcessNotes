@@ -96,7 +96,7 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 我们先画图臆测一下, 假设一段随机路径第一次达到了最大值 $\tau_a$ , 之后继续遵循布朗运动. 又因为是布朗运动, 所以之后路径高于和低于 $\tau_a$ 的概率一样, 那我们就去掉高于 $\tau_a$ 的路径概率, 算两遍低于 $\tau_a$ 的概率. 
 
-也就是说布朗运动里只要是超过a的部分的概率分布, 我们都给反射到a以下就完事了. 这就是所谓的 __反射原理(Reflection principle)__. 下面我们证明一下.
+也就是说我们只要把布朗运动里超过a的部分的概率分布, 都反射到a以下就完事了. 这样最大值到a的概率分布就等于布朗运动达到a的概率分布的两倍. 这就是所谓的 __反射原理(Reflection principle)__. 下面我们证明一下.
 
 ![image](https://github.com/user-attachments/assets/381a35c9-40bd-49a1-975c-b2c01cd82a74)
 
@@ -124,9 +124,9 @@ $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t
 
 $$
 \begin{aligned}
-P\( M_t \ge a \) &= P\( \tau_a < t \) \\
-                 &= P\( B \( t \) > a | \tau_a < t \) + P\( B \( t \) < a | \tau_a < t \) \\
-                 &= 2 P\( B \( t \) > a | \tau_a < t \) 
+P(M(t) \ge a) &= P(B(\tau_a) < B(t)) \\
+              &= P(B (t) > a | \tau_a < t) + P(B (t) < a | \tau_a < t) \\
+              &= 2 P(B (t) > a | \tau_a < t) 
 \end{aligned}
 $$
 
