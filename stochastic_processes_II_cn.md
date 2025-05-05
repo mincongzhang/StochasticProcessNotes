@@ -126,8 +126,8 @@ $$
 \begin{aligned}
 P(M(t) \ge a) &= P(\tau_a < t) \\
               &= P(B (t) - B (\tau_a) > 0 | \tau_a < t) + P(B (t) - B (\tau_a) < 0 | \tau_a < t) \\
-              &= 2 P(B (t) - B (\tau_a) > 0 | \tau_a < t) 
-              &= 2 P(B (t) > a | \tau_a < t)
+              &= 2 P(B (t) - B (\tau_a) > 0 | \tau_a < t) \\
+              &= 2 P(B (t) > a | \tau_a < t) \\
               &= 2 P(B (t) > a)
 \end{aligned}
 $$
