@@ -136,7 +136,6 @@ $$
 
 $$ P(M(t) \ge a) = 2 P(B (t) > a | \tau_a < t) = 2 P(B (t) > a)$$
 
-https://youtu.be/PPl-7_RL0Ko?si=m0sh3NqR3Wgm6KNm&t=2362
 
 补充: 这个例子里我们假设 $B ( t ) - B ( \tau_a )$ 的分布不被 $\tau_a < t$ 这个条件影响, 也就是说这个布朗运动具有 __强马尔可夫性质(Strong Markov Property)__. 
 
