@@ -145,7 +145,7 @@ https://youtu.be/PPl-7_RL0Ko?si=m0sh3NqR3Wgm6KNm&t=2362
 
 ### 额外部分: CDF的计算
 
-接下来我们看看 
+接下来我们把这个概率分布算出来: 
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
 
