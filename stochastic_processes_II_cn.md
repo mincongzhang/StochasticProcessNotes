@@ -120,7 +120,7 @@ $$P(B (\tau_a) > B (t)) = P(B (\tau_a) < B (t))$$
 
 $$P(B (t) - B (\tau_a) > 0 | \tau_a < t) = P(B (t) - B (\tau_a) < 0 | \tau_a < t)$$
 
-收集齐了这些前置条件, 以及 $P(B (t) \ge a | \tau_a < t) = P(B (t) \ge a)$, $B (\tau_a) = a$, 我们可以得出: 
+收集齐了这些前置条件, 以及 $P(B (t) \ge a | \tau_a < t) = P(B (t) \ge a)$, 还有 $B (\tau_a) = a$, 我们可以得出: 
 
 $$
 \begin{aligned}
