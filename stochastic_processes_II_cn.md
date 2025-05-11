@@ -170,18 +170,17 @@ $$P (B (t) \ge a)$$
 
 ![image](https://github.com/user-attachments/assets/3b923495-9b9a-455a-88a9-6b5148227d26)
 
-我们可以画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 比如投出小于等于1的概率是1/6, 小于等于2的概率是2/6, 小于等于6的概率是6/6也就是100%. 
+画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 比如投出小于等于1的概率是1/6, 小于等于2的概率是2/6, 小于等于6的概率是6/6也就是100%. 
 
 ![image](https://github.com/user-attachments/assets/4d13fba7-9dcc-46c4-85f5-3012ba0e834d)
 
-再看连续型均匀分布(continuous uniform distribution):
+再看连续型均匀分布(continuous uniform distribution), 这里可以看作0到6之前出现任何一个实数的概率都是1/6.
 
 ![image](https://github.com/user-attachments/assets/71554846-58a4-4ba6-ae9e-b01fe64f4eb0)
 
-
+画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 出现小于等于x的数字的概率是1/x, 小于等于6的概率是6/6也就是100%. 
 
 ![image](https://github.com/user-attachments/assets/11264af7-bda5-4c2f-8c4f-830275caa137)
-
 
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
