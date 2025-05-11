@@ -144,8 +144,6 @@ $$ P(M(t) \ge a) = 2 P(B (t) > a | \tau_a < t) = 2 P(B (t) > a)$$
 
 ### 计算
 
-### 额外: 累积分布函数(Cumulative Distribution Function, CDF)的计算
-
 接下来我们把以上概率分布算出来: 
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a)$$
@@ -160,44 +158,36 @@ $$P (B (t) \ge a)$$
 
 那么 $B (t)$的概率分布就是均值为0方差为 $t$ 的正态分布. 
 
-### 背景补充: 均匀分布/矩形分布(Uniform distribution)
-
 在计算 $P (B (t) \ge a)$ 之前我们先回顾一下背景知识. 
 
 先看离散型均匀分布(discrete uniform distribution):
 
-假设我们有一个均匀骰子, 每个面对应的数字出现的概率都是1/6, 我们可以画出数字的概率质量函数(Probability mass function):
+假设我们有一个均匀骰子, 每个面对应的数字出现的概率都是1/6, 我们可以画出数字的概率质量函数(Probability mass function).
 
-![image](https://github.com/user-attachments/assets/3b923495-9b9a-455a-88a9-6b5148227d26)
+以及对应的累积分布函数(Cumulative distribution function, CDF), 含义是小于等于x的概率. 比如投出小于等于1的概率是1/6, 小于等于2的概率是2/6, 小于等于6的概率是6/6也就是100%. 
 
-画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 比如投出小于等于1的概率是1/6, 小于等于2的概率是2/6, 小于等于6的概率是6/6也就是100%. 
+![image](https://github.com/user-attachments/assets/d34d159d-aeac-47c5-b9f6-83b9c6a89587)
 
-![image](https://github.com/user-attachments/assets/4d13fba7-9dcc-46c4-85f5-3012ba0e834d)
+再看连续型均匀分布(continuous uniform distribution), 这里可以看作0到6之前出现任何一个实数的概率都是1/6. 我们可以画出数字的概率密度函数(Probability density function, PDF).
 
-再看连续型均匀分布(continuous uniform distribution), 这里可以看作0到6之前出现任何一个实数的概率都是1/6.
+以及对应的累积分布函数(Cumulative distribution function, CDF), 含义是小于等于x的概率. 出现小于等于x的数字的概率是1/x, 小于等于6的概率是6/6也就是100%. 
 
-![image](https://github.com/user-attachments/assets/71554846-58a4-4ba6-ae9e-b01fe64f4eb0)
-
-画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 出现小于等于x的数字的概率是1/x, 小于等于6的概率是6/6也就是100%. 
-
-![image](https://github.com/user-attachments/assets/11264af7-bda5-4c2f-8c4f-830275caa137)
+![image](https://github.com/user-attachments/assets/5efe4b33-a5a7-4084-937c-d81d21dfed09)
 
 
-最后回到我们的股价涨跌 $B(t)$ 的均值为0方差为 $t$ 的正态分布, 以及累积分布函数. 我们可以看出小于等于x的概率为 $\Phi (\frac {x}{\sqrt{t} })$. 
+最后回到我们的股价涨跌 $B(t)$ 的概率密度函数((Probability density function, PDF)), 为均值为0方差为 $t$ 的正态分布, 以及累积分布函数(Cumulative distribution function, CDF). 
+
+我们可以看出小于等于x的概率为 $\Phi (\frac {x}{\sqrt{t} })$. 
 
 ![image](https://github.com/mincongzhang/Quant100Public/assets/5571030/8849f4b7-7ebe-4ee2-a392-0dbd832e66e0)
 
-我们想要的是日内大于等于股价 $a$ 的概率: 
-
-$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
-
-也就是 
+我们可以得到大于等于 $a$ 的概率: 
 
 $$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
 
-其实也就是高斯分布中在 $a$ 右半边的面积或是积分, 下面我们推出左半边面积的公式, 之后用 $1$ 减去就可以得到右半边面积: 
+根据之前提到的反射原理(Reflection principle), 日内股价大于等于a的概率为:
 
-![image](https://github.com/mincongzhang/Quant100Public/assets/5571030/8849f4b7-7ebe-4ee2-a392-0dbd832e66e0)
+$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
 参考: https://www.probabilitycourse.com/chapter4/4_2_3_normal.php#:~:text=The%20CDF%20of%20the%20standard%20normal%20distribution%20is%20denoted%20by,is%20widely%20used%20in%20probability.
 
