@@ -183,7 +183,13 @@ $$P (B (t) \ge a)$$
 ![image](https://github.com/user-attachments/assets/11264af7-bda5-4c2f-8c4f-830275caa137)
 
 
-$$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
+最后回到我们的股价涨跌 $B(t)$ 的均值为0方差为 $t$ 的正态分布, 以及累积分布函数. 我们可以看出小于等于x的概率为 $\Phi (\frac {x}{\sqrt{t} })$. 
+
+![image](https://github.com/mincongzhang/Quant100Public/assets/5571030/8849f4b7-7ebe-4ee2-a392-0dbd832e66e0)
+
+我们想要的是日内大于等于股价 $a$ 的概率: 
+
+$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
 也就是 
 
