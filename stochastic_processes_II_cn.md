@@ -80,7 +80,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
 
-### 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
+## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
 
 来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
@@ -100,7 +100,7 @@ $$ P ( M(t) \ge a ) = 2 P ( B (t) \ge a )$$
 
 ![image](https://github.com/user-attachments/assets/381a35c9-40bd-49a1-975c-b2c01cd82a74)
 
-#### 证明
+### 证明
 
 定义 $\tau_a$ 是一个停时(stopping time): $\tau_a = min_s \\{ s: B ( s ) = a \\}$, 意思就是随机过程第一次达到 a 的时刻 (可能还有第二/三次达到a但是我们只记录第一次). 
 
@@ -142,7 +142,7 @@ $$ P(M(t) \ge a) = 2 P(B (t) > a | \tau_a < t) = 2 P(B (t) > a)$$
 再补充: 假如 $\tau_a$ 这个停时是"现在", $s<\tau_a$ 是"过去", $s>\tau_a$ 是"未来". 在已知"现在"的条件下，"将来"与"过去"无关的特性被称为强马尔可夫性. 早这个日内股票价格例子里, 假如我们现在是中午, 下午的股价变动和早上已知的股价变动没关系, 这种理想情况下的股价变动具有强马尔科夫性.
 
 
-#### 计算
+### 计算
 
 ### 额外: 累积分布函数(Cumulative Distribution Function, CDF)的计算
 
