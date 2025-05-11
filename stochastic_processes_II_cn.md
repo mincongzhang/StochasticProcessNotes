@@ -160,9 +160,22 @@ $$P (B (t) \ge a)$$
 
 那么 $B (t)$的概率分布就是均值为0方差为 $t$ 的正态分布. 
 
-### 连续型均匀分布/矩形分布(continuous uniform distribution)
+### 背景补充: 连续型均匀分布/矩形分布(continuous uniform distribution)
 
-在计算 $P (B (t) \ge a)$ 之前我们先回顾一下背景知识. 先从连续型均匀分布/矩形分布(continuous uniform distribution)开始.
+在计算 $P (B (t) \ge a)$ 之前我们先回顾一下背景知识. 
+
+先看离散型均匀分布(discrete uniform distribution):
+
+假设我们有一个均匀骰子, 每个面对应的数字出现的概率都是1/6, 我们可以画出数字的概率质量函数(Probability mass function):
+
+![image](https://github.com/user-attachments/assets/3b923495-9b9a-455a-88a9-6b5148227d26)
+
+我们也可以画出累积分布函数(Cumulative distribution function), 含义是小于等于x的概率. 比如投出小于等于1的概率是1/6, 小于等于2的概率是2/6, 小于等于6的概率是6/6也就是100%. 
+
+![image](https://github.com/user-attachments/assets/4d13fba7-9dcc-46c4-85f5-3012ba0e834d)
+
+
+再看连续型均匀分布/矩形分布(continuous uniform distribution):
 
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
