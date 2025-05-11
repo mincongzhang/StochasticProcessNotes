@@ -192,34 +192,6 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 参考: https://www.probabilitycourse.com/chapter4/4_2_3_normal.php#:~:text=The%20CDF%20of%20the%20standard%20normal%20distribution%20is%20denoted%20by,is%20widely%20used%20in%20probability.
 
-根据前面的定理
-1. $B \(0\) = 0$
-2. Stationary: for all $0 \le s < t$, the distribution of $B \( t \) - B \( s \)$ is the normal distribution with mean 0 and variance $t-s$
-
-我们可知 $B \(t \)$ 是服从均值为0, 方差为 $t$, 标准差为 $\sqrt{t}$ 的高斯分布:
-
-$$B \(t\) \sim N \( 0, t \)$$
-
-根据高斯累积分布函数(Cumulative Distribution Function, CDF):
-
-如果 $X$ 符合高斯分布 $X \sim N \( \mu, \sigma^2 \)$, 那么随机变量 $Z = \frac{X-\mu}{\sigma}$ 就是一个标准的正态分布随机变量, i.e.
-$Z \sim N \( 0, 1 \)$. 我们可以通过以下得到 $X \sim N \( \mu, \sigma^2 \)$ 的CDF:
-
-$$
-\begin{aligned}
-F_X(x) &= P \(X \le x) \\
-       &= P\( \sigma Z + \mu \le x \) \\
-       &= P\( Z \le \frac{x-\mu}{\sigma} \) \\
-       &= \Phi \( \frac{x-\mu}{\sigma} \)
-\end{aligned}
-$$
-
-带入我们的均值为0, 方差为 $t$, 我们就得到了: 
-$$P \( B \( t \) \le a \) = \Phi \( \frac {a}{\sqrt{t} } \)$$
-
-也就是 
-
-$$P \( B \( t \) \ge a \) = 1 - \Phi \( \frac {a}{\sqrt{t} } \)$$
 
 ### Proposition
 
