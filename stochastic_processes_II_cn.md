@@ -179,7 +179,8 @@ $$P (B (t) \ge a)$$
 
 我们可以看出小于等于x的概率为 $\Phi (\frac {x}{\sqrt{t} })$. 
 
-![image](https://github.com/mincongzhang/Quant100Public/assets/5571030/8849f4b7-7ebe-4ee2-a392-0dbd832e66e0)
+![image](https://github.com/user-attachments/assets/399e81f1-3442-4da1-af26-ae5894fb5660)
+
 
 我们可以得到大于等于 $a$ 的概率: 
 
