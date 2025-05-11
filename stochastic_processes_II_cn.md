@@ -146,7 +146,24 @@ $$ P(M(t) \ge a) = 2 P(B (t) > a | \tau_a < t) = 2 P(B (t) > a)$$
 
 ### 额外: 累积分布函数(Cumulative Distribution Function, CDF)的计算
 
-接下来我们把这个概率分布算出来: 
+接下来我们把以上概率分布算出来: 
+
+$$P(M(t) \ge a) = 2 P (B (t) \ge a)$$
+
+其实只需要计算:
+
+$$P (B (t) \ge a)$$
+
+根据前面的定理:
+1. $B \(0\) = 0$
+2. 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
+
+那么 $B (t)$的概率分布就是均值为0方差为 $t$ 的正态分布. 
+
+### 连续型均匀分布/矩形分布(continuous uniform distribution)
+
+在计算 $P (B (t) \ge a)$ 之前我们先回顾一下背景知识. 先从连续型均匀分布/矩形分布(continuous uniform distribution)开始.
+
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) = 2 - 2 \Phi (\frac {a}{\sqrt{t} })$$
 
