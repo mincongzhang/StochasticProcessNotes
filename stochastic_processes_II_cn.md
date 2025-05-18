@@ -201,6 +201,11 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 证明: 
 
+![image](https://github.com/user-attachments/assets/07e95bbb-6a1c-4673-b04a-5f1a02e1d2f2)
+
+![image](https://github.com/user-attachments/assets/dd4e39d0-bf87-441a-aa85-2e157703320e)
+
+
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
 
 The above proposition can help us prove the following result
