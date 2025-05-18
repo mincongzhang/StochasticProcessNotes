@@ -205,6 +205,8 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 ![image](https://github.com/user-attachments/assets/dd4e39d0-bf87-441a-aa85-2e157703320e)
 
+![image](https://github.com/user-attachments/assets/ee0f93f3-ce34-4b65-af76-3ff29fd61a43)
+
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
 
