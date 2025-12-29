@@ -203,7 +203,11 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 $$\lim_{h \to 0} frac{f(a+h) - f(a)}{h}$$
 
-更严谨的来说:
+再严谨一些:
+
+对所有 $\epsilon > 0$, 存在一个 $\delta > 0$ 使得对任意 $0 < \| h \| < \delta$, 我们都有
+
+$$\| \frac{f(a+h) - f(a)}{h} \| < \epsilon$$
 
 
 证明: 
