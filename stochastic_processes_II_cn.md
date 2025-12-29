@@ -79,7 +79,89 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
-再拿一张图来更直观感受一下:
+再用python画一下来更直观感受一下:
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import norm
+
+# Parameters
+T = 1.0
+N = 1000
+dt = T / N
+t = np.linspace(0, T, N + 1)
+
+# --- Brownian motion paths ---
+num_paths = 30
+paths = []
+
+for _ in range(num_paths):
+    dW = np.random.normal(0, np.sqrt(dt), size=N)
+    W = np.concatenate(([0], np.cumsum(dW)))
+    paths.append(W)
+
+# --- Many paths for histogram ---
+M = 10000
+dW_all = np.random.normal(0, np.sqrt(dt), size=(M, N))
+W_all = np.cumsum(dW_all, axis=1)
+endpoints = W_all[:, -1]
+
+# --- Combined figure with width ratios ---
+fig, axes = plt.subplots(
+    1, 2,
+    figsize=(14, 6),
+    sharey=True,
+    gridspec_kw={'width_ratios': [4, 1]}   # Left = 4 parts, Right = 1 part
+)
+
+# ---------------------------------------------------------
+# Left: Brownian paths with ±√t bounds
+# ---------------------------------------------------------
+ax = axes[0]
+
+for W in paths:
+    ax.plot(t, W, lw=1, alpha=0.6)
+
+ax.plot(t, np.sqrt(t), 'r--', label=r'$+\sqrt{t}$')
+ax.plot(t, -np.sqrt(t), 'b--', label=r'$-\sqrt{t}$')
+ax.axhline(0, color='k', lw=1, label='0')
+
+ax.set_title('Brownian Motion Paths with ±√t Bounds')
+ax.set_xlabel('Time t')
+ax.set_ylabel('Position B(t)')
+ax.legend()
+ax.grid(True)
+
+# ---------------------------------------------------------
+# Right: Horizontal histogram + normal PDF
+# ---------------------------------------------------------
+ax2 = axes[1]
+
+# Horizontal histogram
+ax2.hist(endpoints, bins=50, density=True, alpha=0.6,
+         orientation='horizontal', label='Empirical B(1)')
+
+# Normal PDF plotted horizontally
+y = np.linspace(-4, 4, 500)
+pdf = norm.pdf(y, 0, np.sqrt(T))
+ax2.plot(pdf, y, 'r', lw=2, label='Normal PDF N(0,1)')
+
+# Clean density axis
+ax2.set_xlim(0, 0.45)
+ax2.set_xticks([0.2, 0.4])
+
+ax2.set_title('Distribution of Brownian Endpoints at t=1')
+ax2.set_xlabel('Density')
+ax2.set_ylabel('Position B(1)')
+ax2.legend()
+ax2.grid(True)
+
+plt.tight_layout()
+plt.show()
+```
+
+
 <img width="907" height="634" alt="image" src="https://github.com/user-attachments/assets/5725f955-0c8d-4ccd-9e46-1c5e11c9e198" />
 
 
