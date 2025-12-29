@@ -203,9 +203,7 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 $$\lim_{h \to 0} frac{f(a+h) - f(a)}{h}$$
 
-再严谨一些:
-
-对所有 $\epsilon > 0$, 存在一个 $\delta > 0$ 使得对任意 $0 < \| h \| < \delta$, 我们都有
+再严谨一些, 对所有 $\epsilon > 0$, 存在一个 $\delta > 0$ 使得对任意 $0 < \| h \| < \delta$, 以下都满足的话, 我们可以说这个函数在这个点可微:
 
 $$\| \frac{f(a+h) - f(a)}{h} \| < \epsilon$$
 
