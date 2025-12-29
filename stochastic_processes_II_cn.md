@@ -79,6 +79,10 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
+再拿一张图来更直观感受一下:
+<img width="907" height="634" alt="image" src="https://github.com/user-attachments/assets/5725f955-0c8d-4ccd-9e46-1c5e11c9e198" />
+
+
 
 ## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
 
