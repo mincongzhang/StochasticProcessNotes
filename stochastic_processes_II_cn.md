@@ -199,6 +199,9 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
+在证明之前我们看看可微的定义. 
+
+
 证明: 
 
 ![image](https://github.com/user-attachments/assets/07e95bbb-6a1c-4673-b04a-5f1a02e1d2f2)
