@@ -345,6 +345,9 @@ plt.show()
 
 ```
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3f5c7cf4-5349-4f89-92c1-bac90c2acdd9" />
+
+
 证明: 
 
 ![image](https://github.com/user-attachments/assets/07e95bbb-6a1c-4673-b04a-5f1a02e1d2f2)
