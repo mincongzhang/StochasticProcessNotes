@@ -231,21 +231,9 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | < A $$
 
 接下来我们可以画图猜测一下. 根据本篇开头示意图(也就是随机游走和 $x=y^2$ 边界的示意图), 我们画任意两条斜率为 $±A$ 的直线.
 
-如果以上不等式成立, 那么布朗运动路径一定会在这两条直线相夹形成的锥形以内, 但因为随机游走, 路径肯定有可能超出这个锥形, 如下:
+如果以上不等式成立, 那么布朗运动路径一定会在这两条直线相夹形成的锥形以内, 但因为随机游走, 路径肯定有可能超出这个锥形, 所以 $B(t)$ 不可微:
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/339f264f-440e-4e77-95da-504ee08b363f" />
-
-
-我们有 $| B(t+\delta) - B(t)| < \delta*A + \epsilon $, 根据之前的Epsilon-Delta定义, 
-
-
-证明: 
-
-![image](https://github.com/user-attachments/assets/07e95bbb-6a1c-4673-b04a-5f1a02e1d2f2)
-
-![image](https://github.com/user-attachments/assets/dd4e39d0-bf87-441a-aa85-2e157703320e)
-
-![image](https://github.com/user-attachments/assets/ee0f93f3-ce34-4b65-af76-3ff29fd61a43)
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
