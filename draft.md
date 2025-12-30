@@ -1,4 +1,9 @@
 ```
+https://python-fiddle.com/examples/matplotlib?checkpoint=1767058952
+```
+
+
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
