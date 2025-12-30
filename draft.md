@@ -73,3 +73,64 @@ plt.show()
 ```
 
 <img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/36746c44-ea3f-42e1-a595-e1ab60e60062" />
+
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# -----------------------
+# Parameters
+# -----------------------
+np.random.seed(2)
+
+h = 1.0              # time window length
+N = 1000             # steps in [t, t+h]
+dt = h / N
+s = np.linspace(0, h, N)
+
+num_paths = 12
+A = 2.5              # cone slope
+
+# -----------------------
+# Brownian increments on [t, t+h]
+# -----------------------
+paths = []
+
+for _ in range(num_paths):
+    dB = np.sqrt(dt) * np.random.randn(N)
+    B = np.cumsum(dB)
+    paths.append(B)
+
+# -----------------------
+# Cone lines ±A s
+# -----------------------
+upper_cone = A * s
+lower_cone = -A * s
+
+# -----------------------
+# Plot
+# -----------------------
+plt.figure(figsize=(5, 5))
+
+for B in paths:
+    plt.plot(s, B, alpha=0.8)
+
+# Red cone with 70% transparency
+plt.plot(s, upper_cone, color='red', linewidth=3, alpha=0.7)
+plt.plot(s, lower_cone, color='red', linewidth=3, alpha=0.7)
+
+plt.axhline(0, color='blue', linewidth=2)
+
+plt.title("Brownian Paths on [t, t+h] with ±A")
+plt.xlabel("s = time since t")
+plt.ylabel("B(t+s) − B(t)")
+
+plt.tight_layout()
+plt.show()
+
+```
+
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3f5c7cf4-5349-4f89-92c1-bac90c2acdd9" />
+
