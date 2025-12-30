@@ -233,9 +233,15 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
-可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon$ 不成立. 所以 $B(t)$ 不可微. 下面我们正式证明一下. 
+可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon$ 不成立. 所以 $B(t)$ 不可微. 
 
+还记得我们之前例子里股票大于 $a$ 的概率吗? 
 
+$$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
+
+我们替换一下:
+
+$$P (B (t+\delta) \ge A + \epsilon) = 1 - \Phi (\frac {A + \epsilon}{\sqrt{t} })$$
 
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
