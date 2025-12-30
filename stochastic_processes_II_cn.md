@@ -222,7 +222,7 @@ $$\frac{dB}{dt}(t) = A$$
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3f5c7cf4-5349-4f89-92c1-bac90c2acdd9" />
 
-如果 $B(t)$ 可微, 那么对任意 $\epsilon > 0$, 存在 $\delta >0$, 使得 $ | [B(t+\delta) - B(t)]/\delta - A | < \epsilon $.
+如果 $B(t)$ 可微, 那么对任意 $\epsilon > 0$, 存在 $\delta >0$, 使得 $| \[B(t+\delta) - B(t)\]/\delta - A | < \epsilon $.
 
 我们有 $| B(t+\delta) - B(t)| < \delta*A + \epsilon $, 根据之前的Epsilon-Delta定义, 
 
