@@ -233,7 +233,7 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | < A $$
 
 如果以上不等式成立, 那么布朗运动路径一定会在这两条直线相夹形成的锥形以内, 但因为随机游走, 路径肯定有可能超出这个锥形, 如下:
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3f5c7cf4-5349-4f89-92c1-bac90c2acdd9" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/339f264f-440e-4e77-95da-504ee08b363f" />
 
 
 我们有 $| B(t+\delta) - B(t)| < \delta*A + \epsilon $, 根据之前的Epsilon-Delta定义, 
