@@ -241,7 +241,7 @@ $$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
 
 我们替换一下:
 
-$$P (B (t+\delta) \ge A + \epsilon) = 1 - \Phi (\frac {A + \epsilon}{\sqrt{t} })$$
+$$P (B (t+\delta) \ge A + \epsilon) = 1 - \Phi (\frac {A + \epsilon}{\sqrt{\delta} })$$
 
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
