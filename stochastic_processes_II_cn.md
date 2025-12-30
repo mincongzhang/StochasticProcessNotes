@@ -243,6 +243,7 @@ $$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
 
 $$P (B (t+\delta) \ge A + \epsilon) = 1 - \Phi (\frac {A + \epsilon}{\sqrt{\delta} })$$
 
+当 $\delta$ 趋近于0的时候, 右边等式趋近于 $1 - \Phi (\infty)$, 也就是0. 所以我们说几乎确定不可微. 
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
 
