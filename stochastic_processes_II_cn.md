@@ -110,22 +110,22 @@ endpoints = W_all[:, -1]
 # --- Combined figure with width ratios ---
 fig, axes = plt.subplots(
     1, 2,
-    figsize=(14, 6),
+    figsize=(9, 6),
     sharey=True,
-    gridspec_kw={'width_ratios': [4, 1]}   # Left = 4 parts, Right = 1 part
+    gridspec_kw={'width_ratios': [4, 1]}
 )
 
 # ---------------------------------------------------------
-# Left: Brownian paths with ±√t bounds
+# Left: Brownian paths with ±√t bounds (BOLD)
 # ---------------------------------------------------------
 ax = axes[0]
 
 for W in paths:
-    ax.plot(t, W, lw=1, alpha=0.6)
+    ax.plot(t, W, lw=2, alpha=0.5)   # bold paths
 
-ax.plot(t, np.sqrt(t), 'r--', label=r'$+\sqrt{t}$')
-ax.plot(t, -np.sqrt(t), 'b--', label=r'$-\sqrt{t}$')
-ax.axhline(0, color='k', lw=1, label='0')
+ax.plot(t, np.sqrt(t), 'r--', lw=3, label=r'$+\sqrt{t}$')   # bold envelope
+ax.plot(t, -np.sqrt(t), 'b--', lw=3, label=r'$-\sqrt{t}$')  # bold envelope
+ax.axhline(0, color='k', lw=3, label='0')                   # bold baseline
 
 ax.set_title('Brownian Motion Paths with ±√t Bounds')
 ax.set_xlabel('Time t')
@@ -138,16 +138,13 @@ ax.grid(True)
 # ---------------------------------------------------------
 ax2 = axes[1]
 
-# Horizontal histogram
-ax2.hist(endpoints, bins=50, density=True, alpha=0.6,
+ax2.hist(endpoints, bins=50, density=True, alpha=0.3,
          orientation='horizontal', label='Empirical B(1)')
 
-# Normal PDF plotted horizontally
 y = np.linspace(-4, 4, 500)
 pdf = norm.pdf(y, 0, np.sqrt(T))
-ax2.plot(pdf, y, 'r', lw=2, label='Normal PDF N(0,1)')
+ax2.plot(pdf, y, 'r', lw=2, alpha=0.7, label='Normal PDF N(0,1)')
 
-# Clean density axis
 ax2.set_xlim(0, 0.45)
 ax2.set_xticks([0.2, 0.4])
 
@@ -159,11 +156,11 @@ ax2.grid(True)
 
 plt.tight_layout()
 plt.show()
+
 ```
 
 
-<img width="907" height="634" alt="image" src="https://github.com/user-attachments/assets/5725f955-0c8d-4ccd-9e46-1c5e11c9e198" />
-
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/945441e8-2801-468a-838d-ebd6532430e5" />
 
 
 ## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
