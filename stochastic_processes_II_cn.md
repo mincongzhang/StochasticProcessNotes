@@ -289,6 +289,17 @@ $$\lim_{h \to 0} \frac{f(t+h) - f(t)}{h}$$
 
 $$\| \frac{f(t+h) - f(t)}{h} \| < \epsilon$$
 
+回到布朗运动, 我们假设布朗运动在 $t$ 点可微, 并且微分结果为 $A$, 那么我们有:
+
+$$\frac{dB}{dt}(t) = A$$
+
+如下示意图, 微分结果 $A$ 是斜率: 
+
+<img width="537" height="377" alt="image" src="https://github.com/user-attachments/assets/76704744-1fa4-4300-aff6-324946cd2988" />
+
+
+
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
