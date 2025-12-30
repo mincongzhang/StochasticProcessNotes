@@ -202,9 +202,9 @@ plt.plot(s, lower_cone, color='red', linewidth=3, alpha=0.7)
 
 plt.axhline(0, color='blue', linewidth=2)
 
-plt.title("Brownian Paths on [t, t+h] with ±A")
-plt.xlabel("s = time since t")
-plt.ylabel("B(t+s) − B(t)")
+plt.title("Brownian Paths on [t, t+delta]")
+plt.xlabel("delta = time since t")
+plt.ylabel("B(t+delta) − B(t)")
 
 plt.tight_layout()
 plt.show()
@@ -212,7 +212,6 @@ plt.show()
 ```
 
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/339f264f-440e-4e77-95da-504ee08b363f" />
-
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
 
