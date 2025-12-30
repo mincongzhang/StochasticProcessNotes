@@ -72,14 +72,14 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 下面是一些布朗运动的特点:
 1. 经常穿过x轴
-2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多, 若要更精确应该用正态分布)
+2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
 3. 处处不可微(nowhere differentiable). 因为所有的微积分都是基于求微分(differentiation), 处处不可微也意味着用微积分没法用了. 之后我们会说到的伊藤积分(Ito Calculus)可以解决这个问题. 
 
 如下图, 在 $t_0$ 时刻的概率分布符合 $N(0, t_0)$ (均值为0, 标准差为 $\sqrt{t_0}$)的正态分布. 所以大部分值都会处于这个区间之内. 
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
-再用python画一下来更直观感受一下:
+再用python画一些随机游走路径来更直观感受一下, 我们可以看见随机游走是呈正态分布的, 并且大部分处于曲线 $x=y^2$ 内:
 
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/92956b5c-a36c-4d13-9bd9-d131c9d0380f" />
 
