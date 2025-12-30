@@ -281,13 +281,13 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
-在证明之前我们看看可微的定义. 简单来说如果以下极限存在, 我们可以说某个函数 $f(x)$ 在 $x=a$ 这个点可微:
+在证明之前我们看看可微的定义. 简单来说如果以下极限存在, 我们可以说某个函数 $f(x)$ 在 $x=t$ 这个点可微:
 
-$$\lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$$
+$$\lim_{h \to 0} \frac{f(t+h) - f(t)}{h}$$
 
 再严谨一些, 对所有 $\epsilon > 0$, 存在一个 $\delta > 0$ 使得对任意 $0 < \| h \| < \delta$ , 如果满足以下条件, 我们可以说这个函数在这个点可微:
 
-$$\| \frac{f(a+h) - f(a)}{h} \| < \epsilon$$
+$$\| \frac{f(t+h) - f(t)}{h} \| < \epsilon$$
 
 ```
 import numpy as np
