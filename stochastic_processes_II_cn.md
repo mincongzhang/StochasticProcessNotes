@@ -233,7 +233,7 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | < A $$
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
-可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $| \frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon $ 不成立. 所以 $B(t)$ 不可微. 下面我们正式证明一下. 
+可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon$ 不成立. 所以 $B(t)$ 不可微. 下面我们正式证明一下. 
 
 
 
