@@ -203,7 +203,7 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
-在证明之前我们看看可微的定义. 简单来说如果以下极限存在, 我们可以说某个函数 $f(x)$ 在 $x=t$ 这个点可微:
+在证明之前我们看看用经典Epsilon-Delta对可微的定义. 简单来说如果以下极限存在, 我们可以说某个函数 $f(x)$ 在 $x=t$ 这个点可微:
 
 $$\lim_{\delta \to 0} \frac{f(t+\delta) - f(t)}{\delta}$$
 
@@ -211,18 +211,19 @@ $$\lim_{\delta \to 0} \frac{f(t+\delta) - f(t)}{\delta}$$
 
 $$\| \frac{f(t+\delta) - f(t)}{\delta} - A \| < \epsilon$$
 
-回到布朗运动, 我们假设布朗运动在 $t$ 点可微, 并且微分结果为 $A$, 那么我们如下结果和示意图:
+回到布朗运动, 我们假设布朗运动在 $t$ 点可微, 并且微分结果为 $A$, 我们有如下结果和示意图:
 
 $$\frac{dB}{dt}(t) = A$$
 
 <img width="537" height="377" alt="image" src="https://github.com/user-attachments/assets/76704744-1fa4-4300-aff6-324946cd2988" />
 
-根据本篇开头示意图(也就是随机游走和 $x=y^2$ 边界的示意图), 我们可以猜测:
+也就是说如果 $B(t)$ 可微, 那么对任意 $\epsilon > 0$, 存在 $\delta >0$, 使得 $| \frac{B(t+\delta) - B(t)}{\delta} - A | < \epsilon $.
 
+
+根据本篇开头示意图(也就是随机游走和 $x=y^2$ 边界的示意图), 我们可以猜测:
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3f5c7cf4-5349-4f89-92c1-bac90c2acdd9" />
 
-如果 $B(t)$ 可微, 那么对任意 $\epsilon > 0$, 存在 $\delta >0$, 使得 $| \[B(t+\delta) - B(t)\]/\delta - A | < \epsilon $.
 
 我们有 $| B(t+\delta) - B(t)| < \delta*A + \epsilon $, 根据之前的Epsilon-Delta定义, 
 
