@@ -148,7 +148,7 @@ ax2.plot(pdf, y, 'r', lw=2, alpha=0.7, label='Normal PDF N(0,1)')
 ax2.set_xlim(0, 0.45)
 ax2.set_xticks([0.2, 0.4])
 
-ax2.set_title('Distribution of Brownian Endpoints at t=1')
+ax2.set_title('Distribution of Brownian \n Endpoints at t=1')
 ax2.set_xlabel('Density')
 ax2.set_ylabel('Position B(1)')
 ax2.legend()
@@ -156,11 +156,10 @@ ax2.grid(True)
 
 plt.tight_layout()
 plt.show()
-
 ```
 
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/945441e8-2801-468a-838d-ebd6532430e5" />
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/92956b5c-a36c-4d13-9bd9-d131c9d0380f" />
 
 
 ## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
