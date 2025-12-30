@@ -225,9 +225,9 @@ $$| \frac{B(t+\delta) - B(t)}{\delta} - A | < \epsilon $$
 
 $$| \frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon $$
 
-因为 $\epsilon$ 可以是任意大于0 的数, 我们假设它很小就忽略掉它:
+因为 $\epsilon$ 可以是任意大于0的数, 我们假设它很小就忽略掉它, 但可以用 $\le$ 表示:
 
-$$| \frac{B(t+\delta) - B(t)}{\delta}  | < A $$
+$$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 接下来我们可以画图猜测一下. 我们画两条斜率为 $±A$ 的直线. 如果以上不等式成立, 那么布朗运动路径一定会在这两条直线相夹形成的锥形以内.
 
