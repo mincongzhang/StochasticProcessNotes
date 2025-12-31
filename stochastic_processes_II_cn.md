@@ -256,47 +256,16 @@ P(M(\delta) \ge A\delta) &= 2 P (B (\delta) \ge A\delta) \\
 \end{aligned}
 $$
 
-当 $\delta$ 趋近于0的时候, 右边等式显然大于1了 (200%肯定)
-
-稍微绕一下看看小于
+当 $\delta$ 趋近于0的时候, 右边等式显然大于1了, 可以说200%肯定吗哈哈? 或者:
 
 $$P(M(\delta) < A\delta) = 1 - 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
 
-当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 也就是说
-
-https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
-
-The above proposition can help us prove the following result
-
-For each $t \ge 0$, the Brownian motion is almost surely not differentiable at $t$
-
-Proof:
-
-Fix a real $t_0$ and suppose that the Brownian motion $B$ is differentiable at $t_0$. 
-Then there exist constant $A$ and $\varepsilon_0$ such that for all $0 < \varepsilon < \varepsilon_0 $, $B \( t \) - B\( t_0 \) \le A \varepsilon$ 
-holds for all $0< t-t_0 \le \varepsilon$
-
-Let $E_{\varepsilon, A}$ denote this event, and $E_A = \cap_\varepsilon E_{\varepsilon, A}$. Note that
-
-$$
-\begin{aligned}
-P \( E_{\varepsilon, A} \) &= P \( E \( t \) - E \( t_0 \) \le A \varepsilon, for \ all \ 0< t-t_0 \le \varepsilon  \) \\
-                           &= P\( M \( \varepsilon \) \le A \varepsilon \) \\
-                           &= 1- P\( M \( \varepsilon \) \ge A \varepsilon \) \\
-                           &= 1- 2 \( 1 - \Phi \( A \varepsilon \) \) \\
-                           &= 2 \Phi \( A \varepsilon \) - 1 
-\end{aligned}
-$$
-
-where the right hand side tends to zero as $\varepsilon$ goes to zero. Therefore, $P \( E_A \) = 0$
-
-By countable additivity, we see that there can be no constant A satisfying above (it suffices to consider integer values of A)
+当 $\delta$ 趋近于0的时候,  最大值小于 $A\delta$ 的概率趋近于0. 这也肯定了我们的猜测, 也就是 $B(t)$ 几乎肯定不可微. 
 
 ```
-Dvoretsky, Erdos,and Kakutani in fact proved a stronger statment asserting that the Brownian motion $B$ 
-is no where differentiable with probability 1.
-Hence a sample Brownian path is continuous but nowhere differentiable!
-The proof is slightly more involved and requires a lemma from probability theory (Borel-Cantellilemma).
+再提"几乎肯定"(almost surely):
+这三位大佬(Dvoretsky, Erdos,and Kakutani)更严谨地说明了B(t)在任何时刻都不可微. 也就是说布朗运动虽是连续的但处处不可微. 
+证明比较复杂并且需要用到波莱尔-坎泰利引理(Borel–Cantelli lemma), 有兴趣的话自己去搜搜吧.
 ```
 
 ### Theorem: Quadratic Variation
