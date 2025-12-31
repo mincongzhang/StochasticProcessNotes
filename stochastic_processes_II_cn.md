@@ -248,7 +248,7 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 $$P(M(\delta) \ge A) = 2 P (B (\delta) \ge A) =  2 \times (1 - \Phi (\frac {A}{\sqrt{\delta} }) )$$
 
-当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 所以我们说几乎确定不可微. 
+当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 也就是说
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
 
