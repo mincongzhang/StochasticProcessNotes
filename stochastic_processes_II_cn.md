@@ -290,13 +290,8 @@ $$f'(s_i) = \frac{f( t_{i+1} ) - f( t_{i} )}{t_{i+1} - t_i}, s_i \in [t_i, t_{i+
 
 我们得到
 
-$$
-\begin{aligned}
-\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 &= \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2 \\
-                                                 &\le x 
+$$\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 = \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2$$
 
-\end{aligned}
-$$
 
 
 
