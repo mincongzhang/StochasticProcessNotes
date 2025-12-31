@@ -246,7 +246,7 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 替换成这个例子里从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻大于 $A\delta$ 的概率为:
 
-$$P(M(\delta) \ge A) = 2 P (B (\delta) \ge A) =  2 \times (1 - \Phi (\frac {A}{\sqrt{\delta} }) )$$
+$$P(M(\delta) \ge A\delta) = 2 P (B (\delta) \ge A\delta) =  2 \times (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) = 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
 
 当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 也就是说
 
