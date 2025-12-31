@@ -199,9 +199,9 @@ $$
 
 $$
 \begin{aligned}
-P(M(t) \ge a)   &=2 P (B (t) \ge a) \\
-                &= 2 P(N(0,t) \ge a) \\
-                &= 2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )
+P(M(t) \ge a) &=2 P (B (t) \ge a) \\
+              &= 2 P(N(0,t) \ge a) \\
+              &= 2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )
 \end{aligned}
 $$
 
