@@ -203,6 +203,10 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} })
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
+```
+更严谨地说是几乎确定(almost surely)不可微, 之后会解释.
+```
+
 在证明之前我们看看对一个函数可微的定义. 我们用经典的Epsilon-Delta来说明. 简单来说如果以下极限存在, 我们可以说某个函数 $f(x)$ 在 $x=t$ 这个点可微:
 
 $$\lim_{\delta \to 0} \frac{f(t+\delta) - f(t)}{\delta}$$
@@ -234,7 +238,7 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
-可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 不成立. 所以 $B(t)$ 不可微. 
+可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 不成立. 所以 $B(t)$ 不可微. 下面我们再简单证明一下. 
 
 还记得之前例子里股票大于 $a$ 的概率吗? 我们算出从0时刻到 $t$ 时刻中某一个时刻大于 $a$ 的概率为:
 
