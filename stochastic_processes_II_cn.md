@@ -263,12 +263,12 @@ $$
 \begin{aligned}
 P(M(\delta) \ge A\delta) &= 2 P (B (\delta) \ge A\delta) \\
                          &= 2 P (N (0, \delta) \ge A\delta) \\
-                         &= 2 \times (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) \\
-                         &= 2 \times (1 - \Phi (A\sqrt{\delta}) )
+                         &= 2 (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) \\
+                         &= 2 (1 - \Phi (A\sqrt{\delta}) )
 \end{aligned}
 $$
 
-当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times (1 - 1/2) = 1$. 也就是不管我们取多小的区间, $B(t)$ 都不会收敛, 也就是 $B(t)$ 几乎肯定不可微. 
+当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 (1 - 1/2) = 1$. 也就是不管我们取多小的区间, $B(t)$ 都不会收敛, 也就是 $B(t)$ 几乎肯定不可微. 
 
 ```
 再提"几乎肯定"(almost surely):
