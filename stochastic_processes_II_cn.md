@@ -240,15 +240,27 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 不成立. 所以 $B(t)$ 不可微. 下面我们再简单证明一下. 
 
-还记得之前例子里股票大于 $a$ 的概率吗? 我们算出从0时刻到 $t$ 时刻中某一个时刻大于 $a$ 的概率为:
+还记得之前例子里股票大于等于 $a$ 的概率吗? 我们算出从0时刻到 $t$ 时刻中某一个时刻最大值 $M(t)$ 大于等于 $a$ 的概率为:
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
-回到我们的例子, 我们想证明 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 也就是 $|B(t+\delta) - B(t)  | < A\delta$ 不成立.
+回到我们的例子, 我们想证明 $|\frac{B(t+\delta) - B(t)}{\delta}  | \le A$ 也就是 $|B(t+\delta) - B(t)  | \le A\delta$ 不成立.
 
-把上面等式替换一下, 从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻大于 $A\delta$ 的概率为:
+把上面等式替换一下, 从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻最大值 $M(\delta)$ 大于等于 $A\delta$ 的概率为:
 
-$$P(M(\delta) \ge A\delta) = 2 P (B (\delta) \ge A\delta) =  2 \times (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) = 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
+$$
+\begin{aligned}
+P(M(\delta) \ge A\delta) &= 2 P (B (\delta) \ge A\delta) \\
+                         &= 2 \times (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) \\
+                         &= 2 \times (1 - \Phi (A\sqrt{\delta}) )
+\end{aligned}
+$$
+
+当 $\delta$ 趋近于0的时候, 右边等式显然大于1了 (200%肯定)
+
+稍微绕一下看看小于
+
+$$P(M(\delta) < A\delta) = 1 - 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
 
 当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 也就是说
 
