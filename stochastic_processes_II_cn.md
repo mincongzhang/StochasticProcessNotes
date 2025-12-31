@@ -292,7 +292,7 @@ $$f'(s_i) = \frac{f( t_{i+1} ) - f( t_{i} )}{t_{i+1} - t_i}, s_i \in [t_i, t_{i+
 
 $$\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 = \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2, s_i \in [t_i, t_{i+1}]$$
 
-并且利用时间区间 $[0,T]$ 的上界(upper bound), 我们得到以下不等式:
+并且在时间区间 $[0,T]$ 取 $f'(s)$ 的上界(upper bound), 我们得到以下不等式:
 
 $$
 \begin{aligned}
@@ -301,9 +301,15 @@ $$
 \end{aligned}
 $$
 
+进一步:
 
-
-$$\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 \le  \max_{s \in \[0,T\]} f'(s)^2 \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2$$
+$$
+\begin{aligned}
+\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 & =   \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2, s_i \in [t_i, t_{i+1}] \\
+                                                 & \le \max_{s \in \[0,T\]} f'(s)^2 \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 \\
+                                                 & \le \max_{s \in \[0,T\]} f' \(s \)^2 \cdot \max_{i} \{{ t_{i+1} - t_i  \}} \cdot T
+\end{aligned}
+$$
 
 
 
