@@ -244,7 +244,8 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 $$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
-替换成这个例子里从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻大于 $A\delta$ 的概率为:
+回到我们的例子, 我们想证明 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 也就是 $|B(t+\delta) - B(t)  | < A\delta$ 不成立.
+把上面等式替换一下, 从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻大于 $A\delta$ 的概率为:
 
 $$P(M(\delta) \ge A\delta) = 2 P (B (\delta) \ge A\delta) =  2 \times (1 - \Phi (\frac {A\delta}{\sqrt{\delta} }) ) = 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
 
