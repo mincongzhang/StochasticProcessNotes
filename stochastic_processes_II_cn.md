@@ -276,7 +276,18 @@ $$
 证明比较复杂并且需要用到波莱尔-坎泰利引理(Borel–Cantelli lemma), 有兴趣的话自己去搜搜吧.
 ```
 
-### Theorem: Quadratic Variation
+### 二次变分 (Quadratic Variation)
+
+在看布朗运动的二次变分之前, 我们分析一下一般的连续可微函数(continuously differentiable function)的二次变分(quadratic variation).
+
+选取时间区间 $[0,T]$ 的一部分 $\Pi = \\{ t_0, t_1, ..., t_N \\}$, 并且 $|\Pi| = max_i(t_{i+1} - t_i)$. 对于一个连续可微函数 $f(t)$, 我们定义它的二次变分为:
+
+$$ \sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2$$
+
+利用中值定理(Mean value theorem):
+
+$$f'(s_i) = \frac{f( t_{i+1} ) - f( t_{i} )}{t_{i+1} - t_i}$$
+
 
 #### Quadratic Variation for a continuously differentiable function
 
