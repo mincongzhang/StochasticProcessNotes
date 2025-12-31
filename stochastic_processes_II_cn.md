@@ -253,7 +253,7 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 还记得之前例子里股票大于等于 $a$ 的概率吗? 我们算出从0时刻到 $t$ 时刻中某一个时刻最大值 $M(t)$ 大于等于 $a$ 的概率为:
 
-$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
+$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
 回到我们的例子, 我们想证明 $|\frac{B(t+\delta) - B(t)}{\delta}  | \le A$ 也就是 $|B(t+\delta) - B(t)  | \le A\delta$ 不成立.
 
