@@ -215,7 +215,7 @@ $$\| \frac{f(t+\delta) - f(t)}{\delta} - A \| < \epsilon$$
 
 $$\frac{dB}{dt}(t) = A$$
 
-<img width="537" height="377" alt="image" src="https://github.com/user-attachments/assets/76704744-1fa4-4300-aff6-324946cd2988" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/8af3344e-7d7d-4aee-b8a6-36faf6d9ea74" />
 
 也就是说如果 $B(t)$ 可微, 那么对所有 $\epsilon > 0$, 存在 $\delta >0$, 使得:
 
