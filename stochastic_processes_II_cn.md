@@ -264,7 +264,8 @@ $$P(M(\delta) < A\delta) = 1 - 2 \times (1 - \Phi (A\sqrt{\delta}) )$$
 
 ```
 再提"几乎肯定"(almost surely):
-这三位大佬(Dvoretsky, Erdos,and Kakutani)更严谨地说明了B(t)在任何时刻都不可微. 也就是说布朗运动虽是连续的但处处不可微. 证明比较复杂并且需要用到波莱尔-坎泰利引理(Borel–Cantelli lemma), 有兴趣的话自己去搜搜吧.
+这三位大佬(Dvoretsky, Erdos,and Kakutani)更严谨地说明了B(t)在任何时刻都不可微. 也就是说布朗运动虽是连续的但处处不可微.
+证明比较复杂并且需要用到波莱尔-坎泰利引理(Borel–Cantelli lemma), 有兴趣的话自己去搜搜吧.
 ```
 
 ### Theorem: Quadratic Variation
