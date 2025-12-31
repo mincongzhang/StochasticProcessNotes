@@ -234,17 +234,17 @@ $$| \frac{B(t+\delta) - B(t)}{\delta}  | \le A $$
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
-可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A + \epsilon$ 不成立. 所以 $B(t)$ 不可微. 
+可以看出因为随机游走, 路径有可能超出这个锥形, 也就是 $|\frac{B(t+\delta) - B(t)}{\delta}  | < A$ 不成立. 所以 $B(t)$ 不可微. 
 
-还记得我们之前例子里股票大于 $a$ 的概率吗? 
+还记得之前例子里股票大于 $a$ 的概率吗? 我们算出从0时刻到 $t$ 时刻中某一个时刻大于 $a$ 的概率为:
 
-$$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
+$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
 
-我们替换一下:
+替换成这个例子里从 $t$ 时刻到 $t+\delta$ 时刻中某一个时刻大于 $A\delta$ 的概率为:
 
-$$P (B (t+\delta) \ge A + \epsilon) = 1 - \Phi (\frac {A + \epsilon}{\sqrt{\delta} })$$
+$$P(M(\delta) \ge A) = 2 P (B (\delta) \ge A) =  2 \times (1 - \Phi (\frac {A}{\sqrt{\delta} }) )$$
 
-当 $\delta$ 趋近于0的时候, 右边等式趋近于 $1 - \Phi (\infty)$, 也就是0. 所以我们说几乎确定不可微. 
+当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 \times [1 - \Phi (\infty)]$, 也就是0. 所以我们说几乎确定不可微. 
 
 https://youtu.be/PPl-7_RL0Ko?si=cCr7sO7CoL6PyakE&t=2553
 
