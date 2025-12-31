@@ -278,15 +278,26 @@ $$
 
 ### 二次变分 (Quadratic Variation)
 
-在看布朗运动的二次变分之前, 我们分析一下一般的连续可微函数(continuously differentiable function)的二次变分(quadratic variation).
+在了解布朗运动的二次变分之前, 我们看看一般的连续可微函数(continuously differentiable function)的二次变分(quadratic variation).
 
-选取时间区间 $[0,T]$ 的一部分 $\Pi = \\{ t_0, t_1, ..., t_N \\}$, 并且 $|\Pi| = max_i(t_{i+1} - t_i)$. 对于一个连续可微函数 $f(t)$, 我们定义它的二次变分为:
+选取时间区间 $[0,T]$ 的一部分 $\Pi = \\{ 0 = t_0 < t_1 < ...< t_N \\}$. 对于一个连续可微函数 $f(t)$, 我们定义它的二次变分为:
 
 $$ \sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2$$
 
 利用中值定理(Mean value theorem):
 
-$$f'(s_i) = \frac{f( t_{i+1} ) - f( t_{i} )}{t_{i+1} - t_i}$$
+$$f'(s_i) = \frac{f( t_{i+1} ) - f( t_{i} )}{t_{i+1} - t_i}, s_i \in [t_i, t_{i+1}]$$
+
+我们得到
+
+$$
+\begin{aligned}
+\sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 &= \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2 \\
+                                                 &\le x 
+
+\end{aligned}
+$$
+
 
 
 #### Quadratic Variation for a continuously differentiable function
