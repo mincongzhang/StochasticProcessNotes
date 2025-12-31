@@ -188,11 +188,22 @@ $$P (B (t) \ge a)$$
 
 我们可以得到大于等于 $a$ 的概率: 
 
-$$P (B (t) \ge a) = 1 - \Phi (\frac {a}{\sqrt{t} })$$
+$$
+\begin{aligned}
+P (B (t) \ge a) &= P(N(0,t) \ge a) \\
+                &= 1 - \Phi (\frac {a}{\sqrt{t} })
+\end{aligned}
+$$
 
 根据之前提到的反射原理(Reflection principle), 日内股价大于等于a的概率为:
 
-$$P(M(t) \ge a) = 2 P (B (t) \ge a) =  2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )$$
+$$
+\begin{aligned}
+P(M(t) \ge a)   &=2 P (B (t) \ge a) \\
+                &= 2 P(N(0,t) \ge a) \\
+                &= 2 \times (1 - \Phi (\frac {a}{\sqrt{t} }) )
+\end{aligned}
+$$
 
 参考: https://www.probabilitycourse.com/chapter4/4_2_3_normal.php#:~:text=The%20CDF%20of%20the%20standard%20normal%20distribution%20is%20denoted%20by,is%20widely%20used%20in%20probability.
 
