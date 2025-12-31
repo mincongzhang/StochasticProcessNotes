@@ -90,7 +90,7 @@ import matplotlib.pyplot as plt
 # Parameters / reproducibility
 np.random.seed(42)
 N = 300
-epsilon = 150  # larger horizontal distance for visibility
+delta = 150  # larger horizontal distance for visibility
 
 # Generate a 1D random walk (x = time/index, y = cumulative sum of steps)
 x = np.arange(N)
@@ -98,9 +98,9 @@ steps = np.random.normal(loc=0.0, scale=1.0, size=N)
 y = np.cumsum(steps)
 
 # Pick two points whose x-index distance is <= epsilon
-i = np.random.randint(0, N - epsilon)          # starting index
-delta = np.random.randint(1, epsilon + 1)      # choose how far ahead (1..epsilon)
-j = i + delta
+i = np.random.randint(0, N - delta)          # starting index
+diff = np.random.randint(1, delta + 1)      # choose how far ahead (1..epsilon)
+j = i + diff
 
 # Compute slope A between the two chosen points
 dx = x[j] - x[i]
@@ -119,21 +119,20 @@ plt.plot([x[i], x[j]], [y[i], y[j]], color='orange', lw=3, zorder=4, label=f'Con
 plt.plot([x[i], x[j]], [y[i], y[i]], color='gray', ls='--', lw=1)
 plt.plot([x[j], x[j]], [y[i], y[j]], color='gray', ls='--', lw=1)
 
-# Label the two points as requested, make them bold and larger
-plt.annotate(r"$\mathbf{B(t)}$", xy=(x[i], y[i]), xytext=(-10, 12),
+# Label the two points as requested:
+# first point (plotted first) -> B(t+epsilon), second -> B(t)
+plt.annotate(r"$B(t)$", xy=(x[i], y[i]), xytext=(-10, 12),
              textcoords='offset points', ha='right', va='bottom', color='red',
-             bbox=dict(facecolor='white', edgecolor='none', alpha=1),
-             fontsize=16, fontweight='bold')
-plt.annotate(r"$\mathbf{B(t+\epsilon)}$", xy=(x[j], y[j]), xytext=(8, -10),
+             bbox=dict(facecolor='white', edgecolor='none', alpha=1))
+plt.annotate(r"$B(t+\delta)$", xy=(x[j], y[j]), xytext=(8, -10),
              textcoords='offset points', ha='left', va='top', color='red',
-             bbox=dict(facecolor='white', edgecolor='none', alpha=1),
-             fontsize=16, fontweight='bold')
+             bbox=dict(facecolor='white', edgecolor='none', alpha=1))
 
 # Label slope "A" near the midpoint, rotated to match slope
 midx, midy = (x[i] + x[j]) / 2, (y[i] + y[j]) / 2
 angle = np.degrees(np.arctan(A))
-plt.text(midx, midy, "A \n\n", color='red', weight='bold', fontsize=18,
-         bbox=dict(facecolor='white', edgecolor='none', alpha=1),
+plt.text(midx, midy, "A \n\n", color='red', fontsize=14,
+         bbox=dict(facecolor='white', edgecolor='none', alpha=0.9),
          rotation=angle, ha='center', va='center')
 
 # Expand axis ranges for better view
@@ -145,14 +144,15 @@ plt.ylim(y.min() - y_margin, y.max() + y_margin)
 
 plt.xlabel('Index (x)')
 plt.ylabel('Walk position (y)')
-plt.title(f'Random walk with two points within epsilon={epsilon} (indices {i} and {j})')
+plt.title(f'Random walk with two points within delta={delta} (indices {i} and {j})')
 plt.legend()
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 ```
 
-<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/36746c44-ea3f-42e1-a595-e1ab60e60062" />
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/8af3344e-7d7d-4aee-b8a6-36faf6d9ea74" />
+
 
 
 ```
