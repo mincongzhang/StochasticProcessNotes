@@ -356,6 +356,8 @@ $$
 
 $$(dB)^2 = dt$$
 
+花费这么多笔墨了解完布朗运动的不可微以及二次变分, 都是为了之后伊藤引理的推导.
+
 #### Quadratic Variation for a continuously differentiable function
 
 For a partition $\Pi = \\{ t_0, t_1, ..., t_j \\}$ of an interval $\[0,T\]$, and for a __continuously differentiable__ function $f \( t \)$, we define its __quadratic variation__  as:
