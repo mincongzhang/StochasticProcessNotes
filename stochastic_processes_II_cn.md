@@ -325,7 +325,29 @@ $$ \sum_{t}^{N-1} ( B( t_{i+1} ) - B( t_{i} )  ) ^2$$
 
 它的期望是:
 
-$$ \sum_{t}^{N-1} E[( B( t_{i+1} ) - B( t_{i} )  ) ^2]$$
+$$\sum_{t}^{N-1} E[( B( t_{i+1} ) - B( t_{i} )) ^2]$$
+
+回顾布朗运动的平稳性:
+
+- 平稳性(stationary): 对所有 $0 \le t_i < t_{i+1}$ , $B (t_{i+1}) - B (t_i)$ 的概率分布是均值为0方差为 $t_{i+1}-t_i$ 的正态分布, 也就是 $N(0, t_{i+1}-t_i)$.
+
+并且正态分布 $X~N(0, \sigma^2)$的期望:
+
+$$E(X^2) = \sigma^2$$
+
+那么我们有:
+
+$$
+\begin{aligned}
+\sum_{t}^{N-1} E[( B( t_{i+1} ) - B( t_{i} )) ^2] & = \sum_{t}^{N-1} E[N(0, t_{i+1}-t_i) ^2]  \\
+                                                  & = \sum_{t}^{N-1} ( t_{i+1}-t_i) )  \\
+                                                  & = T
+\end{aligned}
+$$
+
+
+- 独立增量(independent increment): 如果区间 $\[ t_i, t_{i+1} \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_{i+1} \) - B \( t_i \)$ 是互相独立的 (mutually independent).
+
 
 
 
