@@ -306,8 +306,10 @@ $$
 $$
 \begin{aligned}
 \sum_{t}^{N-1} ( f( t_{i+1} ) - f( t_{i} )  ) ^2 & =   \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 f'(s_i)^2, s_i \in [t_i, t_{i+1}] \\
-                                                 & \le \max_{s \in \[0,T\]} f'(s)^2 \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 \\
-                                                 & \le \max_{s \in \[0,T\]} f' \(s \)^2 \cdot \max_{i} \\{{ t_{i+1} - t_i  \\}} \cdot T
+                                                 & \le \max_{s \in [0,T]} f'(s)^2 \sum_{t}^{N-1} (t_{i+1}-t_{i}) ^2 \\
+                                                 & \le \max_{s \in [0,T]} f'(s)^2 \sum_{t}^{N-1} (t_{i+1}-t_{i}) \cdot \sum_{t}^{N-1} (t_{i+1}-t_{i}) \\
+                                                 & \le \max_{s \in [0,T]} f'(s)^2  \cdot \max_{i} \\{{ t_{i+1} - t_i  \\}} \cdot \sum_{t}^{N-1} (t_{i+1}-t_{i}) \\
+                                                 & \le \max_{s \in [0,T]} f'(s)^2 \cdot \max_{i} \\{{ t_{i+1} - t_i  \\}} \cdot T
 \end{aligned}
 $$
 
