@@ -344,7 +344,7 @@ $$
 $$
 \begin{aligned}
 \sum_{t}^{N-1} E[( B( t_{i+1} ) - B( t_{i} )) ^2] & = \sum_{t}^{N-1} E[N(0, t_{i+1}-t_i) ^2]  \\
-                                                  & = \sum_{t}^{N-1} ( t_{i+1}-t_i) )  \\
+                                                  & = \sum_{t}^{N-1} ( t_{i+1}-t_i)  \\
                                                   & = T
 \end{aligned}
 $$
