@@ -351,6 +351,10 @@ $$
 \end{aligned}
 $$
 
+写成微分方程形式:
+
+
+$$(dB)^2 = dt$$
 
 #### Quadratic Variation for a continuously differentiable function
 
