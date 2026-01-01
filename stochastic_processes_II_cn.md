@@ -270,6 +270,8 @@ $$
 
 当 $\delta$ 趋近于0的时候, 右边等式趋近于 $2 (1 - \frac{1}{2}) = 1$. 也就是不管我们取多小的区间, $B(t)$ 都不会收敛, 也就是 $B(t)$ 几乎肯定不可微. 
 
+对于我们直观的感受就是, 布朗运动函数不是一个光滑的函数(not a smooth function), 因为即使我们再缩小观测范围, 函数都会很毛糙.
+
 ```
 再提"几乎肯定"(almost surely):
 这三位大佬(Dvoretsky, Erdos,and Kakutani)更严谨地说明了B(t)在任何时刻都不可微. 也就是说布朗运动虽是连续的但处处不可微.
@@ -350,10 +352,6 @@ $$
                                                   & = T
 \end{aligned}
 $$
-
-
-- 独立增量(independent increment): 如果区间 $\[ t_i, t_{i+1} \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_{i+1} \) - B \( t_i \)$ 是互相独立的 (mutually independent).
-
 
 
 
