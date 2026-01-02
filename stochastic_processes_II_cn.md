@@ -9,6 +9,8 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 
 教案: https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
 
+Python在线画图: https://python-fiddle.com/examples/matplotlib
+
 
 ## 回顾
 
