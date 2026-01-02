@@ -394,6 +394,9 @@ $$\mathbb{E} [X(t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
 
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/fdef7b44-8458-44b7-a57f-da799cc1ce6b" />
 
+加上复利(compound interest), 基金投资中的资产增长预测大概也是这样来的吧.
+
+<img width="802" height="401" alt="image" src="https://github.com/user-attachments/assets/9c04c8ca-9c4a-4c47-8ec4-d9b53e1a0a7b" />
 
 
 
