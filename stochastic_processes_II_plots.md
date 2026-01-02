@@ -337,7 +337,7 @@ import matplotlib.pyplot as plt
 # parameters
 mu = 1.0
 epsilon = 0.2
-T = 1000
+T = 10
 dt = 0.1
 
 # time grid
@@ -362,10 +362,10 @@ plt.plot(t, lower, 'r--', label="y=(μ - ε)t")
 
 plt.xlabel("t")
 plt.ylabel("value")
-plt.title(f"Brownian Motion with Drift Eventually Stays Between Two Lines (μ={mu}, ε={epsilon})")
+plt.title(f"Brownian Motion with Drift Eventually Stays Between Two Lines (μ={mu}, ε={epsilon}, T={T})")
 plt.legend()
 plt.grid(True)
 plt.show()
-
 ```
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/515458e8-d2c8-4864-917d-d55f723e44a3" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/f1083839-0bc8-4433-b62b-efd00eee3c19" />
+
