@@ -376,10 +376,15 @@ $$(dB)^2 = dt$$
 花费这么多笔墨了解完布朗运动的不可微以及二次变分, 都是为了之后伊藤引理的推导.
 
 
-### Brownian motion with drift
+### 带漂移项的布朗运动 (Brownian motion with drift)
 
-Let $B\(t\)$ be a Brownian motion, and let $\mu$ be a fixed real. The process $X\(t\) = B\(t\) + \mu t$ is called a Brownian motion with drift $\mu$. 
-By definition, it follows that $\mathbb{E} \[ X \( t \) \] = \mu t$.
+最后来看一个带漂移的布朗运动. 对布朗运动 $B(t)$, 我们加一个固定的正实数(fixed real) $\mu$, 可以得到以下带漂移项 $\mu$ 的布朗运动:
+
+$$X(t) = B(t) + \mu t$$
+
+因为 $\mathbb{E} [B(t)] = 0$, 我们有:
+
+$$\mathbb{E} [X( t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
 
 Question: as time passes, which term will dominate? $B\(t\)$ or $\mu t$? It can be shown that $\mu t$ dominates the behavior of $X\(t\)$. 
 For example, for all fixed $\varepsilon > 0$, after long enough time, the Brownian motion will always be between the lines $y=\(\mu - \varepsilon\) t$ and $y=\(\mu + \varepsilon\) t$.
