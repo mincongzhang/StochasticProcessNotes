@@ -51,7 +51,7 @@ $$
 
 - 但是在 __连续随机过程__ 中, __不存在t和t+1__, 那我们也没法描述两个时刻之间变化的概率, 如果把时间区间所有的变化都算完需要做 __无穷多次计算__ , 并且也有 __无穷多个结果__ . 
 
-我们可以用概率密度函数(probability density function)来描述概率分布, 并且用概率空间(probability space)来表示连续随机过程的分布结果:
+于是我们可以用概率密度函数(probability density function)来描述概率分布, 并且用概率空间(probability space)来表示连续随机过程的分布结果:
 
 $$P(\omega)$$
 
