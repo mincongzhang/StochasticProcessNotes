@@ -92,9 +92,9 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
-再用python画一些随机游走路径来更直观感受一下, 我们可以看见随机游走是呈正态分布的, 并且大部分处于曲线 $x=y^2$ 内:
+再画一些随机游走路径来更直观感受一下, 我们可以看见大部分处于曲线 $x=y^2$ 内, 并且右图显示如果路径数量足够多， 结果确实呈现为正态分布:
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/92956b5c-a36c-4d13-9bd9-d131c9d0380f" />
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/de455511-070f-4348-8e30-2b7594894a72" />
 
 
 ## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
