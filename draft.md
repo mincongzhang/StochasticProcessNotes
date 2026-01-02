@@ -215,3 +215,118 @@ plt.show()
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a331e132-a2c8-4b49-b3be-ad41ca1bc06c" />
 
 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parameters
+T = 1.0
+N = 18
+dt = T / N
+t = np.linspace(0, T, N + 1)
+
+# Brownian motion
+np.random.seed(0)
+dB = np.random.normal(0, np.sqrt(dt), size=N)
+B = np.concatenate(([0], np.cumsum(dB)))
+
+# Smooth function
+f = np.sin(2 * np.pi * t)
+df = np.diff(f)
+
+# Plot
+fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+
+# ---------------- Brownian Motion ----------------
+ax = axes[0]
+ax.plot(t, B, color='blue')
+ax.scatter(t, B, color='red')
+
+for i in range(N):
+    x0, x1 = t[i], t[i+1]
+    y0, y1 = B[i], B[i+1]
+    sq = (y1 - y0)**2
+
+    # vertical increment line
+    ax.plot([x0, x0], [y0, y1], 'k--', alpha=0.6)
+
+    # rectangle showing squared increment
+    ax.add_patch(plt.Rectangle((x0, min(y0, y1)), 
+                               dt, sq, 
+                               fill=False, edgecolor='black', linestyle=':'))
+
+ax.set_title("Brownian Motion: Squared Increments")
+ax.set_xlabel("t")
+ax.set_ylabel("B(t)")
+ax.grid(True)
+
+# ---------------- Smooth Function ----------------
+ax = axes[1]
+ax.plot(t, f, color='blue')
+ax.scatter(t, f, color='red')
+
+for i in range(N):
+    x0, x1 = t[i], t[i+1]
+    y0, y1 = f[i], f[i+1]
+    sq = (y1 - y0)**2
+
+    ax.plot([x0, x0], [y0, y1], 'k--', alpha=0.6)
+
+    ax.add_patch(plt.Rectangle((x0, min(y0, y1)), 
+                               dt, sq, 
+                               fill=False, edgecolor='black', linestyle=':'))
+
+ax.set_title("Smooth Function: Squared Increments")
+ax.set_xlabel("t")
+ax.set_ylabel("f(t)")
+ax.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+```
+
+<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/609ff2a9-fbad-4195-9f29-7a0981935420" />
+
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+T = 1.0
+num_partitions = np.logspace(1, 4, 20, dtype=int)  # from 10 to 10,000 intervals
+
+QV_brownian = []
+QV_smooth = []
+
+np.random.seed(42)
+
+for N in num_partitions:
+    dt = T / N
+    t = np.linspace(0, T, N+1)
+
+    # Brownian motion increments
+    dB = np.random.normal(0, np.sqrt(dt), size=N)
+    QV_brownian.append(np.sum(dB**2))
+
+    # Smooth function f(t) = sin(2πt)
+    f = np.sin(2*np.pi*t)
+    df = np.diff(f)
+    QV_smooth.append(np.sum(df**2))
+
+# Plot
+plt.figure(figsize=(10,6))
+plt.plot(num_partitions, QV_brownian, 'o-', label='Brownian motion')
+plt.plot(num_partitions, QV_smooth, 'o-', label='Smooth function')
+plt.axhline(1.0, color='gray', linestyle='--', label='T = 1')
+
+plt.xscale('log')
+plt.xlabel("Number of intervals (log scale)")
+plt.ylabel("Quadratic variation")
+plt.title("Quadratic Variation vs Partition Size")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/95b4178f-1a79-4a1e-a5b7-296346171889" />
