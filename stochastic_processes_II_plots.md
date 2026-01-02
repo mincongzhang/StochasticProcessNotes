@@ -329,3 +329,43 @@ plt.show()
 ```
 
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/95b4178f-1a79-4a1e-a5b7-296346171889" />
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# parameters
+mu = 1.0
+epsilon = 0.2
+T = 1000
+dt = 0.1
+
+# time grid
+t = np.arange(0, T, dt)
+
+# Brownian motion
+dB = np.sqrt(dt) * np.random.randn(len(t))
+B = np.cumsum(dB)
+
+# Brownian motion with drift
+X = B + mu * t
+
+# bounding lines
+upper = (mu + epsilon) * t
+lower = (mu - epsilon) * t
+
+# plot
+plt.figure(figsize=(10, 6))
+plt.plot(t, X, label="X(t) = B(t) + μt", linewidth=1)
+plt.plot(t, upper, 'r--', label="y=(μ + ε)t")
+plt.plot(t, lower, 'r--', label="y=(μ - ε)t")
+
+plt.xlabel("t")
+plt.ylabel("value")
+plt.title("Brownian Motion with Drift Eventually Stays Between Two Lines")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/0ee84b53-b65a-4db6-8d08-5beb06e9d0ea" />
