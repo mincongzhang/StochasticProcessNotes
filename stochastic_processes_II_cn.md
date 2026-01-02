@@ -388,7 +388,7 @@ $$\mathbb{E} [X(t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
 
 问题:随着时间的推移, $X(t)$ 是受到 $B(t)$ 的影响更大, 还是受到 $\mu t$ 的影响更大? 
 
-如下图, 我们可以看见 $\mu t$ 的影响更大, 对任意给定的 $\varepsilon > 0$, 随着时间推移, $X(t)$ 总会收敛于这两条线之间 $y=(\mu - \varepsilon) t$,  $y=(\mu + \varepsilon) t$.
+如下图, 我们可以看见 $\mu t$ 的影响更大, 对任意给定的 $\varepsilon > 0$, 随着时间推移, $X(t)$ 总会收敛于 $y=(\mu - \varepsilon) t$ 和  $y=(\mu + \varepsilon) t$ 之间.
 
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/a0554c7c-aa50-49c3-8e4b-d9b05b917b61" />
 
