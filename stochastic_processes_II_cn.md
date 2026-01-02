@@ -361,10 +361,6 @@ $$(dB)^2 = dt$$
 
 #### 对比
 
-对比布朗运动和一些光滑函数相邻两个时间点的位移差的平方示意图:
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dd3c9ab2-f915-47d9-9037-4f1f3422cae7" />
-
 我们对比时间区间划分成20段和40段后, 布朗运动和平滑函数的二次变分:
 
 <img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/0485722f-d6aa-4300-9ed4-f3c1d60ffa4b" />
