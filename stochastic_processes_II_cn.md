@@ -361,9 +361,20 @@ $$(dB)^2 = dt$$
 
 #### 对比
 
-画一些图来对比布朗运动和一些光滑函数相邻两个时间点的位移差的平方:
+对比布朗运动和一些光滑函数相邻两个时间点的位移差的平方示意图:
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dd3c9ab2-f915-47d9-9037-4f1f3422cae7" />
+
+我们对比时间区间划分成20段和40段后, 布朗运动和平滑函数的二次变分:
+
+<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/0485722f-d6aa-4300-9ed4-f3c1d60ffa4b" />
+
+<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/3780ac2b-da30-47ad-9fe8-e083b200c384" />
+
+当我们划分段落越来越多之后, 可以发现布朗运动的二次变分逐渐趋近于时间段T, 而平滑函数的二次变分逐渐趋近于0:
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/c3a69b53-0da5-4cb1-98a6-dc2033609996" />
+
 
 
 花费这么多笔墨了解完布朗运动的不可微以及二次变分, 都是为了之后伊藤引理的推导.
