@@ -20,7 +20,7 @@ $$X_0, X_1, X_2, X_3, ...$$
 
 $$\\{ X_t \\} _{t \ge 0}$$
 
-其中t是实数(real number)而不是整数(integer).
+其中t从整数(integer)换成了实数(real number), 这就让随机过程从离散变成了连续.
 
 ## 连续随机过程难点: 如何描述概率分布(how to describe the probability distribution)
 
