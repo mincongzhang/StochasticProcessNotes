@@ -362,10 +362,10 @@ plt.plot(t, lower, 'r--', label="y=(μ - ε)t")
 
 plt.xlabel("t")
 plt.ylabel("value")
-plt.title("Brownian Motion with Drift Eventually Stays Between Two Lines")
+plt.title(f"Brownian Motion with Drift Eventually Stays Between Two Lines (μ={mu}, ε={epsilon})")
 plt.legend()
 plt.grid(True)
 plt.show()
-```
 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/0ee84b53-b65a-4db6-8d08-5beb06e9d0ea" />
+```
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/515458e8-d2c8-4864-917d-d55f723e44a3" />
