@@ -378,16 +378,24 @@ $$(dB)^2 = dt$$
 
 ### 带漂移项的布朗运动 (Brownian motion with drift)
 
-最后来看一个带漂移的布朗运动. 对布朗运动 $B(t)$, 我们加一个固定的正实数(fixed real) $\mu$, 可以得到以下带漂移项 $\mu$ 的布朗运动:
+最后来看一个带漂移的布朗运动. 对布朗运动 $B(t)$, 我们加一个固定的实数(fixed real) $\mu$, 可以得到以下带漂移项 $\mu$ 的布朗运动:
 
 $$X(t) = B(t) + \mu t$$
 
 因为 $\mathbb{E} [B(t)] = 0$, 我们有:
 
-$$\mathbb{E} [X( t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
+$$\mathbb{E} [X(t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
 
-Question: as time passes, which term will dominate? $B\(t\)$ or $\mu t$? It can be shown that $\mu t$ dominates the behavior of $X\(t\)$. 
-For example, for all fixed $\varepsilon > 0$, after long enough time, the Brownian motion will always be between the lines $y=\(\mu - \varepsilon\) t$ and $y=\(\mu + \varepsilon\) t$.
+问题:随着时间的推移, $X(t)$ 是受到 $B(t)$ 的影响更大, 还是受到 $\mu t$ 的影响更大? 
+
+如下图, 我们可以看见 $\mu t$ 的影响更大, 对任意给定的 $\varepsilon > 0$, 随着时间推移, $X(t)$ 总会收敛于这两条线之间 $y=(\mu - \varepsilon) t$,  $y=(\mu + \varepsilon) t$.
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/a0554c7c-aa50-49c3-8e4b-d9b05b917b61" />
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/fdef7b44-8458-44b7-a57f-da799cc1ce6b" />
+
+
+
 
 When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
 This can be written in the following differential equation:
