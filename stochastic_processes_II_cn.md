@@ -12,9 +12,15 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 
 ## 回顾
 
-上篇我们讨论了马尔可夫链(Markov Chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: $X_0, X_1, X_2, X_3, ...$ . 
+上篇我们讨论了马尔可夫链(Markov Chains)和鞅(Martingales), 那些都是离散随机过程(discrete-time stochastic process), 可表示为: 
 
-接下来我们看连续随机过程(continuous-time stochastic process)可表示为: $\\{ X_t \\} _{t \ge 0}$. 其中t是实数(real number)而不是整数(integer).
+$$X_0, X_1, X_2, X_3, ...$$ 
+
+接下来我们看连续随机过程(continuous-time stochastic process)可表示为: 
+
+$$\\{ X_t \\} _{t \ge 0}$$
+
+其中t是实数(real number)而不是整数(integer).
 
 ## 连续随机过程难点: 如何描述概率分布(how to describe the probability distribution)
 
