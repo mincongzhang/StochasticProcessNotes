@@ -221,12 +221,12 @@ import matplotlib.pyplot as plt
 
 # Parameters
 T = 1.0
-N = 18
+N = 20
 dt = T / N
 t = np.linspace(0, T, N + 1)
 
 # Brownian motion
-np.random.seed(0)
+np.random.seed(23)
 dB = np.random.normal(0, np.sqrt(dt), size=N)
 B = np.concatenate(([0], np.cumsum(dB)))
 
@@ -283,10 +283,9 @@ ax.grid(True)
 
 plt.tight_layout()
 plt.show()
-
 ```
 
-<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/609ff2a9-fbad-4195-9f29-7a0981935420" />
+<img width="1400" height="500" alt="image" src="https://github.com/user-attachments/assets/cc6e94db-2bb5-4daf-80cb-c06d0eae54b6" />
 
 
 ```
