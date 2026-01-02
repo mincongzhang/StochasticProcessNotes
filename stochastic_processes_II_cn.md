@@ -46,7 +46,9 @@ $$
 
 但是在连续随机过程中, 不存在t和t+1, 那我们也没法描述两个时刻之间变化的概率, 如果把时间区间所有的变化都算完需要做无穷多次计算. 
 
-解决方案是用概率密度函数(probability density function), 我们可以尝试用 $P(\omega)$ 来描述. 
+解决方案是用概率密度函数(probability density function), 我们可以尝试这样描述:
+
+$$P(\omega)$$
 
 ## 布朗运动(Brownian motion)
 
