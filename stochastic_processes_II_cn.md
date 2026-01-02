@@ -50,7 +50,7 @@ $$
 
 $$P(\omega)$$
 
-## 布朗运动(Brownian motion)
+## 标准布朗运动(Standard Brownian motion)
 
 布朗运动最开始是由英国植物学家布朗观察到水中悬浮的花粉的不规则运动而命名的. 布朗运动也叫维纳过程(Wiener process). 
 
