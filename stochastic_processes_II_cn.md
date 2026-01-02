@@ -16,7 +16,7 @@ MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰�
 
 $$X_0, X_1, X_2, X_3, ...$$ 
 
-接下来我们看连续随机过程(continuous-time stochastic process)可表示为: 
+接下来我们要了解的连续随机过程(continuous-time stochastic process)可表示为: 
 
 $$\\{ X_t \\} _{t \ge 0}$$
 
