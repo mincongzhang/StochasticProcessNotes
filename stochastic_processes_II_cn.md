@@ -390,3 +390,6 @@ This can be written in the following differential equation:
 $$dS_t = \sigma S_t d B_t $$
 
 Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is it $S_t = e^{\sigma B_t}$? Suprisingly, the answer is no. 
+
+参考:
+https://zhuanlan.zhihu.com/p/38293827
