@@ -1,8 +1,13 @@
-## Continuous-time stochastic process
+# MIT随机过程笔记[2]:连续时间随机过程
 
-https://www.youtube.com/watch?v=PPl-7_RL0Ko
+## 前言
 
-https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
+MIT公开课里随机过程和伊藤引理这两部分讲得还是非常清晰易懂的. 我参考了他们的教学视频和教案整理翻译成中文发在这里. 
+
+
+视频: https://www.youtube.com/watch?v=PPl-7_RL0Ko
+
+教案: https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote17/
 
 
 ## 回顾
