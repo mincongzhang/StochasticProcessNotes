@@ -14,7 +14,7 @@ dt = T / N
 t = np.linspace(0, T, N + 1)
 
 # --- Brownian motion paths ---
-num_paths = 30
+num_paths = 50
 paths = []
 
 for _ in range(num_paths):
@@ -79,8 +79,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/ebe11ca5-3a1f-4605-ade8-b2c3c12fa0ee" />
-
+<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/37deae53-c36c-451a-9cbc-530ca5705c24" />
 
 
 ```
