@@ -246,7 +246,7 @@ $$
 
 ## 不可微 (Not differentiable)
 
-利用前面的两个性质, 停时(stopping time)和反射原理(Reflection principle), 我们可以得出以下结论:
+利用前面的停时(stopping time)和反射原理(Reflection principle), 我们可以得出以下结论:
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
