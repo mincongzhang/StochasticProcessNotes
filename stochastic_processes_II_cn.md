@@ -110,7 +110,7 @@ $$P(\omega) = N(0,t)$$
 
 ## 停时(stopping time)和反射原理(Reflection principle)
 
-通过下面一个股票例子来了解两个新概念: 停时(stopping time)和反射原理(Reflection principle).
+通过下面一个股票例子来了解两个新概念: 停时(stopping time)和反射原理(Reflection principle). 我们用这两个性质可以得出股票日内最大值的概率分布.
 
 我们用布朗运动给日内股票价格建模, 描述某个股票日内价格变化. 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
@@ -236,7 +236,7 @@ $$
 
 ## 不可微 (Not differentiable)
 
-根据前面的性质, 我们可以得出以下结论. 
+利用前面的两个性质, 停时(stopping time)和反射原理(Reflection principle), 我们可以得出以下结论:
 
 布朗运动对任意 $t \ge 0$ 都不可微 (not differentiable). 
 
