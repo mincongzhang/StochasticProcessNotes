@@ -71,7 +71,7 @@ $$
 
 如果我们的简单随机游走取极限, 比如一个固定区间, 我们定义一个n步(n steps)随机游走过程, 把n扩展到无限大得到的连续方程, 就是标准布朗运动:
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/42ac6338-d7aa-4f43-b3ef-5f9fa3f807fd" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/7fa50969-d264-48df-ab8b-c244ea8712d3" />
 
 
 用术语描述: 定义一个简单随机游走 ${Y_0, Y_1, ...,Y_n}$ 的均值(mean)为0, 方差(variance)为1. 定义 $Z$ 为一个实数 $\mathbb{R}$ 上 $\[ 0, 1 \]$ 的分段函数(piecewise linear function):
