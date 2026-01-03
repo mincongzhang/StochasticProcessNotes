@@ -65,13 +65,14 @@ plt.plot(times, positions, '-', markersize=8, alpha=0.8, label='Random walk (fir
 plt.xticks(times)
 plt.xlabel(f'Time (step={n_steps})')
 plt.ylabel('Position')
-plt.title('Random Walk -> Brownian motion')
+plt.title('Random Walk -> Brownian Motion')
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
 ```
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/59ff5dae-9240-4ae9-a7b7-737bc16f4278" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/a836d610-96c6-4b24-bf68-58e98ca2ff0a" />
+
 
 
 ```
