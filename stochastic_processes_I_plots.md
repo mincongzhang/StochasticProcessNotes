@@ -5,6 +5,47 @@ https://python-fiddle.com/examples/matplotlib?checkpoint=1767058952
 ```
 import numpy as np
 import matplotlib.pyplot as plt
+
+np.random.seed(2)
+
+# Use n_steps=6 so positions has 7 points (0..6)
+n_steps = 6
+increments = np.random.normal(scale=1.0, size=n_steps)
+positions = np.concatenate(([0.0], np.cumsum(increments)))  # length 7
+times = np.arange(len(positions))
+
+# pick t so t+1 is valid (0 <= t < n_steps)
+t = 3
+t1 = t + 1
+
+plt.figure(figsize=(8, 3.5))
+plt.plot(times, positions, '-o', markersize=8, alpha=0.8, label='Random walk (first 7 steps)')
+
+# Highlight t and t+1 (no special start/end markers)
+plt.scatter(t,  positions[t],  color='red',   s=150, zorder=5, label='t')
+plt.scatter(t1, positions[t1], color='green', s=150, zorder=5, label='t+1')
+
+# Arrow from t to t+1 and text labels
+plt.annotate('', xy=(t1, positions[t1]), xytext=(t, positions[t]),
+             arrowprops=dict(arrowstyle='->', color='orange', lw=2), zorder=6)
+plt.text(t,  positions[t],  '  t',  color='red',   fontsize=12, va='bottom')
+plt.text(t1, positions[t1], '  t+1', color='green', fontsize=12, va='bottom')
+
+plt.xticks(times)
+plt.xlabel('Time (step)')
+plt.ylabel('Position')
+plt.title('Random Walk')
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
+```
+
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/2fe4ff8a-790a-4604-aa4f-9a9183193492" />
+
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 # Parameters
