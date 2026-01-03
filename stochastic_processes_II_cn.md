@@ -56,7 +56,8 @@ X_{t+1} - X_{t} &= 1 \quad &\text{(P=0.5)} \\
 \end{aligned}
 $$
 
-![image](https://github.com/user-attachments/assets/ce0c71e2-73ac-47fd-ac2f-9fa5b37a3c74)
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/9e046d46-308f-4fd5-a97a-9b593c3a3a2a" />
+
 
 如果我们的简单随机游走取极限, 比如一个固定区间, 我们定义一个n步(n steps)随机游走过程, 把n扩展到无限大, 那么这个随机游走的结果就是布朗运动.
 
