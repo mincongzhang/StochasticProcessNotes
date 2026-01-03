@@ -18,7 +18,7 @@ Python在线画图: https://python-fiddle.com/examples/matplotlib
 
 $$X_0, X_1, X_2, X_3, ...$$ 
 
-t从整数(integer)换成实数(real number), 就可以让随机过程从离散变成了连续, 连续随机过程(continuous-time stochastic process)可表示为: 
+把t从整数(integer)换成实数(real number), 就可以让随机过程从离散变成了连续, 连续随机过程(continuous-time stochastic process)可表示为: 
 
 $$\\{ X_t \\} _{t \ge 0}$$
 
