@@ -1,4 +1,4 @@
-# MIT随机过程笔记[2]:连续时间随机过程-以布朗运动为例
+# MIT随机过程笔记[2]:连续时间随机过程
 
 ## 前言
 
@@ -98,9 +98,9 @@ $$P(\omega) = N(0,t)$$
 
 在这样 $\mathbb{R}_{\ge 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数 $\ge 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
 
-- $B (0) = 0$ (也就是初始值为0).
-- 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
-- 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_i \) - B \( s_i \)$ 是互相独立的 (mutually independent).
+- $B (0) = 0$ (也就是初始值为0)
+- 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布
+- 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B (t_i) - B (s_i)$ 是互相独立的 (mutually independent)
 
 满足这样分布的随机过程即为布朗运动. 布朗运动中一条特定的路径我们称其为样本布朗路径(sample Brownian path).
 
@@ -193,7 +193,7 @@ $$P(M(t) \ge a) = 2 P (B (t) \ge a)$$
 $$P (B (t) \ge a)$$
 
 根据前面的定理:
-1. $B \(0\) = 0$
+1. $B (0) = 0$
 2. 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
 
 那么 $B (t)$的概率分布就是均值为0方差为 $t$ 的正态分布. 
