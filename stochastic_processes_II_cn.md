@@ -234,7 +234,7 @@ $$
 参考: https://www.probabilitycourse.com/chapter4/4_2_3_normal.php#:~:text=The%20CDF%20of%20the%20standard%20normal%20distribution%20is%20denoted%20by,is%20widely%20used%20in%20probability.
 
 
-### 不可微 (Not differentiable)
+## 不可微 (Not differentiable)
 
 根据前面的性质, 我们可以得出以下结论. 
 
@@ -304,9 +304,9 @@ $$
 证明比较复杂并且需要用到波莱尔-坎泰利引理(Borel–Cantelli lemma), 有兴趣的话自己去搜搜吧.
 ```
 
-### 二次变分 (Quadratic Variation)
+## 二次变分 (Quadratic Variation)
 
-#### 一般函数的二次变分
+### 一般函数的二次变分
 
 在了解布朗运动的二次变分之前, 我们看看一般的连续可微函数(continuously differentiable function)的二次变分(quadratic variation).
 
@@ -347,7 +347,7 @@ $$
 
 总结, 连续可微函数的二次变分, 也就是逐段位移差的累积平方和为0. 二次变分可以用来描述函数是否平滑(smooth), 对于连续可微函数, 利用二次变分可以看出它在微观层面是平滑的. 
 
-#### 布朗运动的二次变分
+### 布朗运动的二次变分
 
 看完连续可微函数的二次变分, 回到布朗运动, 它虽然是连续的, 但是不可微, 根据我们之前的观察它在围观层面不是光滑的(smooth), 下面看看它的二次变分.
 
@@ -385,7 +385,7 @@ $$(dB)^2 = dt$$
 
 总结, 布朗运动的二次变分, 也就是逐段位移差的累积平方和为T, 在微观层面依然很粗糙, 这都是由随机性导致的.  
 
-#### 对比
+### 对比
 
 我们对比时间区间划分成20段和40段后, 布朗运动和平滑函数的二次变分:
 
@@ -402,7 +402,7 @@ $$(dB)^2 = dt$$
 花费这么多笔墨了解完布朗运动的不可微以及二次变分, 都是为了之后伊藤引理的推导.
 
 
-### 带漂移项的布朗运动 (Brownian motion with drift)
+## 带漂移项的布朗运动 (Brownian motion with drift)
 
 最后来看一个带漂移的布朗运动. 对布朗运动 $B(t)$, 我们加一个固定的实数(fixed real) $\mu$, 可以得到以下带漂移项 $\mu$ 的布朗运动:
 
