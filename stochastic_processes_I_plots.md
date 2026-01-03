@@ -42,6 +42,38 @@ plt.show()
 
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/82f4b441-1a6b-48cc-8921-0bef12f26db9" />
 
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(2)
+
+# Use n_steps=6 so positions has 7 points (0..6)
+n_steps = 600
+increments = np.random.normal(scale=1.0, size=n_steps)
+positions = np.concatenate(([0.0], np.cumsum(increments)))  # length 7
+times = np.arange(len(positions))
+
+# pick t so t+1 is valid (0 <= t < n_steps)
+t = 3
+t1 = t + 1
+
+plt.figure(figsize=(8, 3.5))
+plt.plot(times, positions, '-', markersize=8, alpha=0.8, label='Random walk (first 7 steps)')
+
+plt.xticks(times)
+plt.xlabel(f'Time (step={n_steps})')
+plt.ylabel('Position')
+plt.title('Random Walk -> Brownian motion')
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
+```
+
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/59ff5dae-9240-4ae9-a7b7-737bc16f4278" />
+
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
