@@ -316,6 +316,8 @@ $$
 
 ## 二次变分 (Quadratic Variation)
 
+二次变分(Quadratic Variation)是后续我们要说的伊藤引理推导中的核心概念.
+
 ### 一般函数的二次变分
 
 在了解布朗运动的二次变分之前, 我们看看一般的连续可微函数(continuously differentiable function)的二次变分(quadratic variation).
