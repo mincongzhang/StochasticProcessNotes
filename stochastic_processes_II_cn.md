@@ -39,7 +39,7 @@ $$\\{ X_t \\} _{t \ge 0}$$
 
 - 但是在 __连续随机过程__ 中, __不存在t和t+1__, 那我们也没法描述两个时刻之间变化的概率, 如果把时间区间所有的变化都算完需要做 __无穷多次计算__ , 并且也有 __无穷多个结果__ . 
 
-那么对于处于某个概率空间(probability space)上的随机变量, 我们用概率密度函数(probability density function, PDF)来描述其概率分布:
+那么对于处于某个概率空间(probability space)上的随机变量, 我们用概率密度函数(probability density function, PDF)来描述其概率分布, 并可表示为:
 
 $$P(\omega)$$
 
