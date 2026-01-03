@@ -110,9 +110,9 @@ $$P(\omega) = N(0,t)$$
 
 ## 停时(stopping time)和反射原理(Reflection principle)
 
-下面我们用布朗运动给日内股票价格建模, 通过这个例子了解两个新概念: 停时(stopping time)和反射原理(Reflection principle).
+通过下面一个股票例子来了解两个新概念: 停时(stopping time)和反射原理(Reflection principle).
 
-来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
+我们用布朗运动给日内股票价格建模, 描述某个股票日内价格变化. 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
 ![image](https://github.com/user-attachments/assets/4671c135-a9ff-4572-b4cb-fd654d1efee9)
 
