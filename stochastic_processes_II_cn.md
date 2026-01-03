@@ -51,7 +51,7 @@ $$\\{ X_t \\} _{t \ge 0}$$
 
 那么对于处于某个概率空间(probability space)上的随机变量, 我们用概率密度函数(probability density function, PDF)来描述其概率分布, 并可表示为:
 
-$$P(\omega)$$
+$$P(\Omega)$$
 
 ## 从简单随机游走到标准布朗运动 (From simple random walk to standard Brownian motion)
 
