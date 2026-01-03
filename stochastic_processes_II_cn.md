@@ -88,16 +88,16 @@ $$P(\omega) = N(0,t)$$
 
 在这样 $\mathbb{R}_{\ge 0} \rightarrow \mathbb{R}$ (就是时间轴为正实数 $\ge 0$ 映射到Y轴任意实数) 的连续函数集合里, 存在一个概率分布满足以下条件:
 
-1. $B \(0\) = 0$ (也就是初始值为0).
-2. 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
-3. 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_i \) - B \( s_i \)$ 是互相独立的 (mutually independent).
+- $B \(0\) = 0$ (也就是初始值为0).
+- 平稳性(stationary): 对所有 $0 \le s < t$ , $B (t) - B (s)$ 的概率分布是均值为0方差为 $t-s$ 的正态分布. 
+- 独立增量(independent increment): 如果区间 $\[ s_i, t_i \]$ 没有重叠(overlapping), 随机变量(random variables) $B \( t_i \) - B \( s_i \)$ 是互相独立的 (mutually independent).
 
 满足这样分布的随机过程即为布朗运动. 布朗运动中一条特定的路径我们称其为样本布朗路径(sample Brownian path).
 
 下面是一些布朗运动的特点:
-1. 经常穿过x轴
-2. 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
-3. 处处不可微(nowhere differentiable). 因为所有的微积分都是基于求微分(differentiation), 处处不可微也意味着微积分没法用了. 之后我们会说到的伊藤积分(Ito Calculus)可以解决这个问题. 
+- 经常穿过x轴
+- 分布大部分都在曲线 $x=y^2$ 内 (不会超出范围太多)
+- 处处不可微(nowhere differentiable). 因为所有的微积分都是基于求微分(differentiation), 处处不可微也意味着微积分没法用了. 之后我们会说到的伊藤积分(Ito Calculus)可以解决这个问题. 
 
 如下图, 在 $t_0$ 时刻的概率分布符合 $N(0, t_0)$ (均值为0, 标准差为 $\sqrt{t_0}$)的正态分布. 所以大部分值都会处于这个区间之内. 
 
