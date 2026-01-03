@@ -51,7 +51,7 @@ $$\\{ X_t \\} _{t \ge 0}$$
 
 那么对于处于某个概率空间(probability space)上的随机变量, 我们用概率密度函数(probability density function, PDF)来描述其概率分布, 并可表示为:
 
-$$P(\Omega)$$
+$$P(\omega)$$
 
 ## 从简单随机游走到标准布朗运动 (From simple random walk to standard Brownian motion)
 
@@ -82,7 +82,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 所以标准布朗运动的结果收敛于标准正态分布, 可以这么表示:
 
-$$P(\Omega) = N(0,t)$$
+$$P(\omega) = N(0,t)$$
 
 一些额外背景和例子:
 
