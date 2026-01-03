@@ -108,7 +108,9 @@ $$P(\omega) = N(0,t)$$
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/de455511-070f-4348-8e30-2b7594894a72" />
 
 
-## 例子: 用布朗运动给日内股票价格建模(Use Brownian motion as a model for daily stock price)
+## 停时(stopping time)和反射原理(Reflection principle)
+
+下面我们用布朗运动给日内股票价格建模, 通过这个例子了解两个新概念: 停时(stopping time)和反射原理(Reflection principle).
 
 来看一个股票日内价格变化的例子, 假设股票交易从9:30am开始到4:00pm结束, 股价初始值为 $S_0$, 并且股价符合布朗运动. 我们如何获得日内最小值和最大值的概率分布?
 
@@ -232,7 +234,7 @@ $$
 参考: https://www.probabilitycourse.com/chapter4/4_2_3_normal.php#:~:text=The%20CDF%20of%20the%20standard%20normal%20distribution%20is%20denoted%20by,is%20widely%20used%20in%20probability.
 
 
-### 性质: 不可微 (Not differentiable)
+### 不可微 (Not differentiable)
 
 根据前面的性质, 我们可以得出以下结论. 
 
