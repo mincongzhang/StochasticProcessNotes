@@ -23,7 +23,7 @@ $$X_0, X_1, X_2, X_3, ...$$
 $$\\{ X_t \\} _{t \ge 0}$$
 
 
-## 连续随机过程难点: 如何描述概率分布(how to describe the probability distribution)
+## 如何描述连续随机过程的概率分布(How to describe the probability distribution)
 
 连续随机过程的第一个难点是如何描述概率分布(probability distribution).
 
