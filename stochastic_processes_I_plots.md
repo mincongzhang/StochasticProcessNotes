@@ -32,7 +32,7 @@ plt.text(t,  positions[t],  '  t\n',  color='red',   fontsize=12, va='bottom')
 plt.text(t1, positions[t1], '  t+1\n', color='green', fontsize=12, va='bottom')
 
 plt.xticks(times)
-plt.xlabel('Time (step)')
+plt.xlabel(f'Time (step={n_steps})')
 plt.ylabel('Position')
 plt.title('Random Walk')
 plt.grid(alpha=0.3)
@@ -40,7 +40,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/82f4b441-1a6b-48cc-8921-0bef12f26db9" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/4b87d001-b300-4359-aa07-6c71bb381605" />
 
 
 ```
