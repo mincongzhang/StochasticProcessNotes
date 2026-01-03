@@ -28,8 +28,8 @@ plt.scatter(t1, positions[t1], color='green', s=150, zorder=5, label='t+1')
 # Arrow from t to t+1 and text labels
 plt.annotate('', xy=(t1, positions[t1]), xytext=(t, positions[t]),
              arrowprops=dict(arrowstyle='->', color='orange', lw=2), zorder=6)
-plt.text(t,  positions[t],  '  t',  color='red',   fontsize=12, va='bottom')
-plt.text(t1, positions[t1], '  t+1', color='green', fontsize=12, va='bottom')
+plt.text(t,  positions[t],  '  t\n',  color='red',   fontsize=12, va='bottom')
+plt.text(t1, positions[t1], '  t+1\n', color='green', fontsize=12, va='bottom')
 
 plt.xticks(times)
 plt.xlabel('Time (step)')
@@ -40,8 +40,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/2fe4ff8a-790a-4604-aa4f-9a9183193492" />
-
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/82f4b441-1a6b-48cc-8921-0bef12f26db9" />
 
 ```
 import numpy as np
