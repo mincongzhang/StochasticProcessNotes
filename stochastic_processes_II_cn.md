@@ -103,7 +103,7 @@ $$P(\omega) = N(0,t)$$
 
 ![image](https://github.com/user-attachments/assets/92423743-c8c9-4f2f-9aa3-fd64c6931fcc)
 
-再画一些路径来更直观感受一下, 我们可以看见大部分处于曲线 $x=y^2$ 内, 并且右图显示如果路径数量足够多， 结果确实呈现为正态分布:
+再画一些路径来更直观感受一下, 我们可以看见大部分处于曲线 $x=y^2$ 内, 并且右图显示如果路径数量足够多， 结果呈现为正态分布 $N(0,t)$:
 
 <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/de455511-070f-4348-8e30-2b7594894a72" />
 
