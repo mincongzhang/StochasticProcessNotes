@@ -419,19 +419,3 @@ $$\mathbb{E} [X(t)] = \mathbb{E}[B(t)] + \mathbb{E} [\mu t] = \mu t$$
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/a0554c7c-aa50-49c3-8e4b-d9b05b917b61" />
 
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/fdef7b44-8458-44b7-a57f-da799cc1ce6b" />
-
-加上复利(compound interest), 基金投资中的资产增长预测大概也是这样来的吧.
-
-<img width="802" height="401" alt="image" src="https://github.com/user-attachments/assets/9c04c8ca-9c4a-4c47-8ec4-d9b53e1a0a7b" />
-
-
-
-When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
-This can be written in the following differential equation:
-
-$$dS_t = \sigma S_t d B_t $$
-
-Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is it $S_t = e^{\sigma B_t}$? Suprisingly, the answer is no. 
-
-参考:
-https://zhuanlan.zhihu.com/p/38293827
