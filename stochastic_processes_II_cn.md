@@ -59,7 +59,7 @@ $$
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/8d913154-0296-4edd-8f64-b43a45e1e7e5" />
 
 
-如果我们的简单随机游走取极限, 比如一个固定区间, 我们定义一个n步(n steps)随机游走过程, 把n扩展到无限大得到的连续方程, 就是标准布朗运动.
+如果我们的简单随机游走取极限, 比如一个固定区间, 我们定义一个n步(n steps)随机游走过程, 把n扩展到无限大得到的连续方程, 就是标准布朗运动:
 
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/42ac6338-d7aa-4f43-b3ef-5f9fa3f807fd" />
 
@@ -74,6 +74,7 @@ $$Z \left( \frac{t}{n} \right) = Y_t$$
 
 $$P(\omega) = N(0,t)$$
 
+一些额外背景和例子:
 
 背景: 布朗运动最开始是由英国植物学家布朗观察到水中悬浮的花粉的不规则运动而命名的. 布朗运动也叫维纳过程(Wiener process). 
 
