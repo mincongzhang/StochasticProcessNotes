@@ -18,6 +18,7 @@ Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is
 参考:
 https://zhuanlan.zhihu.com/p/38293827
 
+https://zhuanlan.zhihu.com/p/38294971
 
 -------
 # Ito's Calculus
