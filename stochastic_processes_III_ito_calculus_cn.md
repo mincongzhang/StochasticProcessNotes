@@ -1,4 +1,12 @@
+伊藤积分 - 我们最后想利用它来给期权定价
 
+用随机过程给股票价格建模
+
+基于股票价格给期权价格建模
+
+算得期权价格
+
+---------------------------
 
 When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
 This can be written in the following differential equation:
