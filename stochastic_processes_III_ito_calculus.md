@@ -1,16 +1,3 @@
-
-
-When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
-This can be written in the following differential equation:
-
-$$dS_t = \sigma S_t d B_t $$
-
-Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is it $S_t = e^{\sigma B_t}$? Suprisingly, the answer is no. 
-
-参考:
-https://zhuanlan.zhihu.com/p/38293827
-
-
 -------
 # Ito's Calculus
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote18/
