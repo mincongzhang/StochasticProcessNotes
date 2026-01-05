@@ -7,7 +7,10 @@
 算得期权价格
 
 微分方程边界限制(boundary):
+
 【【官方双语】微分方程概论-第二章：什么是偏微分方程？】 https://www.bilibili.com/video/BV1q4411p7NX/?share_source=copy_web&vd_source=f2d7e2fc28ededdf63c1684a3b6d0c5f
+
+偏微分方程有多个解, 添加边界才能解出我们想要的
 
 ---------------------------
 
