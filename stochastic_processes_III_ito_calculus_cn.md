@@ -12,6 +12,8 @@
 
 偏微分方程有多个解, 添加边界才能解出我们想要的
 
+
+27 【为什么衍生品定价必须用随机微积分？ - 路边一熊猫 | 小红书 - 你的生活兴趣社区】 😆 Ry8lR3wXqj1E2R2 😆 https://www.xiaohongshu.com/discovery/item/695d7f05000000001a028dcb?source=webshare&xhsshare=pc_web&xsec_token=ABSSxpaGp8gT3fszp5YWrTkKtYIAZdxLeh6f3RxzSZwqc=&xsec_source=pc_share
 ---------------------------
 
 When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
