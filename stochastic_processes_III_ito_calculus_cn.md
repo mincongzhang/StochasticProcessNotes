@@ -23,6 +23,8 @@
 
 $$\frac{dS_t}{S_t} = d B_t $$
 
+$$dS_t = S_t d B_t $$
+
 
 $$dS_t = \sigma S_t d B_t $$
 
