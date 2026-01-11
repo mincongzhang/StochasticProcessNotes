@@ -16,6 +16,11 @@
 
 38 【从对冲需求真正理解N(d1)和Numeraire - 路边一熊猫 | 小红书 - 你的生活兴趣社区】 😆 A3NNC6G8k79yKBF 😆 https://www.xiaohongshu.com/discovery/item/69467c36000000001f006892?source=webshare&xhsshare=pc_web&xsec_token=ABPhz8SpeAxdjyvIwu8mO55R042LkRayzJUPsgsTQ7p40=&xsec_source=pc_share
 
+参考:
+https://zhuanlan.zhihu.com/p/38293827
+
+https://zhuanlan.zhihu.com/p/38294971
+
 ---------------------------
 
 利用之前的理论知识, 我们用随机过程给股票建模. 最好用随机的百分比变化(percentile change)来描述股价, 否则极端情况可能就到负数了. 股票价格可以写成以下微分形式: 
@@ -38,15 +43,13 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 求解可得 y = x^2 + C
 ```
 
+# 伊藤积分(Ito's Calculus)
 
-$$dS_t = \sigma S_t d B_t $$
+对一个平滑函数(smooth function), 比如一个指数函数 $e^x$, 它的变量是一个布朗运动, 假如我们想计算关于布朗运动的: 
 
-Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is it $S_t = e^{\sigma B_t}$? Suprisingly, the answer is no. 
+$$f(Bt)$$
 
-参考:
-https://zhuanlan.zhihu.com/p/38293827
 
-https://zhuanlan.zhihu.com/p/38294971
 
 -------
 # Ito's Calculus
