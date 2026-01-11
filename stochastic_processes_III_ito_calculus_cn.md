@@ -20,6 +20,10 @@
 
 利用之前的理论知识, 我们用随机过程给股票建模. 最好用随机的百分比变化(percentile change)来描述股价, 否则极端情况可能就到负数了. 股票价格可以写成以下微分形式: 
 
+
+$$\frac{dS_t}{S_t} = d B_t $$
+
+
 $$dS_t = \sigma S_t d B_t $$
 
 Can we write the distribution os $S_t$ in terms of the distribution of $B_t$? Is it $S_t = e^{\sigma B_t}$? Suprisingly, the answer is no. 
