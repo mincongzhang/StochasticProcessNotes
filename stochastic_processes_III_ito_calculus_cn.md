@@ -18,8 +18,7 @@
 
 ---------------------------
 
-When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
-This can be written in the following differential equation:
+利用之前的理论知识, 我们用随机过程给股票建模. 并且最好用随机的百分比变化(percentile change)来描述股价, 否则极端情况可能就到负数了. 股票价格可以写成以下微分形式: 
 
 $$dS_t = \sigma S_t d B_t $$
 
