@@ -45,7 +45,7 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 
 # 伊藤积分(Ito's Calculus)
 
-对一个平滑函数(smooth function), 比如一个指数函数 $e^x$, 它的变量是一个布朗运动, 假如我们想计算关于布朗运动的: 
+对一个平滑函数(smooth function), 比如一个指数函数 $e^x$, 它的变量 $x$ 是一个布朗运动 $Bt$, 假如我们想计算关于布朗运动的: 
 
 $$f(Bt)$$
 
