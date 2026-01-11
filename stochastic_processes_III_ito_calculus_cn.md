@@ -23,6 +23,10 @@ https://zhuanlan.zhihu.com/p/38294971
 
 ---------------------------
 
+# 给股票和期权建模
+
+## 股票
+
 利用之前的理论, 我们给股票价格建模. 最好用随机的百分比变化(percentile change)来描述股价, 否则极端情况可能就到负数了. 股票价格可以写成以下微分形式: 
 
 
@@ -43,7 +47,8 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 求解可得 y = x^2 + C
 ```
 
-# 伊藤积分(Ito's Calculus)
+## 期权
+
 
 对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $Bt$, 我们如何计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
 
@@ -60,7 +65,7 @@ $$f(Bt)$$
 
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
-
+# 伊藤积分(Ito's Calculus)
 
 -------
 # Ito's Calculus
