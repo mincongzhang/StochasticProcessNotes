@@ -67,7 +67,12 @@ $$f(Bt)$$
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
 
-假设
+假设 $Bt$ 
+
+
+If the differentiation $\frac{dB_t}{dt}$ existed, then we can easily do this by using chain rule:
+
+$$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
 
 
 # 伊藤积分(Ito's Calculus)
