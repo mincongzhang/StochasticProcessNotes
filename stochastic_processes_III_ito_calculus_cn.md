@@ -38,7 +38,7 @@ $$dS_t = S_t d B_t $$
 
 $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 
-看起来没问题但实际是不对的. 因为布朗运动是不可微的. 那如何求解呢? 这就到我们的正题, 伊藤积分(Ito Calculus)了.
+看起来没问题但实际是不对的. 因为布朗运动是不可微的. 那如何求解呢? 就联系到之后要说的伊藤积分(Ito Calculus)了.
 
 ```
 补充:
@@ -49,8 +49,9 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 
 ## 期权
 
+接下来看期权价格建模. 先看一般情况. 
 
-对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $Bt$, 我们如何计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
+对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $Bt$, 我们要怎么计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
 
 $$f(Bt)$$
 
@@ -61,9 +62,13 @@ $$f(Bt)$$
 ```
 
 
-我们继续以股票价格为例. 假如 $Bt$ 是股票价格, $f(Bt)$ 是股票对应期权(option)的价格. 股票价格是随机的, 但是对应的看涨期权价格(忽略期权费)在 $S_0$ 之前是0, 在 $S_0$ 之后是线性的:
+回到期权. 假如 $Bt$ 是股票价格, $f(Bt)$ 是股票对应期权(option)的价格. 股票价格是随机的, 但是对应的看涨期权价格(忽略期权费)在 $S_0$ 之前是0, 在 $S_0$ 之后是线性的:
 
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
+
+
+假设
+
 
 # 伊藤积分(Ito's Calculus)
 
