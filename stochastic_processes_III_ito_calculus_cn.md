@@ -55,6 +55,8 @@ $$f(Bt)$$
 比如一个指数函数 f(x)=e^x 是一个光滑函数
 ```
 
+比如, $Bt$ 是股票价格, $f(x)$ 描述的是一个期权(option)的价格?
+
 -------
 # Ito's Calculus
 https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote18/
