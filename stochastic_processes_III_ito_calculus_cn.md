@@ -37,7 +37,7 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 看起来好像没问题但实际是不对的. 因为布朗运动是不可微的. 那如何求解呢? 这就需要伊藤积分(Ito Calculus)了.
 
 ```
-背景补充:
+补充:
 如果忘了求解微分方程是什么意思:
 微分方程是 y'=dy/dx=2x
 求解可得 y = x^2 + C
@@ -45,11 +45,15 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 
 # 伊藤积分(Ito's Calculus)
 
-对一个平滑函数(smooth function), 比如一个指数函数 $e^x$, 它的变量 $x$ 是一个布朗运动 $Bt$, 假如我们想计算关于布朗运动的: 
+对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $Bt$, 我们如何计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
 
 $$f(Bt)$$
 
-
+```
+补充:
+上篇文章提到的可微的函数就是光滑函数. 布朗运动不可微就不是光滑函数.
+比如一个指数函数 f(x)=e^x 是一个光滑函数
+```
 
 -------
 # Ito's Calculus
