@@ -14,6 +14,8 @@
 
 27 【为什么衍生品定价必须用随机微积分？ - 路边一熊猫 | 小红书 - 你的生活兴趣社区】 😆 Ry8lR3wXqj1E2R2 😆 https://www.xiaohongshu.com/discovery/item/695d7f05000000001a028dcb?source=webshare&xhsshare=pc_web&xsec_token=ABSSxpaGp8gT3fszp5YWrTkKtYIAZdxLeh6f3RxzSZwqc=&xsec_source=pc_share
 
+38 【从对冲需求真正理解N(d1)和Numeraire - 路边一熊猫 | 小红书 - 你的生活兴趣社区】 😆 A3NNC6G8k79yKBF 😆 https://www.xiaohongshu.com/discovery/item/69467c36000000001f006892?source=webshare&xhsshare=pc_web&xsec_token=ABPhz8SpeAxdjyvIwu8mO55R042LkRayzJUPsgsTQ7p40=&xsec_source=pc_share
+
 ---------------------------
 
 When modelling the price of a stock, it's more reasonable to assume that the percentile change follows a normal distribution. 
