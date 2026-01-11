@@ -56,7 +56,7 @@ $$f(Bt)$$
 ```
 
 
-我们继续以股票价格为例. 假如 $Bt$ 是股票价格, $f(Bt)$ 是股票对应期权(option)的价格:
+我们继续以股票价格为例. 假如 $Bt$ 是股票价格, $f(Bt)$ 是股票对应期权(option)的价格. 股票价格是随机的, 但是对应的看涨期权价格(忽略期权费)在 $S_0$ 之前是0, 在 $S_0$ 之后是线性的:
 
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
