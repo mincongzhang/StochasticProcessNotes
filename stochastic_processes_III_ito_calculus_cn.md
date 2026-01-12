@@ -67,12 +67,19 @@ $$f(B_t)$$
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
 
-假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule):
+假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule)我们可以得到以下结果. 但因为$B_t$ 不可微, 下式不存在:
 
 $$ \frac{df}{dt} = \frac{dB_t}{dt} \cdot f' (B_t)$$
 
 $$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
 
+那换一种方法避免 $\frac{dB_t}{dt}$, 已知 $df$ 的微分可以按如下描述:
+
+$$df = f'\(B_t\)dB_t$$
+
+我们做一个泰勒展开(Taylor expansion):
+
+$$f\(x + \Delta x \) - f\(x\) = \Delta x \cdot f'\(x\) + \frac{\Delta x^2}{2}f''\(x\) + \frac{\Delta x^3}{6}f'''\(x\)+...$$
 
 
 # 伊藤积分(Ito's Calculus)
