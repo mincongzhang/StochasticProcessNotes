@@ -85,7 +85,7 @@ $$f(x + \Delta x) - f(x) = \Delta x \cdot f'(x) + \frac{\Delta x^2}{2}f''(x) + \
 
 $$f(B_t + \Delta B_t) - f(B_t) = \Delta f = \Delta B_t \cdot f'\(B_t\) + \frac{\Delta B_t^2}{2}f''\(B_t\) + \frac{\Delta B_t^3}{6}f'''\(B_t\)+...$$
 
-毋庸置疑第一项 $\Delta x \cdot f'\(x\)$ 是不能忽略的, 现在看第二项 $\frac{\Delta B_t^2}{2}f''\(B_t\)$, 根据上一章的推导我们有:
+毋庸置疑第一项 $\Delta x \cdot f'\(x\)$ 是要保留的, 现在看第二项 $\frac{\Delta B_t^2}{2}f''\(B_t\)$, 根据上一章的推导我们有:
 
 $$(dB_t)^2 = dt$$
 
