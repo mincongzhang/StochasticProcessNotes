@@ -81,6 +81,7 @@ $$df = f'\(B_t\)dB_t$$
 
 $$f\(x + \Delta x \) - f\(x\) = \Delta x \cdot f'\(x\) + \frac{\Delta x^2}{2}f''\(x\) + \frac{\Delta x^3}{6}f'''\(x\)+...$$
 
+https://youtu.be/PPl-7_RL0Ko?si=KyGcjgX28HNWFdVz&t=4346
 
 # 伊藤积分(Ito's Calculus)
 
