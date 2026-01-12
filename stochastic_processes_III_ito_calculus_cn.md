@@ -69,7 +69,7 @@ $$f(B_t)$$
 
 假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule):
 
-$$ \frac{df}{dt} = ( \frac{dB_t}{dt} \cdot f' (B_t) )$$
+$$ \frac{df}{dt} = \frac{dB_t}{dt} \cdot f' (B_t)$$
 
 $$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
 
