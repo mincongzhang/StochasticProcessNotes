@@ -77,58 +77,36 @@ $$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
 
 $$df = f'\(B_t\)dB_t$$
 
-我们做一个泰勒展开(Taylor expansion):
+我们给 $f(x)$ 做一个泰勒展开(Taylor expansion):
 
-$$f\(x + \Delta x \) - f\(x\) = \Delta x \cdot f'\(x\) + \frac{\Delta x^2}{2}f''\(x\) + \frac{\Delta x^3}{6}f'''\(x\)+...$$
+$$f(x + \Delta x) - f(x) = \Delta x \cdot f'(x) + \frac{\Delta x^2}{2}f''(x) + \frac{\Delta x^3}{6}f'''(x)+...$$
 
+把 $x = B_t$ 代入:
 
-$$(dB)^2 = dt$$
+$$f(B_t + \Delta B_t) - f(B_t) = \Delta f = \Delta B_t \cdot f'\(B_t\) + \frac{\Delta B_t^2}{2}f''\(B_t\) + \frac{\Delta B_t^3}{6}f'''\(B_t\)+...$$
+
+毋庸置疑第一项 $\Delta x \cdot f'\(x\)$ 是不能忽略的, 现在看第二项 $\frac{\Delta B_t^2}{2}f''\(B_t\)$, 根据上一章的推导我们有:
+
+$$(dB_t)^2 = dt$$
+
+也就是:
+
+$$\Delta B_t ^2 = \Delta t$$
+
+所以对普通函数泰勒展开后可忽略的第二项 $\frac{\Delta B_t^2}{2}f''\(B_t\)$ 在这里不能忽略, 其他第三项及其之后的都可以忽略不计, 于是我们可以得到:
+
+$$\Delta f = \Delta B_t \cdot f'\(B_t\) + \frac{\Delta t}{2}f''\(B_t\) + ...$$
+
+取无穷小(infinitesimals)之后可以得到:
+
+$$df \( B_t \) = f'\(B_t\)dB_t + \frac{1}{2} f''\(B_t\)dt$$
+
+于是我们得到了对 __伊藤积分(Ito's calculus)__ 最重要的 __伊藤引理(Ito's lemma)__.
 
 https://youtu.be/PPl-7_RL0Ko?si=KyGcjgX28HNWFdVz&t=4346
 
 # 伊藤积分(Ito's Calculus)
 
--------
-# Ito's Calculus
-https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/mit18_s096f13_lecnote18/
-
-In the previous lecture, we have observed that a sample Brownian path is nowhere differentiable with probability 1. In other words, the differentiation 
-
-$$\frac{dB_t}{dt}$$
-
-does not exist. However, while studying Brownian motions, or when using Brownian motion as a model, the situation of estimating the difference of a function of the type
-
-$$f\(B_t\)$$
-
-over an infinitesimal(无穷小) time difference occurs quite frequently (suppose that $f$ is a smooth function). To be more precise, we are considering a function $f\(t, B_t\)$ which depends only on the second variable. 
-Hence there exists an implicit dependence on time since the Brownian motion depends on time. 
-
-If the differentiation $\frac{dB_t}{dt}$ existed, then we can easily do this by using chain rule:
-
-$$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
-
-Since $\frac{dB_t}{dt}$ does not exist, the formula above makes no sense. 
-
-One possible way to work around this problem is to try to descrbe the difference $df$ in terms of the difference $dB_t$. In this case, the equation above becomes
-$$df = f'\(B_t\)dB_t$$
-
-Our new formula at least makes sense, since there is no need to refer to the differentiation $\frac{dB_t}{dt}$ which does not exist. The only problem is that it does not quite work. 
-
-Consider the Taylor expansion of $f$ to obtain
-
-$$f\(x + \Delta x \) - f\(x\) = \Delta x \cdot f'\(x\) + \frac{\Delta x^2}{2}f''\(x\) + \frac{\Delta x^3}{6}f'''\(x\)+...$$
-
-To deduce this equation $df = f'(B_t)dB_t$ from this formula, we must be able to say that the significant term is the firt term $\Delta x \cdot f'\(x\)$ and all other terms are of smaller order of magnitude. Is this true for $x = B_t$? For $x = B_t$ we have
-
-$$\Delta f = \Delta B_t \cdot f'\(B_t\) + \frac{\Delta B_t^2}{2}f''\(B_t\) + \frac{\Delta B_t^3}{6}f'''\(B_t\)+...$$
-
-Now consider the term $\Delta B_t ^2$. Since $B_t$ is a Brownian motion, we know that $\mathbb{E} \( \Delta B_t ^2 \) = \Delta t$. Since a difference in $B_t$ is necessarily accompanied by a difference in $t$, we see that the second term is no longer negligable. The theory of Ito calculus essentially tells us that we can make the substitution $\Delta B_t ^2 = \Delta t$, and the remaining terms are negligable. Hence the equation above becomes
-
-$$\Delta f = \Delta B_t \cdot f'\(B_t\) + \frac{\Delta t}{2}f''\(B_t\) + ...$$
-
-Which interms of infinitesimals becomes
-
-$$df \( B_t \) = f'\(B_t\)dB_t + \frac{1}{2} f''\(B_t\)dt$$
 
 This equation known as the __Ito's lemma__ is the main equation of Ito's calculus. 
 
