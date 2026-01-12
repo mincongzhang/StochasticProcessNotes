@@ -67,7 +67,7 @@ $$f(B_t)$$
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
 
-假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule)我们可以得到以下结果. 但因为$B_t$ 不可微, 下式不存在:
+假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule)我们可以得到以下结果. 但因为 $B_t$ 不可微, 下式不存在:
 
 $$ \frac{df}{dt} = \frac{dB_t}{dt} \cdot f' (B_t)$$
 
