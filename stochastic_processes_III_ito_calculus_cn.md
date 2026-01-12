@@ -51,9 +51,9 @@ $$dS_t = e^{B_t} d B_t =  S_t d B_t$$
 
 接下来看期权价格建模. 先看一般情况. 
 
-对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $Bt$, 我们要怎么计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
+对一个光滑函数(smooth function), 它的变量 $x$ 是一个布朗运动 $B_t$, 我们要怎么计算这样的函数的结果(Estimate the outcome)? 更准确的说, 我们如何估计它无穷小的微分(estimate infinitesimal differences)? 
 
-$$f(Bt)$$
+$$f(B_t)$$
 
 ```
 补充:
@@ -62,17 +62,17 @@ $$f(Bt)$$
 ```
 
 
-回到期权. 假如 $Bt$ 是股票价格, $f(Bt)$ 是股票对应期权(option)的价格. 股票价格是随机的, 但是对应的看涨期权价格(忽略期权费)在 $S_0$ 之前是0, 在 $S_0$ 之后是线性的:
+回到期权. 假如 $B_t$ 是股票价格, $f(B_t)$ 是股票对应期权(option)的价格. 股票价格是随机的, 但是对应的看涨期权价格(忽略期权费)在 $S_0$ 之前是0, 在 $S_0$ 之后是线性的:
 
 <img width="597" height="444" alt="image" src="https://github.com/user-attachments/assets/506cbb78-e87e-4ffc-a547-b63eb126029e" />
 
 
-假设 $Bt$ 
+假设 $B_t$ 是可微的, 也就是 $\frac{dB_t}{dt}$ 是存在的, 那么通过链式法则(chain rule):
 
-
-If the differentiation $\frac{dB_t}{dt}$ existed, then we can easily do this by using chain rule:
+$$ \frac{df}{dt} = ( \frac{dB_t}{dt} \cdot f' (B_t) )$$
 
 $$df = \( \frac{dB_t}{dt} \cdot f' \(B_t\) \)dt$$
+
 
 
 # 伊藤积分(Ito's Calculus)
